@@ -2,11 +2,20 @@
 /**
  * Plugin Name: JFO Contact Form
  * Description: Kontaktformular für janfoshag.de — Shortcode: [jfo_contact_form]
- * Version: 1.0
+ * Version: 1.1
  * Author: Jan Foshag
  */
 
 if ( ! defined( 'ABSPATH' ) ) exit;
+
+function jfo_lang() {
+    $locale = function_exists( 'pll_current_language' ) ? pll_current_language() : substr( get_locale(), 0, 2 );
+    return $locale === 'en' ? 'en' : 'de';
+}
+
+function jfo_t( $de, $en ) {
+    return jfo_lang() === 'en' ? $en : $de;
+}
 
 function jfo_contact_form_shortcode() {
     $sent  = false;
@@ -14,20 +23,20 @@ function jfo_contact_form_shortcode() {
 
     if ( isset( $_POST['jfo_contact_submit'] ) ) {
         if ( ! isset( $_POST['jfo_nonce'] ) || ! wp_verify_nonce( $_POST['jfo_nonce'], 'jfo_contact_form' ) ) {
-            $error = 'Ungültige Anfrage. Bitte Seite neu laden und erneut versuchen.';
+            $error = jfo_t( 'Ungültige Anfrage. Bitte Seite neu laden und erneut versuchen.', 'Invalid request. Please reload the page and try again.' );
         } else {
             $name    = sanitize_text_field( $_POST['jfo_name']    ?? '' );
             $email   = sanitize_email( $_POST['jfo_email']        ?? '' );
             $message = sanitize_textarea_field( $_POST['jfo_message'] ?? '' );
 
             if ( empty( $name ) || empty( $email ) || empty( $message ) ) {
-                $error = 'Bitte alle Felder ausfüllen.';
+                $error = jfo_t( 'Bitte alle Felder ausfüllen.', 'Please fill in all fields.' );
             } elseif ( ! is_email( $email ) ) {
-                $error = 'Bitte eine gültige E-Mail-Adresse eingeben.';
+                $error = jfo_t( 'Bitte eine gültige E-Mail-Adresse eingeben.', 'Please enter a valid email address.' );
             } else {
                 $to      = 'janfoshag@gmx.de';
-                $subject = 'Kontaktanfrage von ' . $name;
-                $body    = "Name: {$name}\nE-Mail: {$email}\n\nNachricht:\n{$message}";
+                $subject = jfo_t( 'Kontaktanfrage von ', 'Contact request from ' ) . $name;
+                $body    = "Name: {$name}\nE-Mail: {$email}\n\n" . jfo_t( 'Nachricht', 'Message' ) . ":\n{$message}";
                 $headers = [
                     'Content-Type: text/plain; charset=UTF-8',
                     'Reply-To: ' . $name . ' <' . $email . '>',
@@ -36,7 +45,10 @@ function jfo_contact_form_shortcode() {
                 if ( wp_mail( $to, $subject, $body, $headers ) ) {
                     $sent = true;
                 } else {
-                    $error = 'Die Nachricht konnte leider nicht gesendet werden. Bitte kontaktieren Sie mich direkt per E-Mail.';
+                    $error = jfo_t(
+                        'Die Nachricht konnte leider nicht gesendet werden. Bitte kontaktieren Sie mich direkt per E-Mail.',
+                        'Unfortunately the message could not be sent. Please contact me directly by email.'
+                    );
                 }
             }
         }
@@ -46,7 +58,10 @@ function jfo_contact_form_shortcode() {
 
     if ( $sent ) : ?>
         <p style="color:#0137d2; font-family:'Josefin Sans',sans-serif; font-size:1rem;">
-            Vielen Dank! Ihre Nachricht wurde gesendet. Ich melde mich so bald wie möglich bei Ihnen.
+            <?php echo esc_html( jfo_t(
+                'Vielen Dank! Ihre Nachricht wurde gesendet. Ich melde mich so bald wie möglich bei Ihnen.',
+                'Thank you! Your message has been sent. I will get back to you as soon as possible.'
+            ) ); ?>
         </p>
     <?php else : ?>
 
@@ -60,7 +75,7 @@ function jfo_contact_form_shortcode() {
             <?php wp_nonce_field( 'jfo_contact_form', 'jfo_nonce' ); ?>
 
             <p style="margin-bottom:16px;">
-                <label for="jfo_name" style="display:block; font-family:'Josefin Sans',sans-serif; font-size:0.95rem; margin-bottom:6px;">Name</label>
+                <label for="jfo_name" style="display:block; font-family:'Josefin Sans',sans-serif; font-size:0.95rem; margin-bottom:6px;"><?php echo esc_html( jfo_t( 'Name', 'Name' ) ); ?></label>
                 <input
                     type="text"
                     id="jfo_name"
@@ -72,7 +87,7 @@ function jfo_contact_form_shortcode() {
             </p>
 
             <p style="margin-bottom:16px;">
-                <label for="jfo_email" style="display:block; font-family:'Josefin Sans',sans-serif; font-size:0.95rem; margin-bottom:6px;">E-Mail</label>
+                <label for="jfo_email" style="display:block; font-family:'Josefin Sans',sans-serif; font-size:0.95rem; margin-bottom:6px;"><?php echo esc_html( jfo_t( 'E-Mail', 'Email' ) ); ?></label>
                 <input
                     type="email"
                     id="jfo_email"
@@ -84,7 +99,7 @@ function jfo_contact_form_shortcode() {
             </p>
 
             <p style="margin-bottom:24px;">
-                <label for="jfo_message" style="display:block; font-family:'Josefin Sans',sans-serif; font-size:0.95rem; margin-bottom:6px;">Nachricht</label>
+                <label for="jfo_message" style="display:block; font-family:'Josefin Sans',sans-serif; font-size:0.95rem; margin-bottom:6px;"><?php echo esc_html( jfo_t( 'Nachricht', 'Message' ) ); ?></label>
                 <textarea
                     id="jfo_message"
                     name="jfo_message"
@@ -102,7 +117,7 @@ function jfo_contact_form_shortcode() {
                     onmouseover="this.style.backgroundColor='#0129a8'"
                     onmouseout="this.style.backgroundColor='#0137d2'"
                 >
-                    Nachricht senden
+                    <?php echo esc_html( jfo_t( 'Nachricht senden', 'Send message' ) ); ?>
                 </button>
             </p>
         </form>
@@ -114,8 +129,15 @@ function jfo_contact_form_shortcode() {
 add_shortcode( 'jfo_contact_form', 'jfo_contact_form_shortcode' );
 
 function jfo_meta_tags() {
-    $description = 'Jan Foshag – Selbständiger Software-Entwickler aus München. Spezialisiert auf Mobile Apps (React Native, Flutter), Web-Entwicklung und KI-Lösungen. Über 20 Jahre Erfahrung.';
-    $keywords    = 'Software-Entwickler München, Freelancer Software, React Native, Flutter, Mobile App Entwicklung, Web-Entwicklung, KI, Künstliche Intelligenz, Jan Foshag';
+    if ( jfo_lang() === 'en' ) {
+        $description = 'Jan Foshag – Freelance software developer based in Munich. Specialising in mobile apps (React Native, Flutter), web development and AI solutions. Over 20 years of experience.';
+        $keywords    = 'software developer Munich, freelance software, React Native, Flutter, mobile app development, web development, AI, artificial intelligence, Jan Foshag';
+        $title       = 'Jan Foshag – Software Developer Munich';
+    } else {
+        $description = 'Jan Foshag – Selbständiger Software-Entwickler aus München. Spezialisiert auf Mobile Apps (React Native, Flutter), Web-Entwicklung und KI-Lösungen. Über 20 Jahre Erfahrung.';
+        $keywords    = 'Software-Entwickler München, Freelancer Software, React Native, Flutter, Mobile App Entwicklung, Web-Entwicklung, KI, Künstliche Intelligenz, Jan Foshag';
+        $title       = 'Jan Foshag – Software-Entwickler München';
+    }
     $url = 'https://janfoshag.de/';
     ?>
 <meta name="description" content="<?php echo esc_attr( $description ); ?>">
@@ -123,10 +145,10 @@ function jfo_meta_tags() {
 <meta name="author" content="Jan Foshag">
 <meta property="og:type" content="website">
 <meta property="og:url" content="<?php echo esc_attr( $url ); ?>">
-<meta property="og:title" content="Jan Foshag – Software-Entwickler München">
+<meta property="og:title" content="<?php echo esc_attr( $title ); ?>">
 <meta property="og:description" content="<?php echo esc_attr( $description ); ?>">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Jan Foshag – Software-Entwickler München">
+<meta name="twitter:title" content="<?php echo esc_attr( $title ); ?>">
 <meta name="twitter:description" content="<?php echo esc_attr( $description ); ?>">
     <?php
 }
