@@ -134,7 +134,7 @@ There is no dedicated "About Me" page or section with a formal biography, headsh
 | LinkedIn | Active link |
 | Xing | Active link |
 
-There is currently **no contact form** on the site. A contact form was built and deployed (plugin: `jfo-contact-form.php`, shortcode `[jfo_contact_form]`) but removed in March 2026 because outgoing emails via `wp_mail()` were landing in spam. **WP Mail SMTP** is installed but not yet configured. Contact is currently via email and phone only.
+A contact form is live on the site via the custom plugin `jfo-contact-form.php` (shortcode `[jfo_contact_form]`). **WP Mail SMTP** is installed and configured — mail delivery tested successfully in March 2026.
 
 ---
 
@@ -188,7 +188,7 @@ There is currently **no contact form** on the site. A contact form was built and
 ### Weaknesses
 
 - **No dedicated About page or bio section** — Visitors learn nothing about Jan's background, education, or career story
-- **No contact form** — Form was built but removed (emails landed in spam); WP Mail SMTP installed, needs configuration before re-enabling
+- ~~**No contact form**~~ — Contact form is live (March 2026); WP Mail SMTP configured and working
 - **No portfolio detail pages** — Case studies are one-sentence bullet points, missing opportunity to demonstrate process and impact
 - **No blog or articles** — Severely limits SEO reach and thought leadership positioning
 - **Thin content** — Very short site; a motivated prospect reads everything in 2–3 minutes and may not find enough to be convinced
@@ -218,5 +218,5 @@ However, it is quite thin in content depth — no blog, no case study detail pag
 
 1. Adding rich case studies with more depth and process detail
 2. Adding a proper About/bio section with a headshot
-3. Introducing a contact form to reduce friction for potential clients
+3. ~~Introducing a contact form~~ — done (March 2026)
 4. Adding a prominent CTA to guide visitor actions

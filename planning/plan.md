@@ -3,8 +3,6 @@ Also update "TODO JAN" if I need to do something.
 
 TODO JAN
 
-- contact form: revisit later — configure WP Mail SMTP (installed) or use alternative
-
 TODO CLAUDE
 
 DONE
@@ -23,10 +21,7 @@ DONE
 - clarified Werdegang: split into "Freiberuflich (seit 2011)" and "Angestellt", added "(freiberuflich)" label to Krankenkasse, Plan.Net, infsoft
 - removed repeated "Seit über 20 Jahren..." sentence from hero text (kept in Über mich)
 
-- contact form attempted but removed from site (March 2026) — emails landed in spam, wp_mail() unreliable; WP Mail SMTP plugin installed but not yet configured
-  - plugin: plugins/jfo-contact-form.php remains on server
-  - shortcode was in Elementor template but removed from page
-  - Datenschutz Kontaktformular section may still be present — remove until form is back
+- contact form live (March 2026) — WP Mail SMTP configured and tested successfully; jfo-contact-form.php active, shortcode [jfo_contact_form] in Elementor template
 - move the links for Impressum and Datenschutz to the bottom of the page
   - added as centered footer links at the bottom of the Elementor template
   - also remove Impressum and Datenschutz from the nav in WP Admin → Appearance → Menus

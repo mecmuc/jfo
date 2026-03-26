@@ -49,7 +49,7 @@ jfo/
 
 See `planning/site-review.md` for the full audit. Key priorities:
 
-1. Contact form removed — was built (jfo-contact-form.php) but emails landed in spam; WP Mail SMTP installed but not configured; revisit later
+1. Contact form live — jfo-contact-form.php active, WP Mail SMTP configured and tested (March 2026)
 2. No About/bio section or headshot
 3. Portfolio entries lack depth (no case study pages)
 4. No blog (limits SEO)
