@@ -21,7 +21,11 @@ DONE
 - clarified Werdegang: split into "Freiberuflich (seit 2011)" and "Angestellt", added "(freiberuflich)" label to Krankenkasse, Plan.Net, infsoft
 - removed repeated "Seit über 20 Jahren..." sentence from hero text (kept in Über mich)
 
-- contact form live (March 2026) — WP Mail SMTP configured and tested successfully; jfo-contact-form.php active, shortcode [jfo_contact_form] in Elementor template
+- contact form live (March 2026) — WP Mail SMTP configured and tested successfully; jfo-contact-form.php v1.1 active, bilingual DE/EN
+- English version live (March 2026) — Polylang installed, elementor-home-en.json imported, language switcher in menu
+- CTA button "Jetzt Kontakt aufnehmen" added, scrolls to #kontakt anchor
+- page title updated to "Jan Foshag – Software-Entwickler München", subtitle "Apps, KI & Webanwendungen"
+- custom CSS: padding-top fix for .ast-separate-container (see planning/custom-css.md)
 - move the links for Impressum and Datenschutz to the bottom of the page
   - added as centered footer links at the bottom of the Elementor template
   - also remove Impressum and Datenschutz from the nav in WP Admin → Appearance → Menus
