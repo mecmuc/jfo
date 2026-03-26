@@ -16,7 +16,6 @@ jfo/
 │   │   └── 260326_review.md             # Site audit March 26, 2026 (current)
 │   ├── about.md                         # Über mich section content (German)
 │   ├── datenschutz-kontaktformular.md   # New Datenschutz section for contact form
-│   └── db.md                            # Database credentials (keep private)
 ├── plugins/
 │   └── jfo-contact-form.php             # Contact form plugin v1.1 — bilingual DE/EN
 └── templates/
@@ -32,7 +31,7 @@ jfo/
 - **Plugin:** Ultimate Elementor (UAEL) — particle effects
 - **Plugin:** Polylang — bilingual DE/EN
 - **Plugin:** WP Mail SMTP — configured and tested
-- **Database:** MySQL 5.7 — credentials in `planning/db.md`
+- **Database:** MySQL 5.7
 - **DB name:** `dbs10297663`, **DB prefix:** `c2w2_`
 - **Hosting:** webspace-host.com (`database-5012237781.webspace-host.com`)
 
