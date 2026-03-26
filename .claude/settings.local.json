@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:janfoshag.de)",
+      "WebFetch(domain:www.xing.com)",
+      "WebSearch",
+      "WebFetch(domain:www.linkedin.com)",
+      "Bash(mysql:*)",
+      "Bash(python3:*)"
+    ]
+  }
+}
