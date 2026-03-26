@@ -16,11 +16,8 @@ jfo/
 │   │   └── 260326_review.md             # Site audit March 26, 2026 (current)
 │   ├── about.md                         # Über mich section content (German)
 │   ├── datenschutz-kontaktformular.md   # New Datenschutz section for contact form
-├── plugins/
-│   └── jfo-contact-form.php             # Contact form plugin v1.1 — bilingual DE/EN
-└── templates/
-    ├── elementor-2569-2026-03-26.json   # Current German page template
-    └── elementor-home-en.json           # English page template
+└── plugins/
+    └── jfo-contact-form.php             # Contact form plugin v1.1 — bilingual DE/EN
 ```
 
 ## Tech Stack
