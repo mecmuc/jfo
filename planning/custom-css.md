@@ -11,7 +11,7 @@ Entfernt den oberen Padding-Abstand über dem Elementor-Inhalt, wenn der Seitent
 ```css
 .ast-separate-container .ast-article-post,
 .ast-separate-container .ast-article-single {
-    padding-top: 0 !important;
+  padding-top: 0 !important;
 }
 ```
 
@@ -23,7 +23,7 @@ Die englische Seite hat die Body-Klasse `page-id-2595`. Elementor verwendet hier
 
 ```css
 body.page-id-2595 .e-con-inner {
-    padding-left: 100px !important;
-    padding-right: 100px !important;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
 }
 ```
