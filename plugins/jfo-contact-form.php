@@ -2,7 +2,7 @@
 /**
  * Plugin Name: JFO Contact Form
  * Description: Kontaktformular für janfoshag.de — Shortcode: [jfo_contact_form]
- * Version: 1.1
+ * Version: 1.2
  * Author: Jan Foshag
  */
 
@@ -24,6 +24,9 @@ function jfo_contact_form_shortcode() {
     if ( isset( $_POST['jfo_contact_submit'] ) ) {
         if ( ! isset( $_POST['jfo_nonce'] ) || ! wp_verify_nonce( $_POST['jfo_nonce'], 'jfo_contact_form' ) ) {
             $error = jfo_t( 'Ungültige Anfrage. Bitte Seite neu laden und erneut versuchen.', 'Invalid request. Please reload the page and try again.' );
+        } elseif ( ! empty( $_POST['jfo_website'] ) ) {
+            // Honeypot triggered — silently pretend success
+            $sent = true;
         } else {
             $name    = sanitize_text_field( $_POST['jfo_name']    ?? '' );
             $email   = sanitize_email( $_POST['jfo_email']        ?? '' );
@@ -73,6 +76,12 @@ function jfo_contact_form_shortcode() {
 
         <form method="post" style="max-width:520px;">
             <?php wp_nonce_field( 'jfo_contact_form', 'jfo_nonce' ); ?>
+
+            <!-- Honeypot: hidden from real users, filled by bots -->
+            <p style="position:absolute; left:-9999px; top:-9999px;" aria-hidden="true">
+                <label for="jfo_website">Website</label>
+                <input type="text" id="jfo_website" name="jfo_website" value="" tabindex="-1" autocomplete="off">
+            </p>
 
             <p style="margin-bottom:16px;">
                 <label for="jfo_name" style="display:block; font-family:'Josefin Sans',sans-serif; font-size:0.95rem; margin-bottom:6px;"><?php echo esc_html( jfo_t( 'Name', 'Name' ) ); ?></label>
