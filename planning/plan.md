@@ -3,6 +3,16 @@ Also update "TODO JAN" if I need to do something.
 
 TODO JAN
 
+### Italienische Version der Startseite einrichten
+
+1. **Polylang:** WP Admin → Sprachen → Sprache hinzufügen → Italiano (it_IT)
+2. **Menü:** WP Admin → Appearance → Menus → Language Switcher anpassen (IT ergänzen)
+3. **Seite:** Im WP-Editor bei der Startseite oben rechts (Polylang-Box) die IT-Übersetzung anlegen
+4. **Elementor:** Die neue IT-Seite in Elementor öffnen → Elementor-Template importieren: `templates/elementor-home-it.json`
+5. **Plugin hochladen:** `plugins/jfo-contact-form.php` via FTP/SFTP ersetzen (v1.2 mit IT-Support)
+
+**Template fertig:** `templates/elementor-home-it.json` — alle Texte bereits auf Italienisch übersetzt.
+
 TODO CLAUDE
 
 DONE
