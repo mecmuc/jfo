@@ -24,9 +24,13 @@ Ein lokaler KI-Assistent, der Dokumente (PDFs, Rechnungen, Verträge, Angebote) 
 |---|---|
 | Backend | Python + FastAPI |
 | AI / RAG | LangChain/LangGraph + ChromaDB (lokal) |
-| LLM | Claude API (Anthropic) |
+| LLM | **Claude Managed Agents** (statt rohe Claude API) |
 | Frontend | React Native oder Flutter (mobil) / Next.js (Web) |
 | Automatisierung | n8n für Benachrichtigungen (z.B. "Frist läuft ab") |
+
+> **Update April 2026:** Statt die Claude API direkt einzubinden, lohnt sich **Claude Managed Agents** (Public Beta seit 8.4.2026). Damit entfällt die eigene Agent-Loop und Tool-Execution — der Dokumenten-Agent kann Dateien lesen, Code ausführen und Sessions halten, ohne dass du Sandboxing und State-Management selbst baust. Kosten: Standard API-Tokens + $0.08/Session-Stunde. Für ein MVP mit episodischem Nutzungsverhalten kaum ins Gewicht fallend.
+>
+> **LangGraph bleibt trotzdem relevant** — die beiden ersetzen sich nicht. Claude Managed Agents ist die *Laufzeitumgebung* (Hosting, Sandboxing, Sessions), LangGraph ist die *Logik-Ebene* (Ablaufsteuerung, Verzweigungen, parallele Nodes). LangGraph-Graphen laufen innerhalb von Managed Agents. Für die RAG-Pipeline (Retrieve → Augment → Generate) und parallele Dokument-Analyse ist LangGraph weiterhin das richtige Tool.
 
 ---
 
@@ -56,7 +60,8 @@ Ein lokaler KI-Assistent, der Dokumente (PDFs, Rechnungen, Verträge, Angebote) 
 
 ## Nächste Schritte
 
-- [ ] LangGraph Kurs abschließen (Grundlagen für Schritt 3)
+- [ ] Claude Managed Agents Docs lesen & Beta-Zugang beantragen
+- [ ] LangGraph Kurs abschließen (für RAG-Pipeline-Logik)
 - [ ] FastAPI Hello World mit PDF-Upload aufsetzen
 - [ ] ChromaDB lokal einrichten und erstes Dokument einlesen
-- [ ] Claude API für Q&A integrieren
+- [ ] LangGraph-Graph in Managed Agents deployen
