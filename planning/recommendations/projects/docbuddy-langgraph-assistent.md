@@ -32,6 +32,8 @@ Ein lokaler KI-Assistent, der Dokumente (PDFs, Rechnungen, Verträge, Angebote) 
 >
 > **LangGraph bleibt trotzdem relevant** — die beiden ersetzen sich nicht. Claude Managed Agents ist die *Laufzeitumgebung* (Hosting, Sandboxing, Sessions), LangGraph ist die *Logik-Ebene* (Ablaufsteuerung, Verzweigungen, parallele Nodes). LangGraph-Graphen laufen innerhalb von Managed Agents. Für die RAG-Pipeline (Retrieve → Augment → Generate) und parallele Dokument-Analyse ist LangGraph weiterhin das richtige Tool.
 
+> **CrewAI vs. LangGraph (April 2026):** CrewAI wäre technisch möglich, passt aber weniger gut. CrewAI hat kein RAG-Primitiv und keine offizielle Managed-Agents-Integration. LangGraph ist der richtige Ansatz für die Kernpipeline. CrewAI wird interessant, wenn das Projekt später Multi-Agent-Koordination braucht (z.B. Extractor-Agent + Frist-Agent + Report-Agent) — CrewAI kann LangGraph-Subgraphen als Tools aufrufen, die beiden schließen sich nicht aus.
+
 ---
 
 ## Warum dieses Projekt?
