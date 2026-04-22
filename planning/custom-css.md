@@ -17,6 +17,21 @@ Entfernt den oberen Padding-Abstand über dem Elementor-Inhalt, wenn der Seitent
 
 ---
 
+## Inhaltsbreite begrenzen und zentrieren
+
+Begrenzt alle Elementor-Inhalte (Text, Akkordeon, Slideshow etc.) auf 680px und zentriert sie:
+
+```css
+.elementor-section-boxed > .elementor-container,
+.e-con-inner {
+  max-width: 680px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+```
+
+---
+
 ## Englische Seite — linker Innenabstand (page-id-2595)
 
 Die englische Seite hat die Body-Klasse `page-id-2595`. Elementor verwendet hier einen `e-con-boxed`-Container, dessen innerer Wrapper `e-con-inner` keinen Abstand hat.
