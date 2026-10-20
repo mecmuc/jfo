@@ -1,0 +1,1196 @@
+{
+ "content": [
+  {
+   "id": "1837101",
+   "elType": "container",
+   "isInner": false,
+   "elements": [
+    {
+     "id": "f5abcad",
+     "elType": "widget",
+     "widgetType": "html",
+     "elements": [],
+     "isInner": false,
+     "settings": {
+      "html": "<style>.jfo-card, .jfo-card p, .jfo-card li, .jfo-card strong, .jfo-card em, .jfo-card blockquote { color: #333333 !important; }</style>"
+     }
+    },
+    {
+     "id": "65e6fd3",
+     "elType": "widget",
+     "widgetType": "heading",
+     "elements": [],
+     "isInner": false,
+     "settings": {
+      "title": "Soluzioni con l’IA",
+      "header_size": "h1",
+      "title_color": "#0137d2",
+      "typography_typography": "custom",
+      "typography_font_family": "Josefin Sans",
+      "typography_font_weight": "600",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 38,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 30,
+       "sizes": []
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "16",
+       "left": "0",
+       "isLinked": false
+      }
+     }
+    },
+    {
+     "id": "1f2a314",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "elements": [],
+     "isInner": false,
+     "settings": {
+      "editor": "<p>Sviluppo software che alleggerisce davvero il lavoro: agenti che agiscono in autonomia, assistenti vocali che rispondono alle chiamate e prendono gli ordini, e app per iPhone con l’IA direttamente sul dispositivo.</p><p>Sono Jan Foshag, sviluppatore software a Monaco di Baviera da oltre 20 anni.</p>",
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "8",
+       "left": "0",
+       "isLinked": false
+      }
+     }
+    },
+    {
+     "id": "b0b2eee",
+     "elType": "widget",
+     "widgetType": "button",
+     "elements": [],
+     "isInner": false,
+     "settings": {
+      "content_width": "full",
+      "text": "Contattami",
+      "link": {
+       "url": "#kontakt",
+       "is_external": "",
+       "nofollow": "",
+       "custom_attributes": ""
+      },
+      "size": "md",
+      "align": "left",
+      "typography_typography": "custom",
+      "typography_font_family": "Josefin Sans",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 16,
+       "sizes": []
+      },
+      "typography_font_weight": "400",
+      "typography_letter_spacing": {
+       "unit": "em",
+       "size": 0.03,
+       "sizes": []
+      },
+      "background_color": "#0137d2",
+      "button_text_color": "#ffffff",
+      "border_radius": {
+       "unit": "px",
+       "top": "100",
+       "right": "100",
+       "bottom": "100",
+       "left": "100",
+       "isLinked": true
+      },
+      "text_padding": {
+       "unit": "px",
+       "top": "16",
+       "right": "30",
+       "bottom": "16",
+       "left": "30",
+       "isLinked": false
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "48",
+       "left": "0",
+       "isLinked": false
+      }
+     }
+    },
+    {
+     "id": "3d41818",
+     "elType": "widget",
+     "widgetType": "heading",
+     "elements": [],
+     "isInner": false,
+     "settings": {
+      "title": "Le suona familiare?",
+      "header_size": "h2",
+      "title_color": "#000000",
+      "typography_typography": "custom",
+      "typography_font_family": "Josefin Sans",
+      "typography_font_weight": "600",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 30,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 24,
+       "sizes": []
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "20",
+       "left": "0",
+       "isLinked": false
+      }
+     }
+    },
+    {
+     "id": "8343c50",
+     "elType": "container",
+     "isInner": true,
+     "elements": [
+      {
+       "id": "4e61fba",
+       "elType": "widget",
+       "widgetType": "image",
+       "elements": [],
+       "isInner": false,
+       "settings": {
+        "image": {
+         "url": "https://janfoshag.de/wp-content/uploads/2026/10/agentic-ai.jpg",
+         "id": "",
+         "alt": "Rete astratta come simbolo degli agenti IA",
+         "source": "library"
+        },
+        "image_size": "large",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "image_border_radius": {
+         "unit": "px",
+         "top": "12",
+         "right": "12",
+         "bottom": "12",
+         "left": "12",
+         "isLinked": false
+        },
+        "height": {
+         "unit": "px",
+         "size": 300,
+         "sizes": []
+        },
+        "height_mobile": {
+         "unit": "px",
+         "size": 180,
+         "sizes": []
+        },
+        "object-fit": "cover"
+       }
+      },
+      {
+       "id": "9273d73",
+       "elType": "widget",
+       "widgetType": "heading",
+       "elements": [],
+       "isInner": false,
+       "settings": {
+        "title": "Agenti IA",
+        "header_size": "h3",
+        "title_color": "#0137d2",
+        "typography_typography": "custom",
+        "typography_font_family": "Josefin Sans",
+        "typography_font_weight": "600",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 24,
+         "sizes": []
+        },
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 19,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "4",
+         "left": "0",
+         "isLinked": false
+        }
+       }
+      },
+      {
+       "id": "a37b5b2",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "elements": [],
+       "isInner": false,
+       "settings": {
+        "editor": "<p><strong>Problema:</strong> Il Suo team passa ore in attività di routine: smistare e-mail, trasferire dati tra sistemi, compilare report. E il telefono squilla sempre nel momento meno opportuno: in cucina, in magazzino, fuori orario. Le chiamate vanno perse, gli ordini vengono annotati male.</p>"
+       }
+      },
+      {
+       "id": "f39a9a4",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "elements": [],
+       "isInner": false,
+       "settings": {
+        "editor": "<p><strong>Soluzione:</strong> Agenti IA che svolgono questi compiti in autonomia. Leggono, decidono e agiscono attraverso i Suoi sistemi esistenti (interfacce, MCP, workflow). Per le decisioni importanti chiedono conferma. Come assistenti vocali rispondono al telefono 24 ore su 24, prendono ordini e prenotazioni, rispondono alle domande e trasmettono tutto in modo strutturato al Suo sistema. In più, dashboard che rendono chiari i Suoi dati.</p>"
+       }
+      }
+     ],
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "flex_direction_mobile": "",
+      "flex_gap": {
+       "column": "12",
+       "row": "12",
+       "unit": "px",
+       "isLinked": true,
+       "size": 12
+      },
+      "background_background": "classic",
+      "background_color": "#f4f6fd",
+      "border_radius": {
+       "unit": "px",
+       "top": "16",
+       "right": "16",
+       "bottom": "16",
+       "left": "16",
+       "isLinked": false
+      },
+      "css_classes": "jfo-card",
+      "padding": {
+       "unit": "px",
+       "top": "28",
+       "right": "28",
+       "bottom": "28",
+       "left": "28",
+       "isLinked": false
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "20",
+       "right": "20",
+       "bottom": "20",
+       "left": "20",
+       "isLinked": false
+      },
+      "margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "24",
+       "left": "0",
+       "isLinked": false
+      }
+     }
+    },
+    {
+     "id": "3c4f75e",
+     "elType": "container",
+     "isInner": true,
+     "elements": [
+      {
+       "id": "7141daa",
+       "elType": "widget",
+       "widgetType": "image",
+       "elements": [],
+       "isInner": false,
+       "settings": {
+        "image": {
+         "url": "https://janfoshag.de/wp-content/uploads/2026/10/apple-intelligence.jpg",
+         "id": "",
+         "alt": "iPhone in mano",
+         "source": "library"
+        },
+        "image_size": "large",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "image_border_radius": {
+         "unit": "px",
+         "top": "12",
+         "right": "12",
+         "bottom": "12",
+         "left": "12",
+         "isLinked": false
+        },
+        "height": {
+         "unit": "px",
+         "size": 300,
+         "sizes": []
+        },
+        "height_mobile": {
+         "unit": "px",
+         "size": 180,
+         "sizes": []
+        },
+        "object-fit": "cover"
+       }
+      },
+      {
+       "id": "dde9487",
+       "elType": "widget",
+       "widgetType": "heading",
+       "elements": [],
+       "isInner": false,
+       "settings": {
+        "title": "Apple Intelligence",
+        "header_size": "h3",
+        "title_color": "#0137d2",
+        "typography_typography": "custom",
+        "typography_font_family": "Josefin Sans",
+        "typography_font_weight": "600",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 24,
+         "sizes": []
+        },
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 19,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "4",
+         "left": "0",
+         "isLinked": false
+        }
+       }
+      },
+      {
+       "id": "264f360",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "elements": [],
+       "isInner": false,
+       "settings": {
+        "editor": "<p><strong>Problema:</strong> La Sua app deve diventare più intelligente, ma i dati dei clienti non devono lasciare il dispositivo, e l’IA nel cloud costa a ogni richiesta.</p>"
+       }
+      },
+      {
+       "id": "daa3cc1",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "elements": [],
+       "isInner": false,
+       "settings": {
+        "editor": "<p><strong>Soluzione:</strong> App per iPhone e iPad con Apple Intelligence: l’IA funziona direttamente sul dispositivo, nel rispetto della privacy e senza costi continui per ogni richiesta. La Sua app diventa raggiungibile tramite Siri e Comandi rapidi. Alla base ci sono oltre 10 anni di sviluppo iOS nativo.</p>"
+       }
+      }
+     ],
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "flex_direction_mobile": "",
+      "flex_gap": {
+       "column": "12",
+       "row": "12",
+       "unit": "px",
+       "isLinked": true,
+       "size": 12
+      },
+      "background_background": "classic",
+      "background_color": "#f4f6fd",
+      "border_radius": {
+       "unit": "px",
+       "top": "16",
+       "right": "16",
+       "bottom": "16",
+       "left": "16",
+       "isLinked": false
+      },
+      "css_classes": "jfo-card",
+      "padding": {
+       "unit": "px",
+       "top": "28",
+       "right": "28",
+       "bottom": "28",
+       "left": "28",
+       "isLinked": false
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "20",
+       "right": "20",
+       "bottom": "20",
+       "left": "20",
+       "isLinked": false
+      },
+      "margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "24",
+       "left": "0",
+       "isLinked": false
+      }
+     }
+    },
+    {
+     "id": "92110b9",
+     "elType": "widget",
+     "widgetType": "heading",
+     "elements": [],
+     "isInner": false,
+     "settings": {
+      "title": "Ristorazione, logistica e commercio all’ingrosso",
+      "header_size": "h2",
+      "title_color": "#000000",
+      "typography_typography": "custom",
+      "typography_font_family": "Josefin Sans",
+      "typography_font_weight": "600",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 30,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 24,
+       "sizes": []
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "16",
+       "left": "0",
+       "isLinked": false
+      }
+     }
+    },
+    {
+     "id": "6d5b88b",
+     "elType": "container",
+     "isInner": true,
+     "elements": [
+      {
+       "id": "86c32f5",
+       "elType": "container",
+       "isInner": true,
+       "elements": [
+        {
+         "id": "2896c7b",
+         "elType": "widget",
+         "widgetType": "image",
+         "elements": [],
+         "isInner": false,
+         "settings": {
+          "image": {
+           "url": "https://janfoshag.de/wp-content/uploads/2026/10/gastronomie.jpg",
+           "id": "",
+           "alt": "Cucina professionale nella ristorazione",
+           "source": "library"
+          },
+          "image_size": "large",
+          "width": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          },
+          "image_border_radius": {
+           "unit": "px",
+           "top": "12",
+           "right": "12",
+           "bottom": "12",
+           "left": "12",
+           "isLinked": false
+          },
+          "height": {
+           "unit": "px",
+           "size": 160,
+           "sizes": []
+          },
+          "height_mobile": {
+           "unit": "px",
+           "size": 96,
+           "sizes": []
+          },
+          "object-fit": "cover"
+         }
+        }
+       ],
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_direction_mobile": "",
+        "flex_gap": {
+         "column": "16",
+         "row": "16",
+         "unit": "px",
+         "isLinked": true,
+         "size": 16
+        },
+        "width": {
+         "unit": "%",
+         "size": 32,
+         "sizes": []
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        }
+       }
+      },
+      {
+       "id": "416dfe2",
+       "elType": "container",
+       "isInner": true,
+       "elements": [
+        {
+         "id": "05ba985",
+         "elType": "widget",
+         "widgetType": "image",
+         "elements": [],
+         "isInner": false,
+         "settings": {
+          "image": {
+           "url": "https://janfoshag.de/wp-content/uploads/2026/10/logistik.jpg",
+           "id": "",
+           "alt": "Scaffali di magazzino con scatoloni",
+           "source": "library"
+          },
+          "image_size": "large",
+          "width": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          },
+          "image_border_radius": {
+           "unit": "px",
+           "top": "12",
+           "right": "12",
+           "bottom": "12",
+           "left": "12",
+           "isLinked": false
+          },
+          "height": {
+           "unit": "px",
+           "size": 160,
+           "sizes": []
+          },
+          "height_mobile": {
+           "unit": "px",
+           "size": 96,
+           "sizes": []
+          },
+          "object-fit": "cover"
+         }
+        }
+       ],
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_direction_mobile": "",
+        "flex_gap": {
+         "column": "16",
+         "row": "16",
+         "unit": "px",
+         "isLinked": true,
+         "size": 16
+        },
+        "width": {
+         "unit": "%",
+         "size": 32,
+         "sizes": []
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        }
+       }
+      },
+      {
+       "id": "b79eff3",
+       "elType": "container",
+       "isInner": true,
+       "elements": [
+        {
+         "id": "df234c3",
+         "elType": "widget",
+         "widgetType": "image",
+         "elements": [],
+         "isInner": false,
+         "settings": {
+          "image": {
+           "url": "https://janfoshag.de/wp-content/uploads/2026/10/obst-grosshandel.jpg",
+           "id": "",
+           "alt": "Frutta in cassette nel commercio all’ingrosso",
+           "source": "library"
+          },
+          "image_size": "large",
+          "width": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          },
+          "image_border_radius": {
+           "unit": "px",
+           "top": "12",
+           "right": "12",
+           "bottom": "12",
+           "left": "12",
+           "isLinked": false
+          },
+          "height": {
+           "unit": "px",
+           "size": 160,
+           "sizes": []
+          },
+          "height_mobile": {
+           "unit": "px",
+           "size": 96,
+           "sizes": []
+          },
+          "object-fit": "cover"
+         }
+        }
+       ],
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_direction_mobile": "",
+        "flex_gap": {
+         "column": "16",
+         "row": "16",
+         "unit": "px",
+         "isLinked": true,
+         "size": 16
+        },
+        "width": {
+         "unit": "%",
+         "size": 32,
+         "sizes": []
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        }
+       }
+      }
+     ],
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "row",
+      "flex_direction_mobile": "column",
+      "flex_gap": {
+       "column": "12",
+       "row": "12",
+       "unit": "px",
+       "isLinked": true,
+       "size": 12
+      },
+      "margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "16",
+       "left": "0",
+       "isLinked": false
+      }
+     }
+    },
+    {
+     "id": "df793a5",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "elements": [],
+     "isInner": false,
+     "settings": {
+      "editor": "<p>Ristorazione, commercio all’ingrosso e logistica sono strettamente collegati: ordini, consegne, magazzino. È proprio lì che agenti e assistenti vocali danno il meglio. Conosco questi processi dalla pratica: dall’intralogistica e dalle app di ordinazione per il commercio all’ingrosso di frutta.</p>",
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "32",
+       "left": "0",
+       "isLinked": false
+      }
+     }
+    },
+    {
+     "id": "1907d00",
+     "elType": "widget",
+     "widgetType": "heading",
+     "elements": [],
+     "isInner": false,
+     "settings": {
+      "title": "Per il commercio all’ingrosso di frutta",
+      "header_size": "h2",
+      "title_color": "#000000",
+      "typography_typography": "custom",
+      "typography_font_family": "Josefin Sans",
+      "typography_font_weight": "600",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 30,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 24,
+       "sizes": []
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "16",
+       "left": "0",
+       "isLinked": false
+      }
+     }
+    },
+    {
+     "id": "5b2e420",
+     "elType": "container",
+     "isInner": true,
+     "elements": [
+      {
+       "id": "4448ccb",
+       "elType": "widget",
+       "widgetType": "heading",
+       "elements": [],
+       "isInner": false,
+       "settings": {
+        "title": "Caso di studio: Fruchthof Ehinger",
+        "header_size": "h3",
+        "title_color": "#800080",
+        "typography_typography": "custom",
+        "typography_font_family": "Josefin Sans",
+        "typography_font_weight": "600",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 20,
+         "sizes": []
+        },
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 16,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "8",
+         "left": "0",
+         "isLinked": false
+        }
+       }
+      },
+      {
+       "id": "bff977b",
+       "elType": "container",
+       "isInner": true,
+       "elements": [
+        {
+         "id": "de930df",
+         "elType": "container",
+         "isInner": true,
+         "elements": [
+          {
+           "id": "73016b6",
+           "elType": "widget",
+           "widgetType": "image",
+           "elements": [],
+           "isInner": false,
+           "settings": {
+            "image": {
+             "url": "https://janfoshag.de/wp-content/uploads/2026/10/ehinger-bestell-app-retusche.jpg",
+             "id": "",
+             "alt": "Schermata iniziale dell’app di ordinazione del Fruchthof Ehinger con assortimento, Mei Gmiaskorb, carrello e offerte",
+             "source": "library"
+            },
+            "image_size": "large",
+            "width": {
+             "unit": "%",
+             "size": 100,
+             "sizes": []
+            },
+            "image_border_radius": {
+             "unit": "px",
+             "top": "12",
+             "right": "12",
+             "bottom": "12",
+             "left": "12",
+             "isLinked": false
+            },
+            "width_mobile": {
+             "unit": "%",
+             "size": 70,
+             "sizes": []
+            },
+            "align_mobile": "center",
+            "image_box_shadow_box_shadow_type": "yes",
+            "image_box_shadow_box_shadow": {
+             "horizontal": 0,
+             "vertical": 8,
+             "blur": 24,
+             "spread": 0,
+             "color": "rgba(0,0,0,0.18)"
+            }
+           }
+          }
+         ],
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_direction_mobile": "",
+          "flex_gap": {
+           "column": "16",
+           "row": "16",
+           "unit": "px",
+           "isLinked": true,
+           "size": 16
+          },
+          "width": {
+           "unit": "%",
+           "size": 38,
+           "sizes": []
+          },
+          "width_mobile": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          }
+         }
+        },
+        {
+         "id": "c0f1a32",
+         "elType": "container",
+         "isInner": true,
+         "elements": [
+          {
+           "id": "4658d9d",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "elements": [],
+           "isInner": false,
+           "settings": {
+            "editor": "<p><strong>Soluzione:</strong> Un’app di ordinazione per iOS e Android. I clienti della ristorazione creano la loro lista d’ordine fissa „Mei Gmiaskorb“ e ordinano con pochi clic. Le offerte attuali compaiono direttamente nell’app e tramite notifica push.</p><p><strong>Risultato:</strong> Gli ordini tramite l’app crescono costantemente.</p>"
+           }
+          }
+         ],
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_direction_mobile": "",
+          "flex_gap": {
+           "column": "16",
+           "row": "16",
+           "unit": "px",
+           "isLinked": true,
+           "size": 16
+          },
+          "width": {
+           "unit": "%",
+           "size": 58,
+           "sizes": []
+          },
+          "width_mobile": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          }
+         }
+        }
+       ],
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "row",
+        "flex_direction_mobile": "column",
+        "flex_gap": {
+         "column": "24",
+         "row": "24",
+         "unit": "px",
+         "isLinked": true,
+         "size": 24
+        }
+       }
+      },
+      {
+       "id": "9050b2e",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "elements": [],
+       "isInner": false,
+       "settings": {
+        "editor": "<blockquote class=\"wp-block-quote\"><p><em>„Un team molto valido e competente, che ha realizzato in modo quasi perfetto i nostri desideri e suggerimenti. Anche i clienti apprezzano molto la nostra app, perché funziona senza complicazioni e lavorarci è persino divertente.“</em></p><p>— Fruchthof Ehinger (tradotto dal tedesco)</p></blockquote>"
+       }
+      }
+     ],
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "flex_direction_mobile": "",
+      "flex_gap": {
+       "column": "12",
+       "row": "12",
+       "unit": "px",
+       "isLinked": true,
+       "size": 12
+      },
+      "background_background": "classic",
+      "background_color": "#faf5fa",
+      "border_radius": {
+       "unit": "px",
+       "top": "16",
+       "right": "16",
+       "bottom": "16",
+       "left": "16",
+       "isLinked": false
+      },
+      "css_classes": "jfo-card",
+      "padding": {
+       "unit": "px",
+       "top": "28",
+       "right": "28",
+       "bottom": "28",
+       "left": "28",
+       "isLinked": false
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "20",
+       "right": "20",
+       "bottom": "20",
+       "left": "20",
+       "isLinked": false
+      },
+      "margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "24",
+       "left": "0",
+       "isLinked": false
+      }
+     }
+    },
+    {
+     "id": "caf5a96",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "elements": [],
+     "isInner": false,
+     "settings": {
+      "editor": "<p><strong>Il prossimo passo per il commercio di frutta:</strong> una dashboard IA che analizza i dati di mercato e li presenta in modo chiaro. Si possono aggiungere altre interfacce, ad esempio verso il Fruchtmanager, e funzioni IA come l’ordinazione vocale.</p>"
+     }
+    },
+    {
+     "id": "0e37b90",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "elements": [],
+     "isInner": false,
+     "settings": {
+      "editor": "<p style=\"margin-top: 14px; margin-bottom: 24px;\"><a style=\"display: inline-block; background: linear-gradient(135deg, #7c3aed 0%, #2563eb 100%); color: #ffffff; -webkit-text-fill-color: #ffffff; text-decoration: none; border: none; border-radius: 50px; padding: 4px 32px; font-weight: bold; letter-spacing: 0.04em; box-shadow: 0 4px 18px rgba(124, 58, 237, 0.40);\" href=\"https://dashboards.fruchthandel-apps.de\" target=\"_blank\" rel=\"noopener noreferrer\">Vedi la dashboard IA →</a></p>"
+     }
+    },
+    {
+     "id": "cdc6f26",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "elements": [],
+     "isInner": false,
+     "settings": {
+      "editor": "<div id=\"chi-sono\"></div>"
+     }
+    },
+    {
+     "id": "eaff0e9",
+     "elType": "widget",
+     "widgetType": "heading",
+     "elements": [],
+     "isInner": false,
+     "settings": {
+      "title": "Chi sono",
+      "header_size": "h2",
+      "title_color": "#000000",
+      "typography_typography": "custom",
+      "typography_font_family": "Josefin Sans",
+      "typography_font_weight": "600",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 30,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 24,
+       "sizes": []
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "12",
+       "left": "0",
+       "isLinked": false
+      }
+     }
+    },
+    {
+     "id": "ab010cb",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "elements": [],
+     "isInner": false,
+     "settings": {
+      "editor": "<p>Sono Jan Foshag, sviluppatore software indipendente a Monaco di Baviera. Da oltre 20 anni sviluppo software: dalle piattaforme di commercio e dall’intralogistica alle app iOS native, fino agli agenti IA.</p><ul><li><strong>Piattaforma Apple da oltre 10 anni:</strong> app iOS per una cassa malattia, navigazione indoor e app proprie</li><li><strong>Oltre 10.000 installazioni</strong> dell’app Android „GFK-Spiel“</li><li><strong>Contatto diretto:</strong> parla direttamente con lo sviluppatore</li><li><strong>Lingue:</strong> tedesco e francese madrelingua, inglese buono. L’italiano lo sto imparando: mi scriva pure in italiano!</li></ul>",
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "8",
+       "left": "0",
+       "isLinked": false
+      }
+     }
+    },
+    {
+     "id": "02f15bd",
+     "settings": {
+      "content_width": "full",
+      "text": "Trenner"
+     },
+     "elements": [],
+     "isInner": false,
+     "widgetType": "divider",
+     "elType": "widget"
+    },
+    {
+     "id": "fd0ac11",
+     "settings": {
+      "content_width": "full",
+      "html": "<div id=\"kontakt\" style=\"height:1px; background:transparent;\"></div>"
+     },
+     "elements": [],
+     "isInner": false,
+     "widgetType": "html",
+     "elType": "widget"
+    },
+    {
+     "id": "c46e3ff",
+     "elType": "widget",
+     "widgetType": "heading",
+     "elements": [],
+     "isInner": false,
+     "settings": {
+      "title": "Contatto",
+      "header_size": "h2",
+      "title_color": "#000000",
+      "typography_typography": "custom",
+      "typography_font_family": "Josefin Sans",
+      "typography_font_weight": "600",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 30,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 24,
+       "sizes": []
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "12",
+       "left": "0",
+       "isLinked": false
+      }
+     }
+    },
+    {
+     "id": "affbc51",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "elements": [],
+     "isInner": false,
+     "settings": {
+      "editor": "<p>Sono sempre alla ricerca di nuovi progetti e sarò felice di ricevere un Suo messaggio.</p><p><a href=\"mailto:info@janfoshag.de\">info@janfoshag.de</a></p><p><a href=\"tel:+498945439111\">+49 89 45439111</a></p><p><a href=\"https://www.xing.com/profile/Jan_Foshag\">Xing</a>, <a href=\"https://www.linkedin.com/in/jan-foshag-01b39338/\">LinkedIn</a></p>"
+     }
+    },
+    {
+     "id": "f54d3de",
+     "settings": {
+      "content_width": "full",
+      "html": "[jfo_contact_form]"
+     },
+     "elements": [],
+     "isInner": false,
+     "widgetType": "html",
+     "elType": "widget"
+    },
+    {
+     "id": "916ad4e",
+     "settings": {
+      "content_width": "full",
+      "text": "Trenner"
+     },
+     "elements": [],
+     "isInner": false,
+     "widgetType": "divider",
+     "elType": "widget"
+    },
+    {
+     "id": "17cc31e",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "elements": [],
+     "isInner": false,
+     "settings": {
+      "editor": "<p style=\"text-align:center; font-size:0.85rem;\"><a href=\"/impressum/\">Note legali (Impressum)</a> &nbsp;|&nbsp; <a href=\"/datenschutz/\">Privacy (Datenschutz)</a></p>"
+     }
+    }
+   ],
+   "settings": {
+    "content_width": "boxed",
+    "flex_gap": {
+     "column": "0",
+     "row": "0",
+     "unit": "px",
+     "isLinked": true,
+     "size": 0
+    }
+   }
+  }
+ ],
+ "page_settings": {
+  "hide_title": "yes"
+ },
+ "version": "0.4",
+ "title": "Home (IT)",
+ "type": "page"
+}
