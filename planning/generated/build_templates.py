@@ -127,9 +127,17 @@ def footer():
     return [clean(old["1a2b31a0"]), clean(old["209f7f58"])]
 
 
-# Karten haben festen hellen Hintergrund: Text dunkel halten, auch im Dark Mode
-CARD_CSS = ("<style>.jfo-card, .jfo-card p, .jfo-card li, .jfo-card strong, .jfo-card em, .jfo-card blockquote "
-            "{ color: #333333 !important; }</style>")
+# Karten: hell mit dunklem Text; im Dark Mode (html[data-theme=dark] oder OS-Einstellung) dunkel mit hellem Text
+_TXT = ".jfo-card, .jfo-card p, .jfo-card li, .jfo-card strong, .jfo-card em, .jfo-card blockquote"
+_DARK = ("{0} .jfo-card {{ background-color: #24223a !important; }}"
+         "{0} .jfo-card .jfo-card {{ background-color: #2c2944 !important; }}"
+         "{0} .jfo-card blockquote {{ background-color: rgba(255,255,255,0.06) !important; }}"
+         + "".join("{0} " + sel.strip() + ", " for sel in _TXT.split(","))[:-2]
+         + " {{ color: #e4e4ee !important; }}")
+CARD_CSS = ("<style>" + _TXT + " { color: #333333 !important; }"
+            + _DARK.format('html[data-theme="dark"]')
+            + "@media (prefers-color-scheme: dark) {" + _DARK.format('html:not([data-theme="light"])') + "}"
+            + "</style>")
 
 
 def page(title, elements):

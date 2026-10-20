@@ -1,22 +1,22 @@
 {
  "content": [
   {
-   "id": "ddc3dff",
+   "id": "1fa98c0",
    "elType": "container",
    "isInner": false,
    "elements": [
     {
-     "id": "0636a84",
+     "id": "6e606d3",
      "elType": "widget",
      "widgetType": "html",
      "elements": [],
      "isInner": false,
      "settings": {
-      "html": "<style>.jfo-card, .jfo-card p, .jfo-card li, .jfo-card strong, .jfo-card em, .jfo-card blockquote { color: #333333 !important; }</style>"
+      "html": "<style>.jfo-card, .jfo-card p, .jfo-card li, .jfo-card strong, .jfo-card em, .jfo-card blockquote { color: #333333 !important; }html[data-theme=\"dark\"] .jfo-card { background-color: #24223a !important; }html[data-theme=\"dark\"] .jfo-card .jfo-card { background-color: #2c2944 !important; }html[data-theme=\"dark\"] .jfo-card blockquote { background-color: rgba(255,255,255,0.06) !important; }html[data-theme=\"dark\"] .jfo-card, html[data-theme=\"dark\"] .jfo-card p, html[data-theme=\"dark\"] .jfo-card li, html[data-theme=\"dark\"] .jfo-card strong, html[data-theme=\"dark\"] .jfo-card em, html[data-theme=\"dark\"] .jfo-card blockquote { color: #e4e4ee !important; }@media (prefers-color-scheme: dark) {html:not([data-theme=\"light\"]) .jfo-card { background-color: #24223a !important; }html:not([data-theme=\"light\"]) .jfo-card .jfo-card { background-color: #2c2944 !important; }html:not([data-theme=\"light\"]) .jfo-card blockquote { background-color: rgba(255,255,255,0.06) !important; }html:not([data-theme=\"light\"]) .jfo-card, html:not([data-theme=\"light\"]) .jfo-card p, html:not([data-theme=\"light\"]) .jfo-card li, html:not([data-theme=\"light\"]) .jfo-card strong, html:not([data-theme=\"light\"]) .jfo-card em, html:not([data-theme=\"light\"]) .jfo-card blockquote { color: #e4e4ee !important; }}</style>"
      }
     },
     {
-     "id": "fc142da",
+     "id": "dc748b8",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -49,7 +49,7 @@
      }
     },
     {
-     "id": "cdfd0e9",
+     "id": "30cfb88",
      "settings": {
       "content_width": "full",
       "editor": "<p>Ich bin Jan Foshag, selbständiger Software-Entwickler. Ich lebe und arbeite in München. Seit über 20 Jahren entwickle ich Software – von klassischen Java-Anwendungen über native iOS-Apps bis hin zu modernen KI-gestützten Lösungen.</p>"
@@ -60,7 +60,7 @@
      "elType": "widget"
     },
     {
-     "id": "c1793ec",
+     "id": "3f772d3",
      "settings": {
       "content_width": "full",
       "title": "Projektbeispiele",
@@ -76,7 +76,7 @@
      "elType": "widget"
     },
     {
-     "id": "48907f0",
+     "id": "33a8bb9",
      "settings": {
       "items": [
        {
@@ -104,14 +104,14 @@
      },
      "elements": [
       {
-       "id": "186b352",
+       "id": "277ad79",
        "settings": {
         "_title": "item #1",
         "content_width": "full"
        },
        "elements": [
         {
-         "id": "b1f104e",
+         "id": "f1a3f9d",
          "settings": {
           "editor": "<ul>\n<li>Bestell-App für Fruchtgroßhändler (Fruchthof Ehinger)</li>\n<li>Entwickelt mit React Native</li>\n<li>Wachsende Bestellungen über die App</li>\n</ul>\n<blockquote class=\"wp-block-quote\">\n<p><em>\"Ein sehr gutes, kompetentes Team, das unsere Wünsche und Anregungen nahezu perfekt umgesetzt hat. Auch bei den Kunden kommt unsere App sehr gut an, da sie ohne Komplikationen läuft und es den Kunden sogar Spaß macht mit der App zu arbeiten.\"</em></p>\n</blockquote>"
          },
@@ -126,14 +126,14 @@
        "isLocked": true
       },
       {
-       "id": "45ec79e",
+       "id": "6a2806e",
        "settings": {
         "_title": "item #2",
         "content_width": "full"
        },
        "elements": [
         {
-         "id": "a8c39b1",
+         "id": "05c401d",
          "settings": {
           "editor": "<ul>\n<li>Mitentwicklung einer Stromanbieter-App für eine große Agentur (Plan.Net)</li>\n<li>Entwickelt mit React Native</li>\n<li>Server-Anbindung</li>\n</ul>\n<blockquote class=\"wp-block-quote\">\n<p><em>\"Wir halten den Entwickler im Bereich App-Entwicklung mit React Native für sehr qualifiziert und können ihn ohne Einschränkung weiterempfehlen.\"</em></p>\n</blockquote>"
          },
@@ -148,14 +148,14 @@
        "isLocked": true
       },
       {
-       "id": "6f5fe84",
+       "id": "b287feb",
        "settings": {
         "_title": "item #3",
         "content_width": "full"
        },
        "elements": [
         {
-         "id": "7ee898b",
+         "id": "4eb5cff",
          "settings": {
           "editor": "<ul>\n<li>Patientenumfrage-App für eine klinische Versorgungsstudie</li>\n<li>Entwickelt mit Flutter</li>\n</ul>"
          },
@@ -170,13 +170,13 @@
        "isLocked": true
       },
       {
-       "id": "7a58ca1",
+       "id": "d934bde",
        "settings": {
         "_title": "Element #5"
        },
        "elements": [
         {
-         "id": "be4afca",
+         "id": "cd35972",
          "settings": {
           "content_width": "full",
           "editor": "<ul>\n<li>Webseiten für Handwerker, Kuriere, Autoren u. a.</li>\n<li>Rezepteverwaltung für ein Lebensmittelkonzern</li>\n<li>Online-Shop für eine Brennerei</li>\n</ul>"
@@ -192,13 +192,13 @@
        "isLocked": true
       },
       {
-       "id": "3487f1f",
+       "id": "d609baa",
        "settings": {
         "_title": "Element #4"
        },
        "elements": [
         {
-         "id": "bfe9216",
+         "id": "10fd12e",
          "settings": {
           "content_width": "full",
           "editor": "<ul><li>Lernspiel für Gewaltfreie Kommunikation</li><li>App und Online-Browserspiel</li><li>Native Entwicklung für iOS und Android: <a href=\"https://apps.apple.com/de/app/gfk-spiel/id1135429945\">iOS-Version im AppStore</a></li><li>Android-Version mit über 10.000 Installationen</li></ul><blockquote><p><em>\"Sehr hilfreiche, klare, schöne App. Herzlichen Dank dafür!\"</em></p></blockquote>"
@@ -219,7 +219,7 @@
      "elType": "widget"
     },
     {
-     "id": "97f5659",
+     "id": "6021785",
      "settings": {
       "content_width": "full",
       "carousel": [
@@ -246,7 +246,7 @@
      "elType": "widget"
     },
     {
-     "id": "ec4ed8a",
+     "id": "f04077e",
      "settings": {
       "content_width": "full",
       "title": "Werdegang",
@@ -262,7 +262,7 @@
      "elType": "widget"
     },
     {
-     "id": "c1e5709",
+     "id": "a59a9f4",
      "settings": {
       "content_width": "full",
       "editor": "<p><strong>Selbständig (seit 2011)</strong></p>\n<ul>\n<li>Seit 2011 . eigene Projekte, Apps und Webanwendungen</li>\n<li>2020–2025 · Krankenkasse (selbständig) — iOS, elektronische Patientenakte, Autorisierungs-Flows, Identitätsmanagement</li>\n<li>2018–2020 · Plan.Net Gruppe (selbständig) — App-Entwicklung mit React Native</li>\n</ul>\n<p><strong>Angestellt</strong></p>\n<ul>\n<li>2012–2016 · infsoft GmbH — Indoor-Navigation Apps für Android und iOS</li>\n<li>2003–2011 · LOCANIS AG — Intralogistik, Staplerleitsysteme (Java)</li>\n<li>2000–2002 · living systems AG — Internet-Marktplätze mit Agenten-Systemen (Java)</li>\n</ul>"
@@ -273,7 +273,7 @@
      "elType": "widget"
     },
     {
-     "id": "b52bbdf",
+     "id": "f5279c9",
      "settings": {
       "content_width": "full",
       "title": "Schwerpunkte",
@@ -289,7 +289,7 @@
      "elType": "widget"
     },
     {
-     "id": "bb8f8fd",
+     "id": "6d26558",
      "settings": {
       "content_width": "full",
       "editor": "<ul>\n<li style=\"font-size: 17px;\">Künstliche Intelligenz — KI-Agenten, Voice Agents, Anthropic, Mistral, RAG, MCP, Python u. v. m.</li>\n<li><span style=\"font-style: inherit; font-family: var( --e-global-typography-text-font-family ), Sans-serif; text-align: var(--text-align);\">App-Entwicklung (iOS und Android nativ, React Native, Flutter)</span></li>\n<li>Webanwendungen</li>\n</ul>"
@@ -300,7 +300,7 @@
      "elType": "widget"
     },
     {
-     "id": "e912a42",
+     "id": "0085e0a",
      "settings": {
       "content_width": "full",
       "title": "Ausbildung",
@@ -316,7 +316,7 @@
      "elType": "widget"
     },
     {
-     "id": "ebc4468",
+     "id": "4a76a42",
      "settings": {
       "content_width": "full",
       "editor": "<ul><li>Fortbildung zum Applikationsentwickler Client-Server - Siemens Business Services</li><li>Diplom-Volkswirt -· Universität Konstanz - <span style=\"font-style: inherit; font-family: var( --e-global-typography-text-font-family ), Sans-serif; text-align: var(--text-align);\">Schwerpunkte: mathematisch-statistische Methoden, wissenschaftliche Hilfskraft am Lehrstuhl für Ökonometrie</span></li><li>Groß- und Außenhandelskaufmann - Bender &amp; Hobein,  Laborgeräte</li></ul>"
@@ -327,7 +327,7 @@
      "elType": "widget"
     },
     {
-     "id": "a31e6c6",
+     "id": "1825afd",
      "settings": {
       "content_width": "full",
       "title": "Sprachen",
@@ -343,7 +343,7 @@
      "elType": "widget"
     },
     {
-     "id": "cdd10bc",
+     "id": "9ece93a",
      "settings": {
       "content_width": "full",
       "editor": "<p>Deutsch · Muttersprache  |  Französisch · Muttersprache  |  Englisch · Gut <span style=\"font-family: var( --e-global-typography-text-font-family ), Sans-serif; text-align: var(--text-align); font-size: 1rem;\">|  Italienisch · Grundkenntnisse</span></p>"
@@ -354,7 +354,7 @@
      "elType": "widget"
     },
     {
-     "id": "9f629ac",
+     "id": "77cc253",
      "elType": "widget",
      "widgetType": "button",
      "elements": [],
@@ -412,7 +412,7 @@
      }
     },
     {
-     "id": "3d96020",
+     "id": "2a9b3c8",
      "settings": {
       "content_width": "full",
       "text": "Trenner"
@@ -423,7 +423,7 @@
      "elType": "widget"
     },
     {
-     "id": "6cb7778",
+     "id": "7203655",
      "settings": {
       "content_width": "full",
       "editor": "<p style=\"text-align:center; font-size:0.85rem;\"><a href=\"/impressum/\">Impressum</a> &nbsp;|&nbsp; <a href=\"/datenschutz/\">Datenschutz</a></p>"
