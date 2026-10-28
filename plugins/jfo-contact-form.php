@@ -2,7 +2,7 @@
 /**
  * Plugin Name: JFO Contact Form
  * Description: Kontaktformular für janfoshag.de — Shortcode: [jfo_contact_form]
- * Version: 1.2
+ * Version: 1.7
  * Author: Jan Foshag
  */
 
@@ -144,22 +144,35 @@ function jfo_contact_form_shortcode() {
 }
 add_shortcode( 'jfo_contact_form', 'jfo_contact_form_shortcode' );
 
-function jfo_meta_tags() {
+function jfo_seo() {
     $lang = jfo_lang();
     if ( $lang === 'en' ) {
-        $description = 'Jan Foshag – Freelance software developer based in Munich. Specialising in mobile apps (React Native, Flutter), web development and AI solutions. Over 20 years of experience.';
-        $keywords    = 'software developer Munich, freelance software, React Native, Flutter, mobile app development, web development, AI, artificial intelligence, Jan Foshag';
-        $title       = 'Jan Foshag – Software Developer Munich';
+        $description = 'Apps with AI and voice control, AI agents and voice assistants, including Apple Intelligence and Mistral. For hospitality, logistics and wholesale. Based in Munich.';
+        $keywords    = 'AI apps, voice control, mobile AI, voice AI, AI agents, voice assistant, Apple Intelligence, iOS app development, Android app development, React Native, cross-platform, Mistral, software developer Munich, Jan Foshag';
+        $title       = 'AI Apps with Voice Control & AI Agents | Jan Foshag Munich';
     } elseif ( $lang === 'it' ) {
-        $description = 'Jan Foshag – Sviluppatore software freelance con sede a Monaco di Baviera. Specializzato in app mobile (React Native, Flutter), sviluppo web e soluzioni AI. Oltre 20 anni di esperienza.';
-        $keywords    = 'sviluppatore software Monaco, freelance software, React Native, Flutter, sviluppo app mobile, sviluppo web, AI, intelligenza artificiale, Jan Foshag';
-        $title       = 'Jan Foshag – Sviluppatore Software Monaco';
+        $description = 'App con IA e comando vocale, agenti IA e assistenti vocali, anche con Apple Intelligence e Mistral. Per ristorazione, logistica e commercio all’ingrosso. Da Monaco di Baviera.';
+        $keywords    = 'app con IA, comando vocale, agenti IA, assistente vocale, Apple Intelligence, sviluppo app iOS, sviluppo app Android, React Native, multipiattaforma, Mistral, IA ristorazione, sviluppatore software Monaco, Jan Foshag';
+        $title       = 'App con IA e comando vocale, agenti IA | Jan Foshag Monaco';
+    } elseif ( is_page( 'ueber-mich' ) ) {
+        $description = 'Jan Foshag, Software-Entwickler aus München: Werdegang und Projekte – von Java über Apps für iOS und Android mit React Native bis zu KI-Agenten mit Mistral und Anthropic. 20+ Jahre Erfahrung.';
+        $keywords    = 'Jan Foshag, Software-Entwickler München, Freelancer, Werdegang, Projekte, iOS, Android, React Native, Cross-Platform, Flutter, KI-Agenten, Mistral, Anthropic';
+        $title       = 'Über mich – Jan Foshag, Software-Entwickler München';
     } else {
-        $description = 'Jan Foshag – Selbständiger Software-Entwickler aus München. Spezialisiert auf Mobile Apps (React Native, Flutter), Web-Entwicklung und KI-Lösungen. Über 20 Jahre Erfahrung.';
-        $keywords    = 'Software-Entwickler München, Freelancer Software, React Native, Flutter, Mobile App Entwicklung, Web-Entwicklung, KI, Künstliche Intelligenz, Jan Foshag';
-        $title       = 'Jan Foshag – Software-Entwickler München';
+        $description = 'Apps mit KI und Sprachsteuerung, KI-Agenten und Sprachassistenten, auch mit Apple Intelligence und Mistral. Für Gastronomie, Logistik und Großhandel. Aus München.';
+        $keywords    = 'KI-App, App mit KI, Sprachsteuerung, App Entwicklung KI, KI-Agenten, Agentic AI, KI-Sprachassistent, KI Telefonassistent, Apple Intelligence, iOS App Entwicklung, Android App Entwicklung, React Native, Cross-Platform, Mistral, europäische KI, DSGVO KI, KI Gastronomie, KI Logistik, Bestell-App Großhandel, Software Fruchthandel, Software-Entwickler München, Jan Foshag';
+        $title       = 'KI-Apps mit Sprachsteuerung & KI-Agenten | Jan Foshag München';
     }
-    $url = 'https://janfoshag.de/';
+    return compact( 'description', 'keywords', 'title' );
+}
+
+function jfo_meta_tags() {
+    extract( jfo_seo() );
+    $url   = is_singular() && ! is_front_page() ? get_permalink() : home_url( '/' );
+    $image = 'https://janfoshag.de/wp-content/uploads/2026/10/apple-intelligence.jpg';
+    if ( is_front_page() ) {
+        jfo_structured_data( $description, $url, $image );
+    }
     ?>
 <meta name="description" content="<?php echo esc_attr( $description ); ?>">
 <meta name="keywords" content="<?php echo esc_attr( $keywords ); ?>">
@@ -168,9 +181,39 @@ function jfo_meta_tags() {
 <meta property="og:url" content="<?php echo esc_attr( $url ); ?>">
 <meta property="og:title" content="<?php echo esc_attr( $title ); ?>">
 <meta property="og:description" content="<?php echo esc_attr( $description ); ?>">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="<?php echo esc_url( $image ); ?>">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="<?php echo esc_attr( $title ); ?>">
 <meta name="twitter:description" content="<?php echo esc_attr( $description ); ?>">
     <?php
 }
 add_action( 'wp_head', 'jfo_meta_tags' );
+
+// Strukturierte Daten (JSON-LD), damit Google die Seite als Dienstleister in München erkennt
+function jfo_structured_data( $description, $url, $image ) {
+    $data = array(
+        '@context'    => 'https://schema.org',
+        '@type'       => 'ProfessionalService',
+        'name'        => 'Jan Foshag – Software-Entwicklung',
+        'description' => $description,
+        'url'         => $url,
+        'image'       => $image,
+        'email'       => 'info@janfoshag.de',
+        'telephone'   => '+49 89 45439111',
+        'address'     => array( '@type' => 'PostalAddress', 'addressLocality' => 'München', 'addressCountry' => 'DE' ),
+        'areaServed'  => 'DE',
+        'founder'     => array( '@type' => 'Person', 'name' => 'Jan Foshag', 'jobTitle' => jfo_t( 'Software-Entwickler', 'Software Developer', 'Sviluppatore software' ) ),
+        'knowsAbout'  => array( 'Mobile AI', 'Voice AI', 'Apple Intelligence', 'iOS', 'Android', 'React Native', 'AI Agents', 'Voice Assistants', 'Mistral', 'Anthropic' ),
+        'sameAs'      => array( 'https://www.linkedin.com/in/jan-foshag-01b39338/', 'https://www.xing.com/profile/Jan_Foshag' ),
+    );
+    echo '<script type="application/ld+json">' . wp_json_encode( $data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES ) . "</script>\n";
+}
+
+// Browser-Tab-Titel = SEO-Titel, nur Startseiten und Über mich (Impressum etc. behalten den WP-Titel)
+function jfo_document_title( $title ) {
+    if ( is_front_page() || is_page( 'ueber-mich' ) ) {
+        return jfo_seo()['title'];
+    }
+    return $title;
+}
+add_filter( 'pre_get_document_title', 'jfo_document_title' );

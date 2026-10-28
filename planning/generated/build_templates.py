@@ -2,7 +2,7 @@
 import copy, json, secrets, sys
 
 SRC, OUTDIR = sys.argv[1], sys.argv[2]
-DATE = "2026-10-16"
+DATE = "2026-10-27"
 BLUE, PURPLE = "#0137d2", "#800080"
 
 export = json.load(open(SRC))
@@ -151,27 +151,21 @@ def page(title, elements):
 # ---------------- Startseite ----------------
 home = [
     # 1. Hero
-    heading("KI-Lösungen", "h1", 38, BLUE, 16),
-    text("<p>Ich entwickle Software, die Arbeit wirklich abnimmt: Agenten, die selbstständig handeln, "
-         "Sprachassistenten, die Anrufe und Bestellungen entgegennehmen, und iPhone-Apps mit KI direkt auf dem Gerät.</p>"
+    heading("Software-Lösungen", "h1", 38, BLUE, 16),
+    text("<p>Ich entwickle Software, die Abläufe vereinfacht: KI-Apps mit Sprachsteuerung, "
+         "selbstständig handelnde Agenten und Sprachassistenten.</p>"
          "<p>Ich bin Jan Foshag, Software-Entwickler in München, seit über 20 Jahren.</p>", 8),
     button("Kontakt aufnehmen", "#kontakt"),
 
-    # 2. Kennen Sie das?
-    heading("Kennen Sie das?", "h2", 30, "#000000", 20),
-    card("agentic", "Abstraktes Netzwerk als Symbol für KI-Agenten", "KI-Agenten",
-         "Ihr Team verbringt Stunden mit Routinearbeit: E-Mails sortieren, Daten zwischen Systemen übertragen, Berichte zusammenstellen. "
-         "Und das Telefon klingelt im ungünstigsten Moment: in der Küche, im Lager, außerhalb der Öffnungszeiten. "
-         "Anrufe gehen verloren, Bestellungen werden falsch notiert.",
-         "KI-Agenten, die solche Aufgaben selbstständig erledigen. Sie lesen, entscheiden und handeln über Ihre bestehenden Systeme "
-         "(Schnittstellen, MCP, Workflows). Bei wichtigen Entscheidungen fragen sie nach. "
-         "Als Sprachassistent gehen sie rund um die Uhr ans Telefon, nehmen Bestellungen und Reservierungen auf, "
-         "beantworten Fragen und geben alles strukturiert an Ihr System weiter. Dazu Dashboards, die Ihre Daten verständlich machen."),
-    card("apple", "iPhone in der Hand", "Apple Intelligence",
-         "Ihre App soll klüger werden, aber Kundendaten dürfen das Gerät nicht verlassen, und Cloud-KI kostet pro Anfrage.",
-         "iPhone- und iPad-Apps mit Apple Intelligence: KI läuft direkt auf dem Gerät, datenschutzfreundlich "
-         "und ohne laufende Kosten pro Anfrage. Ihre App wird über Siri und Kurzbefehle erreichbar. "
-         "Grundlage sind über 10 Jahre native iOS-Entwicklung."),
+    # 2. Was ich entwickle
+    heading("Was ich entwickle", "h2", 30, "#000000", 20),
+    card("apple", "iPhone-App mit KI und Sprachsteuerung", "Apps mit KI und Sprachsteuerung",
+         "Ihre App soll klüger werden und sich per Sprache bedienen lassen. Aber Kundendaten dürfen das Gerät nicht verlassen, "
+         "und übliche Cloud-KI kostet pro Anfrage.",
+         "Apps, die gesprochene Sätze verstehen: bestellen, suchen und erfassen per Sprache statt per Formular. "
+         "Die KI läuft auf Wunsch direkt auf dem Gerät oder, mit Apple Intelligence, in Apples Private Cloud: datenschutzfreundlich und ohne laufende Kosten pro Anfrage. "
+         "Auf dem iPhone wird Ihre App zusätzlich über Siri und Kurzbefehle erreichbar. "
+         "Grundlage sind über 10 Jahre App-Entwicklung für iOS und Android, nativ und plattformübergreifend."),
 
     # 2b. Branchen
     heading("Gastronomie, Logistik und Großhandel", "h2", 30, "#000000", 16),
@@ -180,7 +174,7 @@ home = [
                container([image("obst", "Obst in Kisten im Großhandel", 160)], width=32)],
               direction="row", gap=12, margin_bottom=16),
     text("<p>Gastronomie, Großhandel und Logistik hängen eng zusammen: Bestellungen, Lieferungen, Lager. "
-         "Genau dort spielen Agenten und Sprachassistenten ihre Stärken aus. Ich kenne diese Abläufe aus der Praxis: "
+         "Genau dort spielen Apps mit KI und Sprachsteuerung ihre Stärken aus. Ich kenne diese Abläufe aus der Praxis: "
          "aus der Intralogistik und aus Bestell-Apps für den Fruchtgroßhandel.</p>", 32),
 
     # 3. Frucht- und Großhandel: Fallbeispiel Ehinger (Kasten) + nächster Schritt (außerhalb)
@@ -206,8 +200,8 @@ home = [
     # 4. Warum mit mir
     heading("Warum mit mir", "h2", 30, "#000000", 12),
     text("<ul>"
-         "<li><strong>20+ Jahre</strong> Software-Entwicklung: von Handelsplattformen und Intralogistik über native iOS-Apps bis zu KI-Agenten</li>"
-         "<li><strong>Apple-Plattform seit über 10 Jahren:</strong> iOS-Apps für eine Krankenkasse, Indoor-Navigation und eigene Apps</li>"
+         "<li><strong>20+ Jahre</strong> Software-Entwicklung: von Handelsplattformen und Intralogistik über Apps für iOS und Android bis zu KI-Agenten</li>"
+         "<li><strong>Apps seit über 10 Jahren:</strong> iOS und Android, nativ und plattformübergreifend, u. a. für eine Krankenkasse, Plan.Net und Indoor-Navigation</li>"
          "<li><strong>10.000+ Installationen</strong> der Android-App „GFK-Spiel“</li>"
          "<li><strong>Direkter Draht:</strong> Sie sprechen mit dem Entwickler</li>"
          "</ul>", 8),
@@ -222,13 +216,18 @@ home = [
 # ---------------- Über mich ----------------
 about = [
     heading("Über mich", "h1", 38, BLUE, 16),
-    clean(old["18df6280"]),
+    text("<p>Ich bin Jan Foshag, selbständiger Software-Entwickler. Ich lebe und arbeite in München. Seit über 20 Jahren entwickle ich Software – "
+         "von klassischen Java-Anwendungen über Apps für iOS und Android, nativ und plattformübergreifend, "
+         "bis hin zu modernen KI-gestützten Lösungen.</p>"),
     clean(old["27d2f951"]), clean(old["1a6e23f1"]),   # Projektbeispiele + Akkordeon
     clean(old["583af67a"]),                            # Bildergalerie
     clean(old["d9fd1e6"]), clean(old["1b2abba7"]),     # Werdegang
     clean(old["42e660d6"]),                            # Schwerpunkte
-    edit_text(clean(old["20cffc09"]), "KI-Agenten, Anthropic, RAG",
-              "KI-Agenten, Voice Agents, Anthropic, Mistral, RAG"),
+    text("<ul>"
+         "<li>App-Entwicklung: iOS und Android, nativ und Cross-Platform (React Native, Flutter)</li>"
+         "<li>Künstliche Intelligenz: Apple Intelligence, Siri AI, KI-Agenten, Voice Agents, Anthropic, Mistral, RAG, MCP, Python u. v. m.</li>"
+         "<li>Webanwendungen</li>"
+         "</ul>"),
     clean(old["38aaf910"]), clean(old["320d5a1b"]),    # Ausbildung
     clean(old["314e57f0"]), clean(old["4eb3635e"]),    # Sprachen
     button("Kontakt aufnehmen", "/#kontakt"),
@@ -239,28 +238,21 @@ about = [
 IT = ("Problema", "Soluzione")
 home_it = [
     # 1. Hero
-    heading("Soluzioni con l’IA", "h1", 38, BLUE, 16),
-    text("<p>Sviluppo software che alleggerisce davvero il lavoro: agenti che agiscono in autonomia, "
-         "assistenti vocali che rispondono alle chiamate e prendono gli ordini, e app per iPhone con l’IA direttamente sul dispositivo.</p>"
+    heading("Soluzioni software", "h1", 38, BLUE, 16),
+    text("<p>Sviluppo software che semplifica i processi: app con IA e comando vocale, "
+         "agenti autonomi e assistenti vocali.</p>"
          "<p>Sono Jan Foshag, sviluppatore software a Monaco di Baviera da oltre 20 anni.</p>", 8),
     button("Contattami", "#kontakt"),
 
-    # 2. Le suona familiare?
-    heading("Le suona familiare?", "h2", 30, "#000000", 20),
-    card("agentic", "Rete astratta come simbolo degli agenti IA", "Agenti IA",
-         "Il Suo team passa ore in attività di routine: smistare e-mail, trasferire dati tra sistemi, compilare report. "
-         "E il telefono squilla sempre nel momento meno opportuno: in cucina, in magazzino, fuori orario. "
-         "Le chiamate vanno perse, gli ordini vengono annotati male.",
-         "Agenti IA che svolgono questi compiti in autonomia. Leggono, decidono e agiscono attraverso i Suoi sistemi esistenti "
-         "(interfacce, MCP, workflow). Per le decisioni importanti chiedono conferma. "
-         "Come assistenti vocali rispondono al telefono 24 ore su 24, prendono ordini e prenotazioni, "
-         "rispondono alle domande e trasmettono tutto in modo strutturato al Suo sistema. In più, dashboard che rendono chiari i Suoi dati.",
-         labels=IT),
-    card("apple", "iPhone in mano", "Apple Intelligence",
-         "La Sua app deve diventare più intelligente, ma i dati dei clienti non devono lasciare il dispositivo, e l’IA nel cloud costa a ogni richiesta.",
-         "App per iPhone e iPad con Apple Intelligence: l’IA funziona direttamente sul dispositivo, nel rispetto della privacy "
-         "e senza costi continui per ogni richiesta. La Sua app diventa raggiungibile tramite Siri e Comandi rapidi. "
-         "Alla base ci sono oltre 10 anni di sviluppo iOS nativo.",
+    # 2. Cosa sviluppo
+    heading("Cosa sviluppo", "h2", 30, "#000000", 20),
+    card("apple", "App per iPhone con IA e comando vocale", "App con IA e comando vocale",
+         "La Sua app deve diventare più intelligente e lasciarsi comandare con la voce. Ma i dati dei clienti non devono lasciare "
+         "il dispositivo, e la solita IA nel cloud costa a ogni richiesta.",
+         "App che capiscono le frasi parlate: ordinare, cercare e registrare con la voce invece che con un modulo. "
+         "Se desiderato, l’IA funziona direttamente sul dispositivo oppure, con Apple Intelligence, nel Private Cloud di Apple: nel rispetto della privacy "
+         "e senza costi continui per ogni richiesta. Su iPhone la Sua app diventa raggiungibile anche tramite Siri e Comandi rapidi. "
+         "Alla base ci sono oltre 10 anni di sviluppo di app per iOS e Android, native e multipiattaforma.",
          labels=IT),
 
     # 2b. Settori
@@ -270,7 +262,7 @@ home_it = [
                container([image("obst", "Frutta in cassette nel commercio all’ingrosso", 160)], width=32)],
               direction="row", gap=12, margin_bottom=16),
     text("<p>Ristorazione, commercio all’ingrosso e logistica sono strettamente collegati: ordini, consegne, magazzino. "
-         "È proprio lì che agenti e assistenti vocali danno il meglio. Conosco questi processi dalla pratica: "
+         "È proprio lì che le app con IA e comando vocale danno il meglio. Conosco questi processi dalla pratica: "
          "dall’intralogistica e dalle app di ordinazione per il commercio all’ingrosso di frutta.</p>", 32),
 
     # 3. Caso di studio Ehinger + prossimo passo
@@ -298,9 +290,9 @@ home_it = [
     text('<div id="chi-sono"></div>'),
     heading("Chi sono", "h2", 30, "#000000", 12),
     text("<p>Sono Jan Foshag, sviluppatore software indipendente a Monaco di Baviera. Da oltre 20 anni sviluppo software: "
-         "dalle piattaforme di commercio e dall’intralogistica alle app iOS native, fino agli agenti IA.</p>"
+         "dalle piattaforme di commercio e dall’intralogistica alle app per iOS e Android, fino agli agenti IA.</p>"
          "<ul>"
-         "<li><strong>Piattaforma Apple da oltre 10 anni:</strong> app iOS per una cassa malattia, navigazione indoor e app proprie</li>"
+         "<li><strong>App da oltre 10 anni:</strong> iOS e Android, native e multipiattaforma, tra l’altro per una cassa malattia, Plan.Net e la navigazione indoor</li>"
          "<li><strong>Oltre 10.000 installazioni</strong> dell’app Android „GFK-Spiel“</li>"
          "<li><strong>Contatto diretto:</strong> parla direttamente con lo sviluppatore</li>"
          "<li><strong>Lingue:</strong> tedesco e francese madrelingua, inglese buono. L’italiano lo sto imparando: mi scriva pure in italiano!</li>"

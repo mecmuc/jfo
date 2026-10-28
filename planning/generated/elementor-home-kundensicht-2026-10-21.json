@@ -1,0 +1,1229 @@
+{
+ "content": [
+  {
+   "id": "e3b908a",
+   "elType": "container",
+   "isInner": false,
+   "elements": [
+    {
+     "id": "4b983eb",
+     "elType": "widget",
+     "widgetType": "html",
+     "elements": [],
+     "isInner": false,
+     "settings": {
+      "html": "<style>.jfo-card, .jfo-card p, .jfo-card li, .jfo-card strong, .jfo-card em, .jfo-card blockquote { color: #333333 !important; }html[data-theme=\"dark\"] .jfo-card { background-color: #24223a !important; }html[data-theme=\"dark\"] .jfo-card .jfo-card { background-color: #2c2944 !important; }html[data-theme=\"dark\"] .jfo-card blockquote { background-color: rgba(255,255,255,0.06) !important; }html[data-theme=\"dark\"] .jfo-card, html[data-theme=\"dark\"] .jfo-card p, html[data-theme=\"dark\"] .jfo-card li, html[data-theme=\"dark\"] .jfo-card strong, html[data-theme=\"dark\"] .jfo-card em, html[data-theme=\"dark\"] .jfo-card blockquote { color: #e4e4ee !important; }@media (prefers-color-scheme: dark) {html:not([data-theme=\"light\"]) .jfo-card { background-color: #24223a !important; }html:not([data-theme=\"light\"]) .jfo-card .jfo-card { background-color: #2c2944 !important; }html:not([data-theme=\"light\"]) .jfo-card blockquote { background-color: rgba(255,255,255,0.06) !important; }html:not([data-theme=\"light\"]) .jfo-card, html:not([data-theme=\"light\"]) .jfo-card p, html:not([data-theme=\"light\"]) .jfo-card li, html:not([data-theme=\"light\"]) .jfo-card strong, html:not([data-theme=\"light\"]) .jfo-card em, html:not([data-theme=\"light\"]) .jfo-card blockquote { color: #e4e4ee !important; }}</style>"
+     }
+    },
+    {
+     "id": "af7babf",
+     "elType": "widget",
+     "widgetType": "heading",
+     "elements": [],
+     "isInner": false,
+     "settings": {
+      "title": "Software-Lösungen",
+      "header_size": "h1",
+      "title_color": "#0137d2",
+      "typography_typography": "custom",
+      "typography_font_family": "Josefin Sans",
+      "typography_font_weight": "600",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 38,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 30,
+       "sizes": []
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "16",
+       "left": "0",
+       "isLinked": false
+      }
+     }
+    },
+    {
+     "id": "8c35c3a",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "elements": [],
+     "isInner": false,
+     "settings": {
+      "editor": "<p>Ich entwickle Software, die Arbeit wirklich abnimmt: Apps mit KI, die sich per Sprache steuern lassen, Agenten, die selbstständig handeln, und Sprachassistenten, die Anrufe und Bestellungen entgegennehmen.</p><p>Ich bin Jan Foshag, Software-Entwickler in München, seit über 20 Jahren.</p>",
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "8",
+       "left": "0",
+       "isLinked": false
+      }
+     }
+    },
+    {
+     "id": "be58478",
+     "elType": "widget",
+     "widgetType": "button",
+     "elements": [],
+     "isInner": false,
+     "settings": {
+      "content_width": "full",
+      "text": "Kontakt aufnehmen",
+      "link": {
+       "url": "#kontakt",
+       "is_external": "",
+       "nofollow": "",
+       "custom_attributes": ""
+      },
+      "size": "md",
+      "align": "left",
+      "typography_typography": "custom",
+      "typography_font_family": "Josefin Sans",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 16,
+       "sizes": []
+      },
+      "typography_font_weight": "400",
+      "typography_letter_spacing": {
+       "unit": "em",
+       "size": 0.03,
+       "sizes": []
+      },
+      "background_color": "#0137d2",
+      "button_text_color": "#ffffff",
+      "border_radius": {
+       "unit": "px",
+       "top": "100",
+       "right": "100",
+       "bottom": "100",
+       "left": "100",
+       "isLinked": true
+      },
+      "text_padding": {
+       "unit": "px",
+       "top": "16",
+       "right": "30",
+       "bottom": "16",
+       "left": "30",
+       "isLinked": false
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "48",
+       "left": "0",
+       "isLinked": false
+      }
+     }
+    },
+    {
+     "id": "92c1f42",
+     "elType": "widget",
+     "widgetType": "heading",
+     "elements": [],
+     "isInner": false,
+     "settings": {
+      "title": "Was ich entwickle",
+      "header_size": "h2",
+      "title_color": "#000000",
+      "typography_typography": "custom",
+      "typography_font_family": "Josefin Sans",
+      "typography_font_weight": "600",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 30,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 24,
+       "sizes": []
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "20",
+       "left": "0",
+       "isLinked": false
+      }
+     }
+    },
+    {
+     "id": "8a10b6c",
+     "elType": "container",
+     "isInner": true,
+     "elements": [
+      {
+       "id": "cc59d2f",
+       "elType": "widget",
+       "widgetType": "image",
+       "elements": [],
+       "isInner": false,
+       "settings": {
+        "image": {
+         "url": "https://janfoshag.de/wp-content/uploads/2026/10/apple-intelligence.jpg",
+         "id": "",
+         "alt": "iPhone-App mit KI und Sprachsteuerung",
+         "source": "library"
+        },
+        "image_size": "large",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "image_border_radius": {
+         "unit": "px",
+         "top": "12",
+         "right": "12",
+         "bottom": "12",
+         "left": "12",
+         "isLinked": false
+        },
+        "height": {
+         "unit": "px",
+         "size": 300,
+         "sizes": []
+        },
+        "height_mobile": {
+         "unit": "px",
+         "size": 180,
+         "sizes": []
+        },
+        "object-fit": "cover"
+       }
+      },
+      {
+       "id": "c6804ce",
+       "elType": "widget",
+       "widgetType": "heading",
+       "elements": [],
+       "isInner": false,
+       "settings": {
+        "title": "Apps mit KI und Sprachsteuerung",
+        "header_size": "h3",
+        "title_color": "#0137d2",
+        "typography_typography": "custom",
+        "typography_font_family": "Josefin Sans",
+        "typography_font_weight": "600",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 24,
+         "sizes": []
+        },
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 19,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "4",
+         "left": "0",
+         "isLinked": false
+        }
+       }
+      },
+      {
+       "id": "e3fd694",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "elements": [],
+       "isInner": false,
+       "settings": {
+        "editor": "<p><strong>Problem:</strong> Ihre App soll klüger werden und sich per Sprache bedienen lassen. Aber Kundendaten dürfen das Gerät nicht verlassen, und übliche Cloud-KI kostet pro Anfrage.</p>"
+       }
+      },
+      {
+       "id": "4dc9176",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "elements": [],
+       "isInner": false,
+       "settings": {
+        "editor": "<p><strong>Lösung:</strong> Apps, die gesprochene Sätze verstehen: bestellen, suchen und erfassen per Sprache statt per Formular. Die KI läuft auf Wunsch direkt auf dem Gerät oder, mit Apple Intelligence, in Apples Private Cloud: datenschutzfreundlich und ohne laufende Kosten pro Anfrage. Auf dem iPhone wird Ihre App zusätzlich über Siri und Kurzbefehle erreichbar. Grundlage sind über 10 Jahre App-Entwicklung für iOS und Android, nativ und plattformübergreifend mit React Native.</p>"
+       }
+      }
+     ],
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "flex_direction_mobile": "",
+      "flex_gap": {
+       "column": "12",
+       "row": "12",
+       "unit": "px",
+       "isLinked": true,
+       "size": 12
+      },
+      "background_background": "classic",
+      "background_color": "#f4f6fd",
+      "border_radius": {
+       "unit": "px",
+       "top": "16",
+       "right": "16",
+       "bottom": "16",
+       "left": "16",
+       "isLinked": false
+      },
+      "css_classes": "jfo-card",
+      "padding": {
+       "unit": "px",
+       "top": "28",
+       "right": "28",
+       "bottom": "28",
+       "left": "28",
+       "isLinked": false
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "20",
+       "right": "20",
+       "bottom": "20",
+       "left": "20",
+       "isLinked": false
+      },
+      "margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "24",
+       "left": "0",
+       "isLinked": false
+      }
+     }
+    },
+    {
+     "id": "9b641c9",
+     "elType": "container",
+     "isInner": true,
+     "elements": [
+      {
+       "id": "f7ce994",
+       "elType": "widget",
+       "widgetType": "image",
+       "elements": [],
+       "isInner": false,
+       "settings": {
+        "image": {
+         "url": "https://janfoshag.de/wp-content/uploads/2026/10/agentic-ai.jpg",
+         "id": "",
+         "alt": "Abstraktes Netzwerk als Symbol für KI-Agenten und Sprachassistenten",
+         "source": "library"
+        },
+        "image_size": "large",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "image_border_radius": {
+         "unit": "px",
+         "top": "12",
+         "right": "12",
+         "bottom": "12",
+         "left": "12",
+         "isLinked": false
+        },
+        "height": {
+         "unit": "px",
+         "size": 300,
+         "sizes": []
+        },
+        "height_mobile": {
+         "unit": "px",
+         "size": 180,
+         "sizes": []
+        },
+        "object-fit": "cover"
+       }
+      },
+      {
+       "id": "a04c52e",
+       "elType": "widget",
+       "widgetType": "heading",
+       "elements": [],
+       "isInner": false,
+       "settings": {
+        "title": "KI-Agenten",
+        "header_size": "h3",
+        "title_color": "#0137d2",
+        "typography_typography": "custom",
+        "typography_font_family": "Josefin Sans",
+        "typography_font_weight": "600",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 24,
+         "sizes": []
+        },
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 19,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "4",
+         "left": "0",
+         "isLinked": false
+        }
+       }
+      },
+      {
+       "id": "2eede9d",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "elements": [],
+       "isInner": false,
+       "settings": {
+        "editor": "<p><strong>Problem:</strong> Ihr Team verbringt Stunden mit Routinearbeit: E-Mails sortieren, Daten zwischen Systemen übertragen, Berichte zusammenstellen. Und das Telefon klingelt im ungünstigsten Moment: in der Küche, im Lager, außerhalb der Öffnungszeiten. Anrufe gehen verloren, Bestellungen werden falsch notiert.</p>"
+       }
+      },
+      {
+       "id": "4b78ff9",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "elements": [],
+       "isInner": false,
+       "settings": {
+        "editor": "<p><strong>Lösung:</strong> KI-Agenten, die solche Aufgaben selbstständig erledigen. Sie lesen, entscheiden und handeln über Ihre bestehenden Systeme (Schnittstellen, MCP, Workflows). Bei wichtigen Entscheidungen fragen sie nach. Als Sprachassistent gehen sie rund um die Uhr ans Telefon, nehmen Bestellungen und Reservierungen auf, beantworten Fragen und geben alles strukturiert an Ihr System weiter. Dazu Dashboards, die Ihre Daten verständlich machen.</p>"
+       }
+      }
+     ],
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "flex_direction_mobile": "",
+      "flex_gap": {
+       "column": "12",
+       "row": "12",
+       "unit": "px",
+       "isLinked": true,
+       "size": 12
+      },
+      "background_background": "classic",
+      "background_color": "#f4f6fd",
+      "border_radius": {
+       "unit": "px",
+       "top": "16",
+       "right": "16",
+       "bottom": "16",
+       "left": "16",
+       "isLinked": false
+      },
+      "css_classes": "jfo-card",
+      "padding": {
+       "unit": "px",
+       "top": "28",
+       "right": "28",
+       "bottom": "28",
+       "left": "28",
+       "isLinked": false
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "20",
+       "right": "20",
+       "bottom": "20",
+       "left": "20",
+       "isLinked": false
+      },
+      "margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "24",
+       "left": "0",
+       "isLinked": false
+      }
+     }
+    },
+    {
+     "id": "4b27d7e",
+     "elType": "widget",
+     "widgetType": "heading",
+     "elements": [],
+     "isInner": false,
+     "settings": {
+      "title": "Gastronomie, Logistik und Großhandel",
+      "header_size": "h2",
+      "title_color": "#000000",
+      "typography_typography": "custom",
+      "typography_font_family": "Josefin Sans",
+      "typography_font_weight": "600",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 30,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 24,
+       "sizes": []
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "16",
+       "left": "0",
+       "isLinked": false
+      }
+     }
+    },
+    {
+     "id": "53c4821",
+     "elType": "container",
+     "isInner": true,
+     "elements": [
+      {
+       "id": "71eb2ac",
+       "elType": "container",
+       "isInner": true,
+       "elements": [
+        {
+         "id": "cef9340",
+         "elType": "widget",
+         "widgetType": "image",
+         "elements": [],
+         "isInner": false,
+         "settings": {
+          "image": {
+           "url": "https://janfoshag.de/wp-content/uploads/2026/10/gastronomie.jpg",
+           "id": "",
+           "alt": "Profiküche in der Gastronomie",
+           "source": "library"
+          },
+          "image_size": "large",
+          "width": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          },
+          "image_border_radius": {
+           "unit": "px",
+           "top": "12",
+           "right": "12",
+           "bottom": "12",
+           "left": "12",
+           "isLinked": false
+          },
+          "height": {
+           "unit": "px",
+           "size": 160,
+           "sizes": []
+          },
+          "height_mobile": {
+           "unit": "px",
+           "size": 96,
+           "sizes": []
+          },
+          "object-fit": "cover"
+         }
+        }
+       ],
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_direction_mobile": "",
+        "flex_gap": {
+         "column": "16",
+         "row": "16",
+         "unit": "px",
+         "isLinked": true,
+         "size": 16
+        },
+        "width": {
+         "unit": "%",
+         "size": 32,
+         "sizes": []
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        }
+       }
+      },
+      {
+       "id": "9d32c47",
+       "elType": "container",
+       "isInner": true,
+       "elements": [
+        {
+         "id": "31f794c",
+         "elType": "widget",
+         "widgetType": "image",
+         "elements": [],
+         "isInner": false,
+         "settings": {
+          "image": {
+           "url": "https://janfoshag.de/wp-content/uploads/2026/10/logistik.jpg",
+           "id": "",
+           "alt": "Lagerregale mit Kartons",
+           "source": "library"
+          },
+          "image_size": "large",
+          "width": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          },
+          "image_border_radius": {
+           "unit": "px",
+           "top": "12",
+           "right": "12",
+           "bottom": "12",
+           "left": "12",
+           "isLinked": false
+          },
+          "height": {
+           "unit": "px",
+           "size": 160,
+           "sizes": []
+          },
+          "height_mobile": {
+           "unit": "px",
+           "size": 96,
+           "sizes": []
+          },
+          "object-fit": "cover"
+         }
+        }
+       ],
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_direction_mobile": "",
+        "flex_gap": {
+         "column": "16",
+         "row": "16",
+         "unit": "px",
+         "isLinked": true,
+         "size": 16
+        },
+        "width": {
+         "unit": "%",
+         "size": 32,
+         "sizes": []
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        }
+       }
+      },
+      {
+       "id": "06faa21",
+       "elType": "container",
+       "isInner": true,
+       "elements": [
+        {
+         "id": "13a7925",
+         "elType": "widget",
+         "widgetType": "image",
+         "elements": [],
+         "isInner": false,
+         "settings": {
+          "image": {
+           "url": "https://janfoshag.de/wp-content/uploads/2026/10/obst-grosshandel.jpg",
+           "id": "",
+           "alt": "Obst in Kisten im Großhandel",
+           "source": "library"
+          },
+          "image_size": "large",
+          "width": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          },
+          "image_border_radius": {
+           "unit": "px",
+           "top": "12",
+           "right": "12",
+           "bottom": "12",
+           "left": "12",
+           "isLinked": false
+          },
+          "height": {
+           "unit": "px",
+           "size": 160,
+           "sizes": []
+          },
+          "height_mobile": {
+           "unit": "px",
+           "size": 96,
+           "sizes": []
+          },
+          "object-fit": "cover"
+         }
+        }
+       ],
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_direction_mobile": "",
+        "flex_gap": {
+         "column": "16",
+         "row": "16",
+         "unit": "px",
+         "isLinked": true,
+         "size": 16
+        },
+        "width": {
+         "unit": "%",
+         "size": 32,
+         "sizes": []
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        }
+       }
+      }
+     ],
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "row",
+      "flex_direction_mobile": "column",
+      "flex_gap": {
+       "column": "12",
+       "row": "12",
+       "unit": "px",
+       "isLinked": true,
+       "size": 12
+      },
+      "margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "16",
+       "left": "0",
+       "isLinked": false
+      }
+     }
+    },
+    {
+     "id": "c3133c9",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "elements": [],
+     "isInner": false,
+     "settings": {
+      "editor": "<p>Gastronomie, Großhandel und Logistik hängen eng zusammen: Bestellungen, Lieferungen, Lager. Genau dort spielen Agenten und Sprachassistenten ihre Stärken aus. Ich kenne diese Abläufe aus der Praxis: aus der Intralogistik und aus Bestell-Apps für den Fruchtgroßhandel.</p>",
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "32",
+       "left": "0",
+       "isLinked": false
+      }
+     }
+    },
+    {
+     "id": "836e391",
+     "elType": "widget",
+     "widgetType": "heading",
+     "elements": [],
+     "isInner": false,
+     "settings": {
+      "title": "Für den Frucht- und Großhandel",
+      "header_size": "h2",
+      "title_color": "#000000",
+      "typography_typography": "custom",
+      "typography_font_family": "Josefin Sans",
+      "typography_font_weight": "600",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 30,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 24,
+       "sizes": []
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "16",
+       "left": "0",
+       "isLinked": false
+      }
+     }
+    },
+    {
+     "id": "14988a6",
+     "elType": "container",
+     "isInner": true,
+     "elements": [
+      {
+       "id": "3c8fc54",
+       "elType": "widget",
+       "widgetType": "heading",
+       "elements": [],
+       "isInner": false,
+       "settings": {
+        "title": "Fallbeispiel: Fruchthof Ehinger",
+        "header_size": "h3",
+        "title_color": "#800080",
+        "typography_typography": "custom",
+        "typography_font_family": "Josefin Sans",
+        "typography_font_weight": "600",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 20,
+         "sizes": []
+        },
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 16,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "8",
+         "left": "0",
+         "isLinked": false
+        }
+       }
+      },
+      {
+       "id": "f394e69",
+       "elType": "container",
+       "isInner": true,
+       "elements": [
+        {
+         "id": "e18247e",
+         "elType": "container",
+         "isInner": true,
+         "elements": [
+          {
+           "id": "e424498",
+           "elType": "widget",
+           "widgetType": "image",
+           "elements": [],
+           "isInner": false,
+           "settings": {
+            "image": {
+             "url": "https://janfoshag.de/wp-content/uploads/2026/10/ehinger-bestell-app-retusche.jpg",
+             "id": "",
+             "alt": "Startbildschirm der Bestell-App des Fruchthof Ehinger mit Sortiment, Mei Gmiaskorb, Warenkorb und Aktionen",
+             "source": "library"
+            },
+            "image_size": "large",
+            "width": {
+             "unit": "%",
+             "size": 100,
+             "sizes": []
+            },
+            "image_border_radius": {
+             "unit": "px",
+             "top": "12",
+             "right": "12",
+             "bottom": "12",
+             "left": "12",
+             "isLinked": false
+            },
+            "width_mobile": {
+             "unit": "%",
+             "size": 70,
+             "sizes": []
+            },
+            "align_mobile": "center",
+            "image_box_shadow_box_shadow_type": "yes",
+            "image_box_shadow_box_shadow": {
+             "horizontal": 0,
+             "vertical": 8,
+             "blur": 24,
+             "spread": 0,
+             "color": "rgba(0,0,0,0.18)"
+            }
+           }
+          }
+         ],
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_direction_mobile": "",
+          "flex_gap": {
+           "column": "16",
+           "row": "16",
+           "unit": "px",
+           "isLinked": true,
+           "size": 16
+          },
+          "width": {
+           "unit": "%",
+           "size": 38,
+           "sizes": []
+          },
+          "width_mobile": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          }
+         }
+        },
+        {
+         "id": "b454a8d",
+         "elType": "container",
+         "isInner": true,
+         "elements": [
+          {
+           "id": "75ce27c",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "elements": [],
+           "isInner": false,
+           "settings": {
+            "editor": "<p><strong>Lösung:</strong> Eine Bestell-App für iOS und Android. Gastronomie-Kunden legen ihre feste Bestellliste „Mei Gmiaskorb“ an und bestellen mit wenigen Klicks. Aktuelle Angebote erscheinen direkt in der App und per Push-Nachricht.</p><p><strong>Ergebnis:</strong> Die Bestellungen über die App wachsen stetig.</p>"
+           }
+          }
+         ],
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_direction_mobile": "",
+          "flex_gap": {
+           "column": "16",
+           "row": "16",
+           "unit": "px",
+           "isLinked": true,
+           "size": 16
+          },
+          "width": {
+           "unit": "%",
+           "size": 58,
+           "sizes": []
+          },
+          "width_mobile": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          }
+         }
+        }
+       ],
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "row",
+        "flex_direction_mobile": "column",
+        "flex_gap": {
+         "column": "24",
+         "row": "24",
+         "unit": "px",
+         "isLinked": true,
+         "size": 24
+        }
+       }
+      },
+      {
+       "id": "bbcf4ef",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "elements": [],
+       "isInner": false,
+       "settings": {
+        "editor": "<blockquote class=\"wp-block-quote\"><p><em>„Ein sehr gutes, kompetentes Team, das unsere Wünsche und Anregungen nahezu perfekt umgesetzt hat. Auch bei den Kunden kommt unsere App sehr gut an, da sie ohne Komplikationen läuft und es den Kunden sogar Spaß macht mit der App zu arbeiten.“</em></p><p>— Fruchthof Ehinger</p></blockquote>"
+       }
+      }
+     ],
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "flex_direction_mobile": "",
+      "flex_gap": {
+       "column": "12",
+       "row": "12",
+       "unit": "px",
+       "isLinked": true,
+       "size": 12
+      },
+      "background_background": "classic",
+      "background_color": "#faf5fa",
+      "border_radius": {
+       "unit": "px",
+       "top": "16",
+       "right": "16",
+       "bottom": "16",
+       "left": "16",
+       "isLinked": false
+      },
+      "css_classes": "jfo-card",
+      "padding": {
+       "unit": "px",
+       "top": "28",
+       "right": "28",
+       "bottom": "28",
+       "left": "28",
+       "isLinked": false
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "20",
+       "right": "20",
+       "bottom": "20",
+       "left": "20",
+       "isLinked": false
+      },
+      "margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "24",
+       "left": "0",
+       "isLinked": false
+      }
+     }
+    },
+    {
+     "id": "6d5df44",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "elements": [],
+     "isInner": false,
+     "settings": {
+      "editor": "<p><strong>Der nächste Schritt für den Fruchthandel:</strong> Ein KI-Dashboard, das Marktdaten analysiert und verständlich aufbereitet. Weitere Schnittstellen, etwa zum Fruchtmanager, und KI-Features wie Sprachbestellung lassen sich ergänzen.</p>"
+     }
+    },
+    {
+     "id": "eebd994",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "elements": [],
+     "isInner": false,
+     "settings": {
+      "editor": "<p style=\"margin-top: 14px; margin-bottom: 24px;\"><a style=\"display: inline-block; background: linear-gradient(135deg, #7c3aed 0%, #2563eb 100%); color: #ffffff; -webkit-text-fill-color: #ffffff; text-decoration: none; border: none; border-radius: 50px; padding: 4px 32px; font-weight: bold; letter-spacing: 0.04em; box-shadow: 0 4px 18px rgba(124, 58, 237, 0.40);\" href=\"https://dashboards.fruchthandel-apps.de\" target=\"_blank\" rel=\"noopener noreferrer\">KI-Dashboard ansehen →</a></p>"
+     }
+    },
+    {
+     "id": "9a5b49a",
+     "elType": "widget",
+     "widgetType": "heading",
+     "elements": [],
+     "isInner": false,
+     "settings": {
+      "title": "Warum mit mir",
+      "header_size": "h2",
+      "title_color": "#000000",
+      "typography_typography": "custom",
+      "typography_font_family": "Josefin Sans",
+      "typography_font_weight": "600",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 30,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 24,
+       "sizes": []
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "12",
+       "left": "0",
+       "isLinked": false
+      }
+     }
+    },
+    {
+     "id": "803c73e",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "elements": [],
+     "isInner": false,
+     "settings": {
+      "editor": "<ul><li><strong>20+ Jahre</strong> Software-Entwicklung: von Handelsplattformen und Intralogistik über Apps für iOS und Android bis zu KI-Agenten</li><li><strong>Apps seit über 10 Jahren:</strong> iOS und Android, nativ und mit React Native, u. a. für eine Krankenkasse, Plan.Net und Indoor-Navigation</li><li><strong>10.000+ Installationen</strong> der Android-App „GFK-Spiel“</li><li><strong>Direkter Draht:</strong> Sie sprechen mit dem Entwickler</li></ul>",
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "8",
+       "left": "0",
+       "isLinked": false
+      }
+     }
+    },
+    {
+     "id": "fd7d16d",
+     "elType": "widget",
+     "widgetType": "button",
+     "elements": [],
+     "isInner": false,
+     "settings": {
+      "content_width": "full",
+      "text": "Mehr über mich, Projekte und Werdegang",
+      "link": {
+       "url": "/ueber-mich/",
+       "is_external": "",
+       "nofollow": "",
+       "custom_attributes": ""
+      },
+      "size": "md",
+      "align": "left",
+      "typography_typography": "custom",
+      "typography_font_family": "Josefin Sans",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 16,
+       "sizes": []
+      },
+      "typography_font_weight": "400",
+      "typography_letter_spacing": {
+       "unit": "em",
+       "size": 0.03,
+       "sizes": []
+      },
+      "background_color": "#0137d2",
+      "button_text_color": "#ffffff",
+      "border_radius": {
+       "unit": "px",
+       "top": "100",
+       "right": "100",
+       "bottom": "100",
+       "left": "100",
+       "isLinked": true
+      },
+      "text_padding": {
+       "unit": "px",
+       "top": "16",
+       "right": "30",
+       "bottom": "16",
+       "left": "30",
+       "isLinked": false
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "48",
+       "left": "0",
+       "isLinked": false
+      }
+     }
+    },
+    {
+     "id": "b933a0f",
+     "settings": {
+      "content_width": "full",
+      "text": "Trenner"
+     },
+     "elements": [],
+     "isInner": false,
+     "widgetType": "divider",
+     "elType": "widget"
+    },
+    {
+     "id": "745dffb",
+     "settings": {
+      "content_width": "full",
+      "html": "<div id=\"kontakt\" style=\"height:1px; background:transparent;\"></div>"
+     },
+     "elements": [],
+     "isInner": false,
+     "widgetType": "html",
+     "elType": "widget"
+    },
+    {
+     "id": "e6451ae",
+     "settings": {
+      "content_width": "full",
+      "title": "Kontakt",
+      "header_size": "h4",
+      "title_color": "#000000",
+      "typography_typography": "custom",
+      "typography_font_family": "Roboto",
+      "typography_font_weight": "400"
+     },
+     "elements": [],
+     "isInner": false,
+     "widgetType": "heading",
+     "elType": "widget"
+    },
+    {
+     "id": "a236269",
+     "settings": {
+      "content_width": "full",
+      "editor": "<p>Ich suche laufend weitere Projekte und freue mich über Kontaktaufnahmen.</p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p><a href=\"mailto:info@janfoshag.de\">info@janfoshag.de</a></p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p><a href=\"tel:+498945439111\">+49 89 45439111</a></p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p><a href=\"https://www.xing.com/profile/Jan_Foshag\">Xing</a>,&nbsp;<span style=\"font-family: var( --e-global-typography-text-font-family ), Sans-serif; text-align: var(--text-align); font-size: 1rem;\"><a href=\"https://www.linkedin.com/in/jan-foshag-01b39338/\">LinkedIn</a></span></p>"
+     },
+     "elements": [],
+     "isInner": false,
+     "widgetType": "text-editor",
+     "elType": "widget"
+    },
+    {
+     "id": "ddce207",
+     "settings": {
+      "content_width": "full",
+      "html": "[jfo_contact_form]"
+     },
+     "elements": [],
+     "isInner": false,
+     "widgetType": "html",
+     "elType": "widget"
+    },
+    {
+     "id": "8693079",
+     "settings": {
+      "content_width": "full",
+      "text": "Trenner"
+     },
+     "elements": [],
+     "isInner": false,
+     "widgetType": "divider",
+     "elType": "widget"
+    },
+    {
+     "id": "17cafec",
+     "settings": {
+      "content_width": "full",
+      "editor": "<p style=\"text-align:center; font-size:0.85rem;\"><a href=\"/impressum/\">Impressum</a> &nbsp;|&nbsp; <a href=\"/datenschutz/\">Datenschutz</a></p>"
+     },
+     "elements": [],
+     "isInner": false,
+     "widgetType": "text-editor",
+     "elType": "widget"
+    }
+   ],
+   "settings": {
+    "content_width": "boxed",
+    "flex_gap": {
+     "column": "0",
+     "row": "0",
+     "unit": "px",
+     "isLinked": true,
+     "size": 0
+    }
+   }
+  }
+ ],
+ "page_settings": {
+  "hide_title": "yes"
+ },
+ "version": "0.4",
+ "title": "Startseite Kundensicht",
+ "type": "page"
+}

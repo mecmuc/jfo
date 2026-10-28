@@ -1,0 +1,453 @@
+{
+ "content": [
+  {
+   "id": "f900e8a",
+   "elType": "container",
+   "isInner": false,
+   "elements": [
+    {
+     "id": "fbbc84f",
+     "elType": "widget",
+     "widgetType": "html",
+     "elements": [],
+     "isInner": false,
+     "settings": {
+      "html": "<style>.jfo-card, .jfo-card p, .jfo-card li, .jfo-card strong, .jfo-card em, .jfo-card blockquote { color: #333333 !important; }html[data-theme=\"dark\"] .jfo-card { background-color: #24223a !important; }html[data-theme=\"dark\"] .jfo-card .jfo-card { background-color: #2c2944 !important; }html[data-theme=\"dark\"] .jfo-card blockquote { background-color: rgba(255,255,255,0.06) !important; }html[data-theme=\"dark\"] .jfo-card, html[data-theme=\"dark\"] .jfo-card p, html[data-theme=\"dark\"] .jfo-card li, html[data-theme=\"dark\"] .jfo-card strong, html[data-theme=\"dark\"] .jfo-card em, html[data-theme=\"dark\"] .jfo-card blockquote { color: #e4e4ee !important; }@media (prefers-color-scheme: dark) {html:not([data-theme=\"light\"]) .jfo-card { background-color: #24223a !important; }html:not([data-theme=\"light\"]) .jfo-card .jfo-card { background-color: #2c2944 !important; }html:not([data-theme=\"light\"]) .jfo-card blockquote { background-color: rgba(255,255,255,0.06) !important; }html:not([data-theme=\"light\"]) .jfo-card, html:not([data-theme=\"light\"]) .jfo-card p, html:not([data-theme=\"light\"]) .jfo-card li, html:not([data-theme=\"light\"]) .jfo-card strong, html:not([data-theme=\"light\"]) .jfo-card em, html:not([data-theme=\"light\"]) .jfo-card blockquote { color: #e4e4ee !important; }}</style>"
+     }
+    },
+    {
+     "id": "393d44a",
+     "elType": "widget",
+     "widgetType": "heading",
+     "elements": [],
+     "isInner": false,
+     "settings": {
+      "title": "Über mich",
+      "header_size": "h1",
+      "title_color": "#0137d2",
+      "typography_typography": "custom",
+      "typography_font_family": "Josefin Sans",
+      "typography_font_weight": "600",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 38,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 30,
+       "sizes": []
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "16",
+       "left": "0",
+       "isLinked": false
+      }
+     }
+    },
+    {
+     "id": "b8c4576",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "elements": [],
+     "isInner": false,
+     "settings": {
+      "editor": "<p>Ich bin Jan Foshag, selbständiger Software-Entwickler. Ich lebe und arbeite in München. Seit über 20 Jahren entwickle ich Software – von klassischen Java-Anwendungen über Apps für iOS und Android, nativ und plattformübergreifend, bis hin zu modernen KI-gestützten Lösungen.</p>"
+     }
+    },
+    {
+     "id": "5deb367",
+     "settings": {
+      "content_width": "full",
+      "title": "Projektbeispiele",
+      "header_size": "h4",
+      "title_color": "#000000",
+      "typography_typography": "custom",
+      "typography_font_family": "Roboto",
+      "typography_font_weight": "400"
+     },
+     "elements": [],
+     "isInner": false,
+     "widgetType": "heading",
+     "elType": "widget"
+    },
+    {
+     "id": "dc239ac",
+     "settings": {
+      "items": [
+       {
+        "item_title": "Fruchtgroßhandel",
+        "_id": "028b382"
+       },
+       {
+        "item_title": "Stromanbieter",
+        "_id": "b82e58a"
+       },
+       {
+        "item_title": "Patientenumfrage",
+        "_id": "5f21971"
+       },
+       {
+        "_id": "4f06985",
+        "item_title": "Webanwendungen"
+       },
+       {
+        "_id": "6139560",
+        "item_title": "GFK-Spiel"
+       }
+      ],
+      "content_width": "full"
+     },
+     "elements": [
+      {
+       "id": "0f62bcb",
+       "settings": {
+        "_title": "item #1",
+        "content_width": "full"
+       },
+       "elements": [
+        {
+         "id": "605242a",
+         "settings": {
+          "editor": "<ul>\n<li>Bestell-App für Fruchtgroßhändler (Fruchthof Ehinger)</li>\n<li>Entwickelt mit React Native</li>\n<li>Wachsende Bestellungen über die App</li>\n</ul>\n<blockquote class=\"wp-block-quote\">\n<p><em>\"Ein sehr gutes, kompetentes Team, das unsere Wünsche und Anregungen nahezu perfekt umgesetzt hat. Auch bei den Kunden kommt unsere App sehr gut an, da sie ohne Komplikationen läuft und es den Kunden sogar Spaß macht mit der App zu arbeiten.\"</em></p>\n</blockquote>"
+         },
+         "elements": [],
+         "isInner": false,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container",
+       "isLocked": true
+      },
+      {
+       "id": "e6280c1",
+       "settings": {
+        "_title": "item #2",
+        "content_width": "full"
+       },
+       "elements": [
+        {
+         "id": "ceb4f83",
+         "settings": {
+          "editor": "<ul>\n<li>Mitentwicklung einer Stromanbieter-App für eine große Agentur (Plan.Net)</li>\n<li>Entwickelt mit React Native</li>\n<li>Server-Anbindung</li>\n</ul>\n<blockquote class=\"wp-block-quote\">\n<p><em>\"Wir halten den Entwickler im Bereich App-Entwicklung mit React Native für sehr qualifiziert und können ihn ohne Einschränkung weiterempfehlen.\"</em></p>\n</blockquote>"
+         },
+         "elements": [],
+         "isInner": false,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container",
+       "isLocked": true
+      },
+      {
+       "id": "2b0b6f8",
+       "settings": {
+        "_title": "item #3",
+        "content_width": "full"
+       },
+       "elements": [
+        {
+         "id": "6a684b3",
+         "settings": {
+          "editor": "<ul>\n<li>Patientenumfrage-App für eine klinische Versorgungsstudie</li>\n<li>Entwickelt mit Flutter</li>\n</ul>"
+         },
+         "elements": [],
+         "isInner": false,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container",
+       "isLocked": true
+      },
+      {
+       "id": "d84987f",
+       "settings": {
+        "_title": "Element #5"
+       },
+       "elements": [
+        {
+         "id": "ad3b5bb",
+         "settings": {
+          "content_width": "full",
+          "editor": "<ul>\n<li>Webseiten für Handwerker, Kuriere, Autoren u. a.</li>\n<li>Rezepteverwaltung für ein Lebensmittelkonzern</li>\n<li>Online-Shop für eine Brennerei</li>\n</ul>"
+         },
+         "elements": [],
+         "isInner": false,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container",
+       "isLocked": true
+      },
+      {
+       "id": "0e9d3c7",
+       "settings": {
+        "_title": "Element #4"
+       },
+       "elements": [
+        {
+         "id": "044c289",
+         "settings": {
+          "content_width": "full",
+          "editor": "<ul><li>Lernspiel für Gewaltfreie Kommunikation</li><li>App und Online-Browserspiel</li><li>Native Entwicklung für iOS und Android: <a href=\"https://apps.apple.com/de/app/gfk-spiel/id1135429945\">iOS-Version im AppStore</a></li><li>Android-Version mit über 10.000 Installationen</li></ul><blockquote><p><em>\"Sehr hilfreiche, klare, schöne App. Herzlichen Dank dafür!\"</em></p></blockquote>"
+         },
+         "elements": [],
+         "isInner": false,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container",
+       "isLocked": true
+      }
+     ],
+     "isInner": false,
+     "widgetType": "nested-accordion",
+     "elType": "widget"
+    },
+    {
+     "id": "e03867c",
+     "settings": {
+      "content_width": "full",
+      "carousel": [
+       {
+        "id": "2572",
+        "url": "https://janfoshag.de/wp-content/uploads/2026/03/jupyter-scaled-1-1-1.jpeg"
+       },
+       {
+        "id": "2573",
+        "url": "https://janfoshag.de/wp-content/uploads/2026/03/werksviertel-scaled-1-1-1.jpeg"
+       },
+       {
+        "id": "2574",
+        "url": "https://janfoshag.de/wp-content/uploads/2026/03/gpt-scaled-1-1-1.jpeg"
+       }
+      ],
+      "thumbnail_size": "medium_large",
+      "slides_to_show": "1",
+      "carousel_name": "Bild Karussell"
+     },
+     "elements": [],
+     "isInner": false,
+     "widgetType": "image-carousel",
+     "elType": "widget"
+    },
+    {
+     "id": "4d4dfac",
+     "settings": {
+      "content_width": "full",
+      "title": "Werdegang",
+      "header_size": "h4",
+      "title_color": "#000000",
+      "typography_typography": "custom",
+      "typography_font_family": "Roboto",
+      "typography_font_weight": "400"
+     },
+     "elements": [],
+     "isInner": false,
+     "widgetType": "heading",
+     "elType": "widget"
+    },
+    {
+     "id": "54f0c37",
+     "settings": {
+      "content_width": "full",
+      "editor": "<p><strong>Selbständig (seit 2011)</strong></p>\n<ul>\n<li>Seit 2011 . eigene Projekte, Apps und Webanwendungen</li>\n<li>2020–2025 · Krankenkasse (selbständig) — iOS, elektronische Patientenakte, Autorisierungs-Flows, Identitätsmanagement</li>\n<li>2018–2020 · Plan.Net Gruppe (selbständig) — App-Entwicklung mit React Native</li>\n</ul>\n<p><strong>Angestellt</strong></p>\n<ul>\n<li>2012–2016 · infsoft GmbH — Indoor-Navigation Apps für Android und iOS</li>\n<li>2003–2011 · LOCANIS AG — Intralogistik, Staplerleitsysteme (Java)</li>\n<li>2000–2002 · living systems AG — Internet-Marktplätze mit Agenten-Systemen (Java)</li>\n</ul>"
+     },
+     "elements": [],
+     "isInner": false,
+     "widgetType": "text-editor",
+     "elType": "widget"
+    },
+    {
+     "id": "1d2d240",
+     "settings": {
+      "content_width": "full",
+      "title": "Schwerpunkte",
+      "header_size": "h4",
+      "title_color": "#000000",
+      "typography_typography": "custom",
+      "typography_font_family": "Roboto",
+      "typography_font_weight": "400"
+     },
+     "elements": [],
+     "isInner": false,
+     "widgetType": "heading",
+     "elType": "widget"
+    },
+    {
+     "id": "5ecd4ed",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "elements": [],
+     "isInner": false,
+     "settings": {
+      "editor": "<ul><li>App-Entwicklung: iOS und Android, nativ und Cross-Platform (React Native, Flutter)</li><li>Künstliche Intelligenz: Apple Intelligence, Siri AI, KI-Agenten, Voice Agents, Anthropic, Mistral, RAG, MCP, Python u. v. m.</li><li>Webanwendungen</li></ul>"
+     }
+    },
+    {
+     "id": "2ff0e26",
+     "settings": {
+      "content_width": "full",
+      "title": "Ausbildung",
+      "header_size": "h4",
+      "title_color": "#000000",
+      "typography_typography": "custom",
+      "typography_font_family": "Roboto",
+      "typography_font_weight": "400"
+     },
+     "elements": [],
+     "isInner": false,
+     "widgetType": "heading",
+     "elType": "widget"
+    },
+    {
+     "id": "8bf61e4",
+     "settings": {
+      "content_width": "full",
+      "editor": "<ul><li>Fortbildung zum Applikationsentwickler Client-Server - Siemens Business Services</li><li>Diplom-Volkswirt -· Universität Konstanz - <span style=\"font-style: inherit; font-family: var( --e-global-typography-text-font-family ), Sans-serif; text-align: var(--text-align);\">Schwerpunkte: mathematisch-statistische Methoden, wissenschaftliche Hilfskraft am Lehrstuhl für Ökonometrie</span></li><li>Groß- und Außenhandelskaufmann - Bender &amp; Hobein,  Laborgeräte</li></ul>"
+     },
+     "elements": [],
+     "isInner": false,
+     "widgetType": "text-editor",
+     "elType": "widget"
+    },
+    {
+     "id": "788e791",
+     "settings": {
+      "content_width": "full",
+      "title": "Sprachen",
+      "header_size": "h4",
+      "title_color": "#000000",
+      "typography_typography": "custom",
+      "typography_font_family": "Roboto",
+      "typography_font_weight": "400"
+     },
+     "elements": [],
+     "isInner": false,
+     "widgetType": "heading",
+     "elType": "widget"
+    },
+    {
+     "id": "0fd5f1d",
+     "settings": {
+      "content_width": "full",
+      "editor": "<p>Deutsch · Muttersprache  |  Französisch · Muttersprache  |  Englisch · Gut <span style=\"font-family: var( --e-global-typography-text-font-family ), Sans-serif; text-align: var(--text-align); font-size: 1rem;\">|  Italienisch · Grundkenntnisse</span></p>"
+     },
+     "elements": [],
+     "isInner": false,
+     "widgetType": "text-editor",
+     "elType": "widget"
+    },
+    {
+     "id": "cdf2a14",
+     "elType": "widget",
+     "widgetType": "button",
+     "elements": [],
+     "isInner": false,
+     "settings": {
+      "content_width": "full",
+      "text": "Kontakt aufnehmen",
+      "link": {
+       "url": "/#kontakt",
+       "is_external": "",
+       "nofollow": "",
+       "custom_attributes": ""
+      },
+      "size": "md",
+      "align": "left",
+      "typography_typography": "custom",
+      "typography_font_family": "Josefin Sans",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 16,
+       "sizes": []
+      },
+      "typography_font_weight": "400",
+      "typography_letter_spacing": {
+       "unit": "em",
+       "size": 0.03,
+       "sizes": []
+      },
+      "background_color": "#0137d2",
+      "button_text_color": "#ffffff",
+      "border_radius": {
+       "unit": "px",
+       "top": "100",
+       "right": "100",
+       "bottom": "100",
+       "left": "100",
+       "isLinked": true
+      },
+      "text_padding": {
+       "unit": "px",
+       "top": "16",
+       "right": "30",
+       "bottom": "16",
+       "left": "30",
+       "isLinked": false
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "48",
+       "left": "0",
+       "isLinked": false
+      }
+     }
+    },
+    {
+     "id": "1697fbb",
+     "settings": {
+      "content_width": "full",
+      "text": "Trenner"
+     },
+     "elements": [],
+     "isInner": false,
+     "widgetType": "divider",
+     "elType": "widget"
+    },
+    {
+     "id": "79e99eb",
+     "settings": {
+      "content_width": "full",
+      "editor": "<p style=\"text-align:center; font-size:0.85rem;\"><a href=\"/impressum/\">Impressum</a> &nbsp;|&nbsp; <a href=\"/datenschutz/\">Datenschutz</a></p>"
+     },
+     "elements": [],
+     "isInner": false,
+     "widgetType": "text-editor",
+     "elType": "widget"
+    }
+   ],
+   "settings": {
+    "content_width": "boxed",
+    "flex_gap": {
+     "column": "0",
+     "row": "0",
+     "unit": "px",
+     "isLinked": true,
+     "size": 0
+    }
+   }
+  }
+ ],
+ "page_settings": {
+  "hide_title": "yes"
+ },
+ "version": "0.4",
+ "title": "Über mich",
+ "type": "page"
+}

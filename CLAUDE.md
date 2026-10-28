@@ -30,7 +30,7 @@ jfo/
 - **Plugin:** WP Mail SMTP — configured and tested
 - **Database:** MySQL 5.7
 - **DB name:** `dbs10297663`, **DB prefix:** `c2w2_`
-- **Hosting:** webspace-host.com (`database-5012237781.webspace-host.com`)
+- **Hosting:** Strato, webspace-host.com (`database-5012237781.webspace-host.com`)
 
 ## Live Site
 
