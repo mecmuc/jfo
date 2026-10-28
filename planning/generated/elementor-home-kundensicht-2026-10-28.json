@@ -1,12 +1,12 @@
 {
  "content": [
   {
-   "id": "187e41f",
+   "id": "a0535ab",
    "elType": "container",
    "isInner": false,
    "elements": [
     {
-     "id": "166a771",
+     "id": "6559eeb",
      "elType": "widget",
      "widgetType": "html",
      "elements": [],
@@ -16,7 +16,7 @@
      }
     },
     {
-     "id": "f0dad43",
+     "id": "a69d6b2",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -49,7 +49,7 @@
      }
     },
     {
-     "id": "3136827",
+     "id": "84a4937",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -67,7 +67,7 @@
      }
     },
     {
-     "id": "1a71993",
+     "id": "fb16dc9",
      "elType": "widget",
      "widgetType": "button",
      "elements": [],
@@ -125,7 +125,7 @@
      }
     },
     {
-     "id": "8e8e4f3",
+     "id": "b8aaddf",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -158,12 +158,12 @@
      }
     },
     {
-     "id": "cb99662",
+     "id": "15cc484",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "5b9c382",
+       "id": "ec1f435",
        "elType": "widget",
        "widgetType": "image",
        "elements": [],
@@ -203,7 +203,7 @@
        }
       },
       {
-       "id": "d3d230b",
+       "id": "3301ebb",
        "elType": "widget",
        "widgetType": "heading",
        "elements": [],
@@ -236,7 +236,7 @@
        }
       },
       {
-       "id": "a19da90",
+       "id": "e86456b",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -246,7 +246,7 @@
        }
       },
       {
-       "id": "ece88dd",
+       "id": "cf9f547",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -305,7 +305,154 @@
      }
     },
     {
-     "id": "fa65bf2",
+     "id": "86b2a4b",
+     "elType": "container",
+     "isInner": true,
+     "elements": [
+      {
+       "id": "c6f5a34",
+       "elType": "widget",
+       "widgetType": "image",
+       "elements": [],
+       "isInner": false,
+       "settings": {
+        "image": {
+         "url": "https://janfoshag.de/wp-content/uploads/2026/10/agentic-ai.jpg",
+         "id": "",
+         "alt": "Abstraktes Netzwerk als Symbol für KI-Agenten",
+         "source": "library"
+        },
+        "image_size": "large",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "image_border_radius": {
+         "unit": "px",
+         "top": "12",
+         "right": "12",
+         "bottom": "12",
+         "left": "12",
+         "isLinked": false
+        },
+        "height": {
+         "unit": "px",
+         "size": 300,
+         "sizes": []
+        },
+        "height_mobile": {
+         "unit": "px",
+         "size": 180,
+         "sizes": []
+        },
+        "object-fit": "cover"
+       }
+      },
+      {
+       "id": "722f87c",
+       "elType": "widget",
+       "widgetType": "heading",
+       "elements": [],
+       "isInner": false,
+       "settings": {
+        "title": "KI-Agenten",
+        "header_size": "h3",
+        "title_color": "#0137d2",
+        "typography_typography": "custom",
+        "typography_font_family": "Josefin Sans",
+        "typography_font_weight": "600",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 24,
+         "sizes": []
+        },
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 19,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "4",
+         "left": "0",
+         "isLinked": false
+        }
+       }
+      },
+      {
+       "id": "a81bc90",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "elements": [],
+       "isInner": false,
+       "settings": {
+        "editor": "<p><strong>Problem:</strong> Routinearbeit kostet Ihr Team Stunden: E-Mails sortieren, Daten zwischen Systemen übertragen, ans Telefon gehen, wenn gerade niemand Zeit hat.</p>"
+       }
+      },
+      {
+       "id": "8fc75f3",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "elements": [],
+       "isInner": false,
+       "settings": {
+        "editor": "<p><strong>Lösung:</strong> KI-Agenten, die solche Aufgaben selbstständig erledigen, direkt in Ihren bestehenden Systemen. Bei wichtigen Entscheidungen fragen sie nach. Als Sprachassistent nehmen sie rund um die Uhr Bestellungen und Reservierungen am Telefon an.</p>"
+       }
+      }
+     ],
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "flex_direction_mobile": "",
+      "flex_gap": {
+       "column": "12",
+       "row": "12",
+       "unit": "px",
+       "isLinked": true,
+       "size": 12
+      },
+      "background_background": "classic",
+      "background_color": "#f4f6fd",
+      "border_radius": {
+       "unit": "px",
+       "top": "16",
+       "right": "16",
+       "bottom": "16",
+       "left": "16",
+       "isLinked": false
+      },
+      "css_classes": "jfo-card",
+      "padding": {
+       "unit": "px",
+       "top": "28",
+       "right": "28",
+       "bottom": "28",
+       "left": "28",
+       "isLinked": false
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "20",
+       "right": "20",
+       "bottom": "20",
+       "left": "20",
+       "isLinked": false
+      },
+      "margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "24",
+       "left": "0",
+       "isLinked": false
+      }
+     }
+    },
+    {
+     "id": "96882f1",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -338,17 +485,17 @@
      }
     },
     {
-     "id": "bf221ce",
+     "id": "26e78d9",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "ed88a61",
+       "id": "5bc4661",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "78574aa",
+         "id": "649e586",
          "elType": "widget",
          "widgetType": "image",
          "elements": [],
@@ -412,12 +559,12 @@
        }
       },
       {
-       "id": "a09fd7a",
+       "id": "c446b9d",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "bda3935",
+         "id": "9feab2d",
          "elType": "widget",
          "widgetType": "image",
          "elements": [],
@@ -481,12 +628,12 @@
        }
       },
       {
-       "id": "d437cc4",
+       "id": "fd83099",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "6502944",
+         "id": "fe70dde",
          "elType": "widget",
          "widgetType": "image",
          "elements": [],
@@ -572,7 +719,7 @@
      }
     },
     {
-     "id": "7fcbc85",
+     "id": "38f1d46",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -590,7 +737,7 @@
      }
     },
     {
-     "id": "d9cc439",
+     "id": "d39821f",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -623,12 +770,12 @@
      }
     },
     {
-     "id": "23c05c8",
+     "id": "6f05abd",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "4bee1c5",
+       "id": "812a6a5",
        "elType": "widget",
        "widgetType": "heading",
        "elements": [],
@@ -661,17 +808,17 @@
        }
       },
       {
-       "id": "2c322bf",
+       "id": "4c16790",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "9e6cacf",
+         "id": "519d414",
          "elType": "container",
          "isInner": true,
          "elements": [
           {
-           "id": "eccf435",
+           "id": "8e20f65",
            "elType": "widget",
            "widgetType": "image",
            "elements": [],
@@ -738,12 +885,12 @@
          }
         },
         {
-         "id": "5b5e1ae",
+         "id": "793bd03",
          "elType": "container",
          "isInner": true,
          "elements": [
           {
-           "id": "13136bb",
+           "id": "4f6d2ef",
            "elType": "widget",
            "widgetType": "text-editor",
            "elements": [],
@@ -791,7 +938,7 @@
        }
       },
       {
-       "id": "54f02cb",
+       "id": "2c5119c",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -850,7 +997,7 @@
      }
     },
     {
-     "id": "444480a",
+     "id": "c157ccc",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -860,7 +1007,7 @@
      }
     },
     {
-     "id": "b1a882b",
+     "id": "045043d",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -870,7 +1017,7 @@
      }
     },
     {
-     "id": "516555e",
+     "id": "c6f42b7",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -903,13 +1050,13 @@
      }
     },
     {
-     "id": "4ba88d8",
+     "id": "f88cdbf",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
      "isInner": false,
      "settings": {
-      "editor": "<ul><li><strong>20+ Jahre</strong> Software-Entwicklung: von Handelsplattformen und Intralogistik über Apps für iOS und Android bis zu KI-Agenten</li><li><strong>Apps seit über 10 Jahren:</strong> iOS und Android, nativ und plattformübergreifend, u. a. für eine Krankenkasse, Plan.Net und Indoor-Navigation</li><li><strong>10.000+ Installationen</strong> der Android-App „GFK-Spiel“</li><li><strong>Direkter Draht:</strong> Sie sprechen mit dem Entwickler</li></ul>",
+      "editor": "<ul><li><strong>20+ Jahre</strong> Software-Entwicklung: von Handelsplattformen und Intralogistik über Apps für iOS und Android bis zu KI-Agenten</li><li><strong>Apps seit über 10 Jahren:</strong> iOS und Android, nativ und plattformübergreifend, u. a. für eine Krankenkasse, Plan.Net und Indoor-Navigation</li><li><strong>10.000+ Installationen</strong> der App „GFK-Spiel“</li><li><strong>Direkter Draht:</strong> Sie sprechen mit dem Entwickler</li></ul>",
       "_margin": {
        "unit": "px",
        "top": "0",
@@ -921,7 +1068,7 @@
      }
     },
     {
-     "id": "11d6785",
+     "id": "35fad79",
      "elType": "widget",
      "widgetType": "button",
      "elements": [],
@@ -979,7 +1126,7 @@
      }
     },
     {
-     "id": "4efeb9c",
+     "id": "f1d525f",
      "settings": {
       "content_width": "full",
       "text": "Trenner"
@@ -990,7 +1137,7 @@
      "elType": "widget"
     },
     {
-     "id": "8b04e5b",
+     "id": "e194ab7",
      "settings": {
       "content_width": "full",
       "html": "<div id=\"kontakt\" style=\"height:1px; background:transparent;\"></div>"
@@ -1001,7 +1148,7 @@
      "elType": "widget"
     },
     {
-     "id": "d79d257",
+     "id": "41e08c9",
      "settings": {
       "content_width": "full",
       "title": "Kontakt",
@@ -1017,7 +1164,7 @@
      "elType": "widget"
     },
     {
-     "id": "46dbffb",
+     "id": "9325617",
      "settings": {
       "content_width": "full",
       "editor": "<p>Ich suche laufend weitere Projekte und freue mich über Kontaktaufnahmen.</p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p><a href=\"mailto:info@janfoshag.de\">info@janfoshag.de</a></p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p><a href=\"tel:+498945439111\">+49 89 45439111</a></p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p><a href=\"https://www.xing.com/profile/Jan_Foshag\">Xing</a>,&nbsp;<span style=\"font-family: var( --e-global-typography-text-font-family ), Sans-serif; text-align: var(--text-align); font-size: 1rem;\"><a href=\"https://www.linkedin.com/in/jan-foshag-01b39338/\">LinkedIn</a></span></p>"
@@ -1028,7 +1175,7 @@
      "elType": "widget"
     },
     {
-     "id": "792d402",
+     "id": "b5088bb",
      "settings": {
       "content_width": "full",
       "html": "[jfo_contact_form]"
@@ -1039,7 +1186,7 @@
      "elType": "widget"
     },
     {
-     "id": "f416ae0",
+     "id": "95ba584",
      "settings": {
       "content_width": "full",
       "text": "Trenner"
@@ -1050,7 +1197,7 @@
      "elType": "widget"
     },
     {
-     "id": "5d06261",
+     "id": "14e014a",
      "settings": {
       "content_width": "full",
       "editor": "<p style=\"text-align:center; font-size:0.85rem;\"><a href=\"/impressum/\">Impressum</a> &nbsp;|&nbsp; <a href=\"/datenschutz/\">Datenschutz</a></p>"

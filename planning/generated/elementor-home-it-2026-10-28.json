@@ -1,12 +1,12 @@
 {
  "content": [
   {
-   "id": "26130f5",
+   "id": "4bb6130",
    "elType": "container",
    "isInner": false,
    "elements": [
     {
-     "id": "0a9e493",
+     "id": "cae3308",
      "elType": "widget",
      "widgetType": "html",
      "elements": [],
@@ -16,7 +16,7 @@
      }
     },
     {
-     "id": "a1eef03",
+     "id": "a09b6d3",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -49,13 +49,13 @@
      }
     },
     {
-     "id": "beec586",
+     "id": "065719e",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
      "isInner": false,
      "settings": {
-      "editor": "<p>Sviluppo software che alleggerisce davvero il lavoro: app con IA che si comandano con la voce, agenti che agiscono in autonomia e assistenti vocali che rispondono alle chiamate e prendono gli ordini.</p><p>Sono Jan Foshag, sviluppatore software a Monaco di Baviera da oltre 20 anni.</p>",
+      "editor": "<p>Sviluppo software che semplifica i processi: app con IA e comando vocale, agenti autonomi e assistenti vocali.</p><p>Sono Jan Foshag, sviluppatore software a Monaco di Baviera da oltre 20 anni.</p>",
       "_margin": {
        "unit": "px",
        "top": "0",
@@ -67,7 +67,7 @@
      }
     },
     {
-     "id": "3cb7e16",
+     "id": "6927b42",
      "elType": "widget",
      "widgetType": "button",
      "elements": [],
@@ -125,7 +125,7 @@
      }
     },
     {
-     "id": "7eb6d52",
+     "id": "1f2a472",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -158,12 +158,12 @@
      }
     },
     {
-     "id": "8dc6716",
+     "id": "c08596e",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "40cb64f",
+       "id": "324baa0",
        "elType": "widget",
        "widgetType": "image",
        "elements": [],
@@ -203,7 +203,7 @@
        }
       },
       {
-       "id": "5896c2c",
+       "id": "cefc242",
        "elType": "widget",
        "widgetType": "heading",
        "elements": [],
@@ -236,7 +236,7 @@
        }
       },
       {
-       "id": "3952c15",
+       "id": "06e759c",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -246,13 +246,13 @@
        }
       },
       {
-       "id": "9cc864d",
+       "id": "b3a7300",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
        "isInner": false,
        "settings": {
-        "editor": "<p><strong>Soluzione:</strong> App che capiscono le frasi parlate: ordinare, cercare e registrare con la voce invece che con un modulo. Se desiderato, l’IA funziona direttamente sul dispositivo oppure, con Apple Intelligence, nel Private Cloud di Apple: nel rispetto della privacy e senza costi continui per ogni richiesta. Su iPhone la Sua app diventa raggiungibile anche tramite Siri e Comandi rapidi. Alla base ci sono oltre 10 anni di sviluppo di app per iOS e Android, native e multipiattaforma con React Native.</p>"
+        "editor": "<p><strong>Soluzione:</strong> App che capiscono le frasi parlate: ordinare, cercare e registrare con la voce invece che con un modulo. Se desiderato, l’IA funziona direttamente sul dispositivo oppure, con Apple Intelligence, nel Private Cloud di Apple: nel rispetto della privacy e senza costi continui per ogni richiesta. Su iPhone la Sua app diventa raggiungibile anche tramite Siri e Comandi rapidi. Alla base ci sono oltre 10 anni di sviluppo di app per iOS e Android, native e multipiattaforma.</p>"
        }
       }
      ],
@@ -305,12 +305,12 @@
      }
     },
     {
-     "id": "5dc46fa",
+     "id": "e3163c1",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "57f4c49",
+       "id": "d20789c",
        "elType": "widget",
        "widgetType": "image",
        "elements": [],
@@ -319,7 +319,7 @@
         "image": {
          "url": "https://janfoshag.de/wp-content/uploads/2026/10/agentic-ai.jpg",
          "id": "",
-         "alt": "Rete astratta come simbolo degli agenti IA e degli assistenti vocali",
+         "alt": "Rete astratta come simbolo degli agenti IA",
          "source": "library"
         },
         "image_size": "large",
@@ -350,7 +350,7 @@
        }
       },
       {
-       "id": "d4919da",
+       "id": "b55a3a3",
        "elType": "widget",
        "widgetType": "heading",
        "elements": [],
@@ -383,23 +383,23 @@
        }
       },
       {
-       "id": "c828a4c",
+       "id": "6e6c52e",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
        "isInner": false,
        "settings": {
-        "editor": "<p><strong>Problema:</strong> Il Suo team passa ore in attività di routine: smistare e-mail, trasferire dati tra sistemi, compilare report. E il telefono squilla sempre nel momento meno opportuno: in cucina, in magazzino, fuori orario. Le chiamate vanno perse, gli ordini vengono annotati male.</p>"
+        "editor": "<p><strong>Problema:</strong> Le attività di routine costano ore al Suo team: smistare e-mail, trasferire dati tra sistemi, rispondere al telefono quando nessuno ha tempo.</p>"
        }
       },
       {
-       "id": "734404e",
+       "id": "a4a3e81",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
        "isInner": false,
        "settings": {
-        "editor": "<p><strong>Soluzione:</strong> Agenti IA che svolgono questi compiti in autonomia. Leggono, decidono e agiscono attraverso i Suoi sistemi esistenti (interfacce, MCP, workflow). Per le decisioni importanti chiedono conferma. Come assistenti vocali rispondono al telefono 24 ore su 24, prendono ordini e prenotazioni, rispondono alle domande e trasmettono tutto in modo strutturato al Suo sistema. In più, dashboard che rendono chiari i Suoi dati.</p>"
+        "editor": "<p><strong>Soluzione:</strong> Agenti IA che svolgono questi compiti in autonomia, direttamente nei Suoi sistemi esistenti. Per le decisioni importanti chiedono conferma. Come assistenti vocali prendono ordini e prenotazioni al telefono 24 ore su 24.</p>"
        }
       }
      ],
@@ -452,7 +452,7 @@
      }
     },
     {
-     "id": "1583769",
+     "id": "ce3563a",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -485,17 +485,17 @@
      }
     },
     {
-     "id": "de954ef",
+     "id": "588d4d4",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "38ac558",
+       "id": "a61dd1a",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "8b2beb9",
+         "id": "c189426",
          "elType": "widget",
          "widgetType": "image",
          "elements": [],
@@ -559,12 +559,12 @@
        }
       },
       {
-       "id": "c4bc887",
+       "id": "2f69bdc",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "7c285bf",
+         "id": "42e81f3",
          "elType": "widget",
          "widgetType": "image",
          "elements": [],
@@ -628,12 +628,12 @@
        }
       },
       {
-       "id": "ca5a565",
+       "id": "6b4556c",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "7bc2c80",
+         "id": "cadffbf",
          "elType": "widget",
          "widgetType": "image",
          "elements": [],
@@ -719,13 +719,13 @@
      }
     },
     {
-     "id": "1016944",
+     "id": "f753034",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
      "isInner": false,
      "settings": {
-      "editor": "<p>Ristorazione, commercio all’ingrosso e logistica sono strettamente collegati: ordini, consegne, magazzino. È proprio lì che agenti e assistenti vocali danno il meglio. Conosco questi processi dalla pratica: dall’intralogistica e dalle app di ordinazione per il commercio all’ingrosso di frutta.</p>",
+      "editor": "<p>Ristorazione, commercio all’ingrosso e logistica sono strettamente collegati: ordini, consegne, magazzino. È proprio lì che le app con IA e comando vocale danno il meglio. Conosco questi processi dalla pratica: dall’intralogistica e dalle app di ordinazione per il commercio all’ingrosso di frutta.</p>",
       "_margin": {
        "unit": "px",
        "top": "0",
@@ -737,7 +737,7 @@
      }
     },
     {
-     "id": "d5fae07",
+     "id": "56e21db",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -770,12 +770,12 @@
      }
     },
     {
-     "id": "0de2a68",
+     "id": "fba9d25",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "f4ceb3e",
+       "id": "9d9d46d",
        "elType": "widget",
        "widgetType": "heading",
        "elements": [],
@@ -808,17 +808,17 @@
        }
       },
       {
-       "id": "4001e14",
+       "id": "b8e3926",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "97a5b0e",
+         "id": "f55c6e4",
          "elType": "container",
          "isInner": true,
          "elements": [
           {
-           "id": "6953da5",
+           "id": "3a213e8",
            "elType": "widget",
            "widgetType": "image",
            "elements": [],
@@ -885,12 +885,12 @@
          }
         },
         {
-         "id": "3ffad18",
+         "id": "cbe7e7b",
          "elType": "container",
          "isInner": true,
          "elements": [
           {
-           "id": "3665d34",
+           "id": "b5392f8",
            "elType": "widget",
            "widgetType": "text-editor",
            "elements": [],
@@ -938,7 +938,7 @@
        }
       },
       {
-       "id": "bda74d6",
+       "id": "210e875",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -997,7 +997,7 @@
      }
     },
     {
-     "id": "e280c5e",
+     "id": "9e73e71",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -1007,7 +1007,7 @@
      }
     },
     {
-     "id": "5057dda",
+     "id": "678fb05",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -1017,7 +1017,7 @@
      }
     },
     {
-     "id": "4009d92",
+     "id": "fa4a5f2",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -1027,7 +1027,7 @@
      }
     },
     {
-     "id": "cb62d44",
+     "id": "36df855",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -1060,13 +1060,13 @@
      }
     },
     {
-     "id": "54e441c",
+     "id": "7e969b5",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
      "isInner": false,
      "settings": {
-      "editor": "<p>Sono Jan Foshag, sviluppatore software indipendente a Monaco di Baviera. Da oltre 20 anni sviluppo software: dalle piattaforme di commercio e dall’intralogistica alle app per iOS e Android, fino agli agenti IA.</p><ul><li><strong>App da oltre 10 anni:</strong> iOS e Android, native e con React Native, tra l’altro per una cassa malattia, Plan.Net e la navigazione indoor</li><li><strong>Oltre 10.000 installazioni</strong> dell’app Android „GFK-Spiel“</li><li><strong>Contatto diretto:</strong> parla direttamente con lo sviluppatore</li><li><strong>Lingue:</strong> tedesco e francese madrelingua, inglese buono. L’italiano lo sto imparando: mi scriva pure in italiano!</li></ul>",
+      "editor": "<p>Sono Jan Foshag, sviluppatore software indipendente a Monaco di Baviera. Da oltre 20 anni sviluppo software: dalle piattaforme di commercio e dall’intralogistica alle app per iOS e Android, fino agli agenti IA.</p><ul><li><strong>App da oltre 10 anni:</strong> iOS e Android, native e multipiattaforma, tra l’altro per una cassa malattia, Plan.Net e la navigazione indoor</li><li><strong>Oltre 10.000 installazioni</strong> dell’app „GFK-Spiel“</li><li><strong>Contatto diretto:</strong> parla direttamente con lo sviluppatore</li><li><strong>Lingue:</strong> tedesco e francese madrelingua, inglese buono. L’italiano lo sto imparando: mi scriva pure in italiano!</li></ul>",
       "_margin": {
        "unit": "px",
        "top": "0",
@@ -1078,7 +1078,7 @@
      }
     },
     {
-     "id": "a0700dc",
+     "id": "c14f8b1",
      "settings": {
       "content_width": "full",
       "text": "Trenner"
@@ -1089,7 +1089,7 @@
      "elType": "widget"
     },
     {
-     "id": "db35555",
+     "id": "63314aa",
      "settings": {
       "content_width": "full",
       "html": "<div id=\"kontakt\" style=\"height:1px; background:transparent;\"></div>"
@@ -1100,7 +1100,7 @@
      "elType": "widget"
     },
     {
-     "id": "87b7e02",
+     "id": "d549f29",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -1133,7 +1133,7 @@
      }
     },
     {
-     "id": "c50d07c",
+     "id": "16d5b2b",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -1143,7 +1143,7 @@
      }
     },
     {
-     "id": "f91928e",
+     "id": "e0165a6",
      "settings": {
       "content_width": "full",
       "html": "[jfo_contact_form]"
@@ -1154,7 +1154,7 @@
      "elType": "widget"
     },
     {
-     "id": "dbf1e62",
+     "id": "fd79049",
      "settings": {
       "content_width": "full",
       "text": "Trenner"
@@ -1165,7 +1165,7 @@
      "elType": "widget"
     },
     {
-     "id": "f0b3259",
+     "id": "402be41",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],

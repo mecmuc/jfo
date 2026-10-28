@@ -2,7 +2,7 @@
 import copy, json, secrets, sys
 
 SRC, OUTDIR = sys.argv[1], sys.argv[2]
-DATE = "2026-10-27"
+DATE = "2026-10-28"
 BLUE, PURPLE = "#0137d2", "#800080"
 
 export = json.load(open(SRC))
@@ -166,6 +166,12 @@ home = [
          "Die KI läuft auf Wunsch direkt auf dem Gerät oder, mit Apple Intelligence, in Apples Private Cloud: datenschutzfreundlich und ohne laufende Kosten pro Anfrage. "
          "Auf dem iPhone wird Ihre App zusätzlich über Siri und Kurzbefehle erreichbar. "
          "Grundlage sind über 10 Jahre App-Entwicklung für iOS und Android, nativ und plattformübergreifend."),
+    card("agentic", "Abstraktes Netzwerk als Symbol für KI-Agenten", "KI-Agenten",
+         "Routinearbeit kostet Ihr Team Stunden: E-Mails sortieren, Daten zwischen Systemen übertragen, "
+         "ans Telefon gehen, wenn gerade niemand Zeit hat.",
+         "KI-Agenten, die solche Aufgaben selbstständig erledigen, direkt in Ihren bestehenden Systemen. "
+         "Bei wichtigen Entscheidungen fragen sie nach. Als Sprachassistent nehmen sie rund um die Uhr "
+         "Bestellungen und Reservierungen am Telefon an."),
 
     # 2b. Branchen
     heading("Gastronomie, Logistik und Großhandel", "h2", 30, "#000000", 16),
@@ -202,7 +208,7 @@ home = [
     text("<ul>"
          "<li><strong>20+ Jahre</strong> Software-Entwicklung: von Handelsplattformen und Intralogistik über Apps für iOS und Android bis zu KI-Agenten</li>"
          "<li><strong>Apps seit über 10 Jahren:</strong> iOS und Android, nativ und plattformübergreifend, u. a. für eine Krankenkasse, Plan.Net und Indoor-Navigation</li>"
-         "<li><strong>10.000+ Installationen</strong> der Android-App „GFK-Spiel“</li>"
+         "<li><strong>10.000+ Installationen</strong> der App „GFK-Spiel“</li>"
          "<li><strong>Direkter Draht:</strong> Sie sprechen mit dem Entwickler</li>"
          "</ul>", 8),
     button("Mehr über mich, Projekte und Werdegang", "/ueber-mich/"),
@@ -254,6 +260,13 @@ home_it = [
          "e senza costi continui per ogni richiesta. Su iPhone la Sua app diventa raggiungibile anche tramite Siri e Comandi rapidi. "
          "Alla base ci sono oltre 10 anni di sviluppo di app per iOS e Android, native e multipiattaforma.",
          labels=IT),
+    card("agentic", "Rete astratta come simbolo degli agenti IA", "Agenti IA",
+         "Le attività di routine costano ore al Suo team: smistare e-mail, trasferire dati tra sistemi, "
+         "rispondere al telefono quando nessuno ha tempo.",
+         "Agenti IA che svolgono questi compiti in autonomia, direttamente nei Suoi sistemi esistenti. "
+         "Per le decisioni importanti chiedono conferma. Come assistenti vocali prendono ordini e prenotazioni "
+         "al telefono 24 ore su 24.",
+         labels=IT),
 
     # 2b. Settori
     heading("Ristorazione, logistica e commercio all’ingrosso", "h2", 30, "#000000", 16),
@@ -293,7 +306,7 @@ home_it = [
          "dalle piattaforme di commercio e dall’intralogistica alle app per iOS e Android, fino agli agenti IA.</p>"
          "<ul>"
          "<li><strong>App da oltre 10 anni:</strong> iOS e Android, native e multipiattaforma, tra l’altro per una cassa malattia, Plan.Net e la navigazione indoor</li>"
-         "<li><strong>Oltre 10.000 installazioni</strong> dell’app Android „GFK-Spiel“</li>"
+         "<li><strong>Oltre 10.000 installazioni</strong> dell’app „GFK-Spiel“</li>"
          "<li><strong>Contatto diretto:</strong> parla direttamente con lo sviluppatore</li>"
          "<li><strong>Lingue:</strong> tedesco e francese madrelingua, inglese buono. L’italiano lo sto imparando: mi scriva pure in italiano!</li>"
          "</ul>", 8),
