@@ -1,12 +1,12 @@
 {
  "content": [
   {
-   "id": "b557df1",
+   "id": "e36c916",
    "elType": "container",
    "isInner": false,
    "elements": [
     {
-     "id": "8401c87",
+     "id": "f5dbff4",
      "elType": "widget",
      "widgetType": "html",
      "elements": [],
@@ -16,7 +16,7 @@
      }
     },
     {
-     "id": "be71ef9",
+     "id": "a8b2934",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -49,7 +49,7 @@
      }
     },
     {
-     "id": "7f558a9",
+     "id": "125ffac",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -59,7 +59,7 @@
      }
     },
     {
-     "id": "5e8eba6",
+     "id": "96ca24d",
      "settings": {
       "content_width": "full",
       "title": "Projektbeispiele",
@@ -75,7 +75,7 @@
      "elType": "widget"
     },
     {
-     "id": "379ed5e",
+     "id": "f302817",
      "settings": {
       "items": [
        {
@@ -103,14 +103,14 @@
      },
      "elements": [
       {
-       "id": "ab96529",
+       "id": "d525022",
        "settings": {
         "_title": "item #1",
         "content_width": "full"
        },
        "elements": [
         {
-         "id": "c4c4518",
+         "id": "e26bbbc",
          "settings": {
           "editor": "<ul>\n<li>Bestell-App für Fruchtgroßhändler (Fruchthof Ehinger)</li>\n<li>Entwickelt mit React Native</li>\n<li>Wachsende Bestellungen über die App</li>\n</ul>\n<blockquote class=\"wp-block-quote\">\n<p><em>\"Ein sehr gutes, kompetentes Team, das unsere Wünsche und Anregungen nahezu perfekt umgesetzt hat. Auch bei den Kunden kommt unsere App sehr gut an, da sie ohne Komplikationen läuft und es den Kunden sogar Spaß macht mit der App zu arbeiten.\"</em></p>\n</blockquote>"
          },
@@ -125,14 +125,14 @@
        "isLocked": true
       },
       {
-       "id": "44e5ea2",
+       "id": "9435713",
        "settings": {
         "_title": "item #2",
         "content_width": "full"
        },
        "elements": [
         {
-         "id": "7460d49",
+         "id": "164b56b",
          "settings": {
           "editor": "<ul>\n<li>Mitentwicklung einer Stromanbieter-App für eine große Agentur (Plan.Net)</li>\n<li>Entwickelt mit React Native</li>\n<li>Server-Anbindung</li>\n</ul>\n<blockquote class=\"wp-block-quote\">\n<p><em>\"Wir halten den Entwickler im Bereich App-Entwicklung mit React Native für sehr qualifiziert und können ihn ohne Einschränkung weiterempfehlen.\"</em></p>\n</blockquote>"
          },
@@ -147,14 +147,14 @@
        "isLocked": true
       },
       {
-       "id": "0676363",
+       "id": "a3edbdb",
        "settings": {
         "_title": "item #3",
         "content_width": "full"
        },
        "elements": [
         {
-         "id": "811900a",
+         "id": "1035336",
          "settings": {
           "editor": "<ul>\n<li>Patientenumfrage-App für eine klinische Versorgungsstudie</li>\n<li>Entwickelt mit Flutter</li>\n</ul>"
          },
@@ -169,13 +169,13 @@
        "isLocked": true
       },
       {
-       "id": "89dea80",
+       "id": "136cd40",
        "settings": {
         "_title": "Element #5"
        },
        "elements": [
         {
-         "id": "2fb673a",
+         "id": "e9ae208",
          "settings": {
           "content_width": "full",
           "editor": "<ul>\n<li>Webseiten für Handwerker, Kuriere, Autoren u. a.</li>\n<li>Rezepteverwaltung für ein Lebensmittelkonzern</li>\n<li>Online-Shop für eine Brennerei</li>\n</ul>"
@@ -191,13 +191,13 @@
        "isLocked": true
       },
       {
-       "id": "09a72e6",
+       "id": "c87857c",
        "settings": {
         "_title": "Element #4"
        },
        "elements": [
         {
-         "id": "2ab035e",
+         "id": "2f50049",
          "settings": {
           "content_width": "full",
           "editor": "<ul><li>Lernspiel für Gewaltfreie Kommunikation</li><li>App und Online-Browserspiel</li><li>Native Entwicklung für iOS und Android: <a href=\"https://apps.apple.com/de/app/gfk-spiel/id1135429945\">iOS-Version im AppStore</a></li><li>Android-Version mit über 10.000 Installationen</li></ul><blockquote><p><em>\"Sehr hilfreiche, klare, schöne App. Herzlichen Dank dafür!\"</em></p></blockquote>"
@@ -218,7 +218,7 @@
      "elType": "widget"
     },
     {
-     "id": "972cb6f",
+     "id": "34cb73b",
      "settings": {
       "content_width": "full",
       "carousel": [
@@ -245,7 +245,7 @@
      "elType": "widget"
     },
     {
-     "id": "d8bbb12",
+     "id": "5776c61",
      "settings": {
       "content_width": "full",
       "title": "Werdegang",
@@ -261,10 +261,10 @@
      "elType": "widget"
     },
     {
-     "id": "a7ced28",
+     "id": "63f4a85",
      "settings": {
       "content_width": "full",
-      "editor": "<p><strong>Selbständig (seit 2011)</strong></p>\n<ul>\n<li>Seit 2011 . eigene Projekte, Apps und Webanwendungen</li>\n<li>2020–2025 · Krankenkasse (selbständig) — iOS, elektronische Patientenakte, Autorisierungs-Flows, Identitätsmanagement</li>\n<li>2018–2020 · Plan.Net Gruppe (selbständig) — App-Entwicklung mit React Native</li>\n</ul>\n<p><strong>Angestellt</strong></p>\n<ul>\n<li>2012–2016 · infsoft GmbH — Indoor-Navigation Apps für Android und iOS</li>\n<li>2003–2011 · LOCANIS AG — Intralogistik, Staplerleitsysteme (Java)</li>\n<li>2000–2002 · living systems AG — Internet-Marktplätze mit Agenten-Systemen (Java)</li>\n</ul>"
+      "editor": "<p><strong>Selbständig (seit 2011)</strong></p>\n<ul>\n<li>Seit 2011 · eigene Projekte, Apps und Webanwendungen</li>\n<li>2020–2025 · Krankenkasse (eine der größten, selbständig) — iOS, elektronische Patientenakte, Autorisierungs-Flows, Identitätsmanagement</li>\n<li>2018–2020 · Plan.Net Gruppe (selbständig) — App-Entwicklung mit React Native</li>\n</ul>\n<p><strong>Angestellt</strong></p>\n<ul>\n<li>2012–2016 · infsoft GmbH — Indoor-Navigation Apps für Android und iOS</li>\n<li>2003–2011 · LOCANIS AG — Intralogistik, Staplerleitsysteme (Java)</li>\n<li>2000–2002 · living systems AG — Internet-Marktplätze mit Agenten-Systemen (Java)</li>\n</ul>"
      },
      "elements": [],
      "isInner": false,
@@ -272,7 +272,7 @@
      "elType": "widget"
     },
     {
-     "id": "8dd9cbf",
+     "id": "4926523",
      "settings": {
       "content_width": "full",
       "title": "Schwerpunkte",
@@ -288,7 +288,7 @@
      "elType": "widget"
     },
     {
-     "id": "0c52e08",
+     "id": "b83929f",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -298,7 +298,7 @@
      }
     },
     {
-     "id": "05d88d0",
+     "id": "f171687",
      "settings": {
       "content_width": "full",
       "title": "Ausbildung",
@@ -314,7 +314,7 @@
      "elType": "widget"
     },
     {
-     "id": "05e2131",
+     "id": "ea0bbcb",
      "settings": {
       "content_width": "full",
       "editor": "<ul><li>Fortbildung zum Applikationsentwickler Client-Server - Siemens Business Services</li><li>Diplom-Volkswirt -· Universität Konstanz - <span style=\"font-style: inherit; font-family: var( --e-global-typography-text-font-family ), Sans-serif; text-align: var(--text-align);\">Schwerpunkte: mathematisch-statistische Methoden, wissenschaftliche Hilfskraft am Lehrstuhl für Ökonometrie</span></li><li>Groß- und Außenhandelskaufmann - Bender &amp; Hobein,  Laborgeräte</li></ul>"
@@ -325,7 +325,7 @@
      "elType": "widget"
     },
     {
-     "id": "4a18a6f",
+     "id": "deb374c",
      "settings": {
       "content_width": "full",
       "title": "Sprachen",
@@ -341,7 +341,7 @@
      "elType": "widget"
     },
     {
-     "id": "87b6652",
+     "id": "2e50a05",
      "settings": {
       "content_width": "full",
       "editor": "<p>Deutsch · Muttersprache  |  Französisch · Muttersprache  |  Englisch · Gut <span style=\"font-family: var( --e-global-typography-text-font-family ), Sans-serif; text-align: var(--text-align); font-size: 1rem;\">|  Italienisch · Grundkenntnisse</span></p>"
@@ -352,7 +352,7 @@
      "elType": "widget"
     },
     {
-     "id": "d689dbd",
+     "id": "2297ba5",
      "elType": "widget",
      "widgetType": "button",
      "elements": [],
@@ -410,7 +410,7 @@
      }
     },
     {
-     "id": "76d700d",
+     "id": "2aa6880",
      "settings": {
       "content_width": "full",
       "text": "Trenner"
@@ -421,7 +421,7 @@
      "elType": "widget"
     },
     {
-     "id": "f1ef92e",
+     "id": "bc823f9",
      "settings": {
       "content_width": "full",
       "editor": "<p style=\"text-align:center; font-size:0.85rem;\"><a href=\"/impressum/\">Impressum</a> &nbsp;|&nbsp; <a href=\"/datenschutz/\">Datenschutz</a></p>"

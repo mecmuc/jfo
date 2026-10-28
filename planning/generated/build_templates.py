@@ -207,7 +207,7 @@ home = [
     heading("Warum mit mir", "h2", 30, "#000000", 12),
     text("<ul>"
          "<li><strong>20+ Jahre</strong> Software-Entwicklung: von Handelsplattformen und Intralogistik über Apps für iOS und Android bis zu KI-Agenten</li>"
-         "<li><strong>Apps seit über 10 Jahren:</strong> iOS und Android, nativ und plattformübergreifend, u. a. für eine Krankenkasse, Plan.Net und Indoor-Navigation</li>"
+         "<li><strong>Apps seit über 10 Jahren:</strong> iOS und Android, nativ und plattformübergreifend, u. a. für eine große Krankenkasse, Plan.Net und Indoor-Navigation</li>"
          "<li><strong>10.000+ Installationen</strong> der App „GFK-Spiel“</li>"
          "<li><strong>Direkter Draht:</strong> Sie sprechen mit dem Entwickler</li>"
          "</ul>", 8),
@@ -227,7 +227,10 @@ about = [
          "bis hin zu modernen KI-gestützten Lösungen.</p>"),
     clean(old["27d2f951"]), clean(old["1a6e23f1"]),   # Projektbeispiele + Akkordeon
     clean(old["583af67a"]),                            # Bildergalerie
-    clean(old["d9fd1e6"]), clean(old["1b2abba7"]),     # Werdegang
+    clean(old["d9fd1e6"]),
+    edit_text(edit_text(clean(old["1b2abba7"]), "Krankenkasse (selbständig)",     # Werdegang
+                        "Krankenkasse (eine der größten, selbständig)"),
+              "Seit 2011 . eigene", "Seit 2011 · eigene"),
     clean(old["42e660d6"]),                            # Schwerpunkte
     text("<ul>"
          "<li>App-Entwicklung: iOS und Android, nativ und Cross-Platform (React Native, Flutter)</li>"
@@ -305,7 +308,7 @@ home_it = [
     text("<p>Sono Jan Foshag, sviluppatore software indipendente a Monaco di Baviera. Da oltre 20 anni sviluppo software: "
          "dalle piattaforme di commercio e dall’intralogistica alle app per iOS e Android, fino agli agenti IA.</p>"
          "<ul>"
-         "<li><strong>App da oltre 10 anni:</strong> iOS e Android, native e multipiattaforma, tra l’altro per una cassa malattia, Plan.Net e la navigazione indoor</li>"
+         "<li><strong>App da oltre 10 anni:</strong> iOS e Android, native e multipiattaforma, tra l’altro per una grande cassa malattia, Plan.Net e la navigazione indoor</li>"
          "<li><strong>Oltre 10.000 installazioni</strong> dell’app „GFK-Spiel“</li>"
          "<li><strong>Contatto diretto:</strong> parla direttamente con lo sviluppatore</li>"
          "<li><strong>Lingue:</strong> tedesco e francese madrelingua, inglese buono. L’italiano lo sto imparando: mi scriva pure in italiano!</li>"

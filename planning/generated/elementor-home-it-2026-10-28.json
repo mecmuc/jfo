@@ -1,12 +1,12 @@
 {
  "content": [
   {
-   "id": "4bb6130",
+   "id": "10eedec",
    "elType": "container",
    "isInner": false,
    "elements": [
     {
-     "id": "cae3308",
+     "id": "1451aa1",
      "elType": "widget",
      "widgetType": "html",
      "elements": [],
@@ -16,7 +16,7 @@
      }
     },
     {
-     "id": "a09b6d3",
+     "id": "5ad9efb",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -49,7 +49,7 @@
      }
     },
     {
-     "id": "065719e",
+     "id": "5225487",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -67,7 +67,7 @@
      }
     },
     {
-     "id": "6927b42",
+     "id": "017400d",
      "elType": "widget",
      "widgetType": "button",
      "elements": [],
@@ -125,7 +125,7 @@
      }
     },
     {
-     "id": "1f2a472",
+     "id": "afa5eb7",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -158,12 +158,12 @@
      }
     },
     {
-     "id": "c08596e",
+     "id": "03f0aa5",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "324baa0",
+       "id": "11ddcae",
        "elType": "widget",
        "widgetType": "image",
        "elements": [],
@@ -203,7 +203,7 @@
        }
       },
       {
-       "id": "cefc242",
+       "id": "642bfef",
        "elType": "widget",
        "widgetType": "heading",
        "elements": [],
@@ -236,7 +236,7 @@
        }
       },
       {
-       "id": "06e759c",
+       "id": "364379f",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -246,7 +246,7 @@
        }
       },
       {
-       "id": "b3a7300",
+       "id": "891419b",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -305,12 +305,12 @@
      }
     },
     {
-     "id": "e3163c1",
+     "id": "1c8d991",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "d20789c",
+       "id": "bf19707",
        "elType": "widget",
        "widgetType": "image",
        "elements": [],
@@ -350,7 +350,7 @@
        }
       },
       {
-       "id": "b55a3a3",
+       "id": "6887306",
        "elType": "widget",
        "widgetType": "heading",
        "elements": [],
@@ -383,7 +383,7 @@
        }
       },
       {
-       "id": "6e6c52e",
+       "id": "4e4991d",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -393,7 +393,7 @@
        }
       },
       {
-       "id": "a4a3e81",
+       "id": "cc9ac27",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -452,7 +452,7 @@
      }
     },
     {
-     "id": "ce3563a",
+     "id": "eadec51",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -485,17 +485,17 @@
      }
     },
     {
-     "id": "588d4d4",
+     "id": "758434c",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "a61dd1a",
+       "id": "2104abb",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "c189426",
+         "id": "213f7f0",
          "elType": "widget",
          "widgetType": "image",
          "elements": [],
@@ -559,12 +559,12 @@
        }
       },
       {
-       "id": "2f69bdc",
+       "id": "e42851f",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "42e81f3",
+         "id": "3c6e660",
          "elType": "widget",
          "widgetType": "image",
          "elements": [],
@@ -628,12 +628,12 @@
        }
       },
       {
-       "id": "6b4556c",
+       "id": "2ef7fe4",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "cadffbf",
+         "id": "db3c738",
          "elType": "widget",
          "widgetType": "image",
          "elements": [],
@@ -719,7 +719,7 @@
      }
     },
     {
-     "id": "f753034",
+     "id": "87216c9",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -737,7 +737,7 @@
      }
     },
     {
-     "id": "56e21db",
+     "id": "6183dee",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -770,12 +770,12 @@
      }
     },
     {
-     "id": "fba9d25",
+     "id": "ef380ab",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "9d9d46d",
+       "id": "9f449c4",
        "elType": "widget",
        "widgetType": "heading",
        "elements": [],
@@ -808,17 +808,17 @@
        }
       },
       {
-       "id": "b8e3926",
+       "id": "86572f5",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "f55c6e4",
+         "id": "e722d0c",
          "elType": "container",
          "isInner": true,
          "elements": [
           {
-           "id": "3a213e8",
+           "id": "ab67f20",
            "elType": "widget",
            "widgetType": "image",
            "elements": [],
@@ -885,12 +885,12 @@
          }
         },
         {
-         "id": "cbe7e7b",
+         "id": "c4b865e",
          "elType": "container",
          "isInner": true,
          "elements": [
           {
-           "id": "b5392f8",
+           "id": "9eb4183",
            "elType": "widget",
            "widgetType": "text-editor",
            "elements": [],
@@ -938,7 +938,7 @@
        }
       },
       {
-       "id": "210e875",
+       "id": "776f610",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -997,7 +997,7 @@
      }
     },
     {
-     "id": "9e73e71",
+     "id": "81e86e8",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -1007,7 +1007,7 @@
      }
     },
     {
-     "id": "678fb05",
+     "id": "ec50dcc",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -1017,7 +1017,7 @@
      }
     },
     {
-     "id": "fa4a5f2",
+     "id": "83cb604",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -1027,7 +1027,7 @@
      }
     },
     {
-     "id": "36df855",
+     "id": "942e371",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -1060,13 +1060,13 @@
      }
     },
     {
-     "id": "7e969b5",
+     "id": "e300f53",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
      "isInner": false,
      "settings": {
-      "editor": "<p>Sono Jan Foshag, sviluppatore software indipendente a Monaco di Baviera. Da oltre 20 anni sviluppo software: dalle piattaforme di commercio e dall’intralogistica alle app per iOS e Android, fino agli agenti IA.</p><ul><li><strong>App da oltre 10 anni:</strong> iOS e Android, native e multipiattaforma, tra l’altro per una cassa malattia, Plan.Net e la navigazione indoor</li><li><strong>Oltre 10.000 installazioni</strong> dell’app „GFK-Spiel“</li><li><strong>Contatto diretto:</strong> parla direttamente con lo sviluppatore</li><li><strong>Lingue:</strong> tedesco e francese madrelingua, inglese buono. L’italiano lo sto imparando: mi scriva pure in italiano!</li></ul>",
+      "editor": "<p>Sono Jan Foshag, sviluppatore software indipendente a Monaco di Baviera. Da oltre 20 anni sviluppo software: dalle piattaforme di commercio e dall’intralogistica alle app per iOS e Android, fino agli agenti IA.</p><ul><li><strong>App da oltre 10 anni:</strong> iOS e Android, native e multipiattaforma, tra l’altro per una grande cassa malattia, Plan.Net e la navigazione indoor</li><li><strong>Oltre 10.000 installazioni</strong> dell’app „GFK-Spiel“</li><li><strong>Contatto diretto:</strong> parla direttamente con lo sviluppatore</li><li><strong>Lingue:</strong> tedesco e francese madrelingua, inglese buono. L’italiano lo sto imparando: mi scriva pure in italiano!</li></ul>",
       "_margin": {
        "unit": "px",
        "top": "0",
@@ -1078,7 +1078,7 @@
      }
     },
     {
-     "id": "c14f8b1",
+     "id": "4645435",
      "settings": {
       "content_width": "full",
       "text": "Trenner"
@@ -1089,7 +1089,7 @@
      "elType": "widget"
     },
     {
-     "id": "63314aa",
+     "id": "9ea6c32",
      "settings": {
       "content_width": "full",
       "html": "<div id=\"kontakt\" style=\"height:1px; background:transparent;\"></div>"
@@ -1100,7 +1100,7 @@
      "elType": "widget"
     },
     {
-     "id": "d549f29",
+     "id": "064f329",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -1133,7 +1133,7 @@
      }
     },
     {
-     "id": "16d5b2b",
+     "id": "47182f5",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -1143,7 +1143,7 @@
      }
     },
     {
-     "id": "e0165a6",
+     "id": "a4c33b2",
      "settings": {
       "content_width": "full",
       "html": "[jfo_contact_form]"
@@ -1154,7 +1154,7 @@
      "elType": "widget"
     },
     {
-     "id": "fd79049",
+     "id": "8f6ba32",
      "settings": {
       "content_width": "full",
       "text": "Trenner"
@@ -1165,7 +1165,7 @@
      "elType": "widget"
     },
     {
-     "id": "402be41",
+     "id": "e22c7cf",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
