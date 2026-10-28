@@ -1,0 +1,8 @@
+Delfin-Motiv: "dolphin" aus Material Design Icons (Pictogrammers), https://pictogrammers.com
+Lizenz: Apache License 2.0 – freie, auch kommerzielle Nutzung und Änderung erlaubt, keine Namensnennung auf der Website nötig.
+Angepasst (Farbverlauf #800080 → #0137d2, abgerundetes Quadrat) für janfoshag.de.
+
+Delfin-Foto: "Bottlenose dolphin (Tursiops truncatus) breaching", NOAA Photo Library (anim1069)
+Quelle: https://commons.wikimedia.org/wiki/File:Anim1069_-_Flickr_-_NOAA_Photo_Library.jpg
+Lizenz: Public Domain (Werk einer US-Bundesbehörde) – freie Nutzung, keine Namensnennung nötig.
+Dateien: delfin-foto-original.jpg (Original), delfin-foto-logo-hell-eng-512.png (Logo: abgerundet, heller, enger Ausschnitt), delfin-foto-quadrat-1024.jpg

@@ -1,12 +1,12 @@
 {
  "content": [
   {
-   "id": "a326369",
+   "id": "50360b3",
    "elType": "container",
    "isInner": false,
    "elements": [
     {
-     "id": "7a8c864",
+     "id": "6f232f9",
      "elType": "widget",
      "widgetType": "html",
      "elements": [],
@@ -16,13 +16,13 @@
      }
     },
     {
-     "id": "b3326b2",
+     "id": "702cc6e",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
      "isInner": false,
      "settings": {
-      "title": "Software-Lösungen",
+      "title": "Soluzioni software",
       "header_size": "h1",
       "title_color": "#0137d2",
       "typography_typography": "custom",
@@ -49,13 +49,13 @@
      }
     },
     {
-     "id": "e5512be",
+     "id": "a78c6fd",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
      "isInner": false,
      "settings": {
-      "editor": "<p>Ich entwickle Software, die Abläufe vereinfacht: KI-Apps mit Sprachsteuerung, selbstständig handelnde Agenten und Sprachassistenten.</p><p>Ich bin Jan Foshag, Software-Entwickler in München, seit über 20 Jahren.</p>",
+      "editor": "<p>Sviluppo software che semplifica i processi: app con IA e comando vocale, agenti autonomi e assistenti vocali.</p><p>Sono Jan Foshag, sviluppatore software a Monaco di Baviera da oltre 20 anni.</p>",
       "_margin": {
        "unit": "px",
        "top": "0",
@@ -67,14 +67,14 @@
      }
     },
     {
-     "id": "c02196c",
+     "id": "e88fd79",
      "elType": "widget",
      "widgetType": "button",
      "elements": [],
      "isInner": false,
      "settings": {
       "content_width": "full",
-      "text": "Kontakt aufnehmen",
+      "text": "Contattami",
       "link": {
        "url": "#kontakt",
        "is_external": "",
@@ -125,13 +125,13 @@
      }
     },
     {
-     "id": "7642107",
+     "id": "ee1bfb2",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
      "isInner": false,
      "settings": {
-      "title": "Was ich entwickle",
+      "title": "Cosa sviluppo",
       "header_size": "h2",
       "title_color": "#000000",
       "typography_typography": "custom",
@@ -158,12 +158,12 @@
      }
     },
     {
-     "id": "865624c",
+     "id": "de7f005",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "6b935ea",
+       "id": "5e38ee2",
        "elType": "widget",
        "widgetType": "image",
        "elements": [],
@@ -172,7 +172,7 @@
         "image": {
          "url": "https://janfoshag.de/wp-content/uploads/2026/10/apple-intelligence.jpg",
          "id": "",
-         "alt": "iPhone-App mit KI und Sprachsteuerung",
+         "alt": "App per iPhone con IA e comando vocale",
          "source": "library"
         },
         "image_size": "large",
@@ -203,13 +203,13 @@
        }
       },
       {
-       "id": "d778c74",
+       "id": "c2d4d8f",
        "elType": "widget",
        "widgetType": "heading",
        "elements": [],
        "isInner": false,
        "settings": {
-        "title": "Apps mit KI und Sprachsteuerung",
+        "title": "App con IA e comando vocale",
         "header_size": "h3",
         "title_color": "#0137d2",
         "typography_typography": "custom",
@@ -236,23 +236,23 @@
        }
       },
       {
-       "id": "b39d0ba",
+       "id": "e09bb83",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
        "isInner": false,
        "settings": {
-        "editor": "<p><strong>Problem:</strong> Ihre App soll klüger werden und sich per Sprache bedienen lassen. Aber Kundendaten dürfen das Gerät nicht verlassen, und übliche Cloud-KI kostet pro Anfrage.</p>"
+        "editor": "<p><strong>Problema:</strong> La Sua app deve diventare più intelligente e lasciarsi comandare con la voce. Ma i dati dei clienti non devono lasciare il dispositivo, e la solita IA nel cloud costa a ogni richiesta.</p>"
        }
       },
       {
-       "id": "da40818",
+       "id": "4d59da3",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
        "isInner": false,
        "settings": {
-        "editor": "<p><strong>Lösung:</strong> Apps, die gesprochene Sätze verstehen: bestellen, suchen und erfassen per Sprache statt per Formular. Die KI läuft auf Wunsch direkt auf dem Gerät oder, mit Apple Intelligence, in Apples Private Cloud: datenschutzfreundlich und ohne laufende Kosten pro Anfrage. Auf dem iPhone wird Ihre App zusätzlich über Siri und Kurzbefehle erreichbar. Grundlage sind über 10 Jahre App-Entwicklung für iOS und Android, nativ und plattformübergreifend.</p>"
+        "editor": "<p><strong>Soluzione:</strong> App che capiscono le frasi parlate: ordinare, cercare e registrare con la voce invece che con un modulo. Se desiderato, l’IA funziona direttamente sul dispositivo oppure, con Apple Intelligence, nel Private Cloud di Apple: nel rispetto della privacy e senza costi continui per ogni richiesta. Su iPhone la Sua app diventa raggiungibile anche tramite Siri e Comandi rapidi. Alla base ci sono oltre 10 anni di sviluppo di app per iOS e Android, native e multipiattaforma.</p>"
        }
       }
      ],
@@ -305,12 +305,12 @@
      }
     },
     {
-     "id": "91c0f96",
+     "id": "9cfab83",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "26f6e07",
+       "id": "7cb4aba",
        "elType": "widget",
        "widgetType": "image",
        "elements": [],
@@ -319,7 +319,7 @@
         "image": {
          "url": "https://janfoshag.de/wp-content/uploads/2026/10/agentic-ai.jpg",
          "id": "",
-         "alt": "Abstraktes Netzwerk als Symbol für KI-Agenten",
+         "alt": "Rete astratta come simbolo degli agenti IA",
          "source": "library"
         },
         "image_size": "large",
@@ -350,13 +350,13 @@
        }
       },
       {
-       "id": "f9c0931",
+       "id": "7e22d63",
        "elType": "widget",
        "widgetType": "heading",
        "elements": [],
        "isInner": false,
        "settings": {
-        "title": "KI-Agenten",
+        "title": "Agenti IA",
         "header_size": "h3",
         "title_color": "#0137d2",
         "typography_typography": "custom",
@@ -383,23 +383,23 @@
        }
       },
       {
-       "id": "8e5c63b",
+       "id": "9c33dd7",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
        "isInner": false,
        "settings": {
-        "editor": "<p><strong>Problem:</strong> Routinearbeit kostet Ihr Team Stunden: E-Mails sortieren, Daten zwischen Systemen übertragen, ans Telefon gehen, wenn gerade niemand Zeit hat.</p>"
+        "editor": "<p><strong>Problema:</strong> Le attività di routine costano ore al Suo team: smistare e-mail, trasferire dati tra sistemi, rispondere al telefono quando nessuno ha tempo.</p>"
        }
       },
       {
-       "id": "3e8c1bb",
+       "id": "bba0eac",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
        "isInner": false,
        "settings": {
-        "editor": "<p><strong>Lösung:</strong> KI-Agenten, die solche Aufgaben selbstständig erledigen, direkt in Ihren bestehenden Systemen. Bei wichtigen Entscheidungen fragen sie nach. Als Sprachassistent nehmen sie rund um die Uhr Bestellungen und Reservierungen am Telefon an.</p>"
+        "editor": "<p><strong>Soluzione:</strong> Agenti IA che svolgono questi compiti in autonomia, direttamente nei Suoi sistemi esistenti. Per le decisioni importanti chiedono conferma. Come assistenti vocali prendono ordini e prenotazioni al telefono 24 ore su 24.</p>"
        }
       }
      ],
@@ -452,13 +452,120 @@
      }
     },
     {
-     "id": "2d992d4",
+     "id": "5c226ce",
+     "elType": "container",
+     "isInner": true,
+     "elements": [
+      {
+       "id": "3cf81fb",
+       "elType": "widget",
+       "widgetType": "heading",
+       "elements": [],
+       "isInner": false,
+       "settings": {
+        "title": "Progetti del cuore",
+        "header_size": "h3",
+        "title_color": "#0137d2",
+        "typography_typography": "custom",
+        "typography_font_family": "Josefin Sans",
+        "typography_font_weight": "600",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 24,
+         "sizes": []
+        },
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 19,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "4",
+         "left": "0",
+         "isLinked": false
+        }
+       }
+      },
+      {
+       "id": "a650cac",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "elements": [],
+       "isInner": false,
+       "settings": {
+        "editor": "<p>Sostengo volentieri progetti del cuore con siti web, app o altri software. Finora soprattutto negli ambiti della Comunicazione Nonviolenta, della mindfulness e della terapia.</p>"
+       }
+      },
+      {
+       "id": "fe37c6c",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "elements": [],
+       "isInner": false,
+       "settings": {
+        "editor": "<p><strong>Esempio:</strong> il „GFK-Spiel“, un gioco didattico sulla Comunicazione Nonviolenta, come app per iOS e Android, con oltre 10.000 installazioni.</p><blockquote class=\"wp-block-quote\"><p><em>„Un’app molto utile, chiara e bella. Grazie di cuore!“</em></p><p>(tradotto dal tedesco)</p></blockquote>"
+       }
+      }
+     ],
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "flex_direction_mobile": "",
+      "flex_gap": {
+       "column": "12",
+       "row": "12",
+       "unit": "px",
+       "isLinked": true,
+       "size": 12
+      },
+      "background_background": "classic",
+      "background_color": "#f4f6fd",
+      "border_radius": {
+       "unit": "px",
+       "top": "16",
+       "right": "16",
+       "bottom": "16",
+       "left": "16",
+       "isLinked": false
+      },
+      "css_classes": "jfo-card",
+      "padding": {
+       "unit": "px",
+       "top": "28",
+       "right": "28",
+       "bottom": "28",
+       "left": "28",
+       "isLinked": false
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "20",
+       "right": "20",
+       "bottom": "20",
+       "left": "20",
+       "isLinked": false
+      },
+      "margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "24",
+       "left": "0",
+       "isLinked": false
+      }
+     }
+    },
+    {
+     "id": "e8d854c",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
      "isInner": false,
      "settings": {
-      "title": "Gastronomie, Logistik und Großhandel",
+      "title": "Ristorazione, logistica e commercio all’ingrosso",
       "header_size": "h2",
       "title_color": "#000000",
       "typography_typography": "custom",
@@ -485,17 +592,17 @@
      }
     },
     {
-     "id": "412b982",
+     "id": "1c3f89a",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "41d4b4b",
+       "id": "0e9170c",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "c41edf5",
+         "id": "37c1c24",
          "elType": "widget",
          "widgetType": "image",
          "elements": [],
@@ -504,7 +611,7 @@
           "image": {
            "url": "https://janfoshag.de/wp-content/uploads/2026/10/gastronomie.jpg",
            "id": "",
-           "alt": "Profiküche in der Gastronomie",
+           "alt": "Cucina professionale nella ristorazione",
            "source": "library"
           },
           "image_size": "large",
@@ -559,12 +666,12 @@
        }
       },
       {
-       "id": "f0fb85e",
+       "id": "67ba028",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "42bcecc",
+         "id": "d97f3de",
          "elType": "widget",
          "widgetType": "image",
          "elements": [],
@@ -573,7 +680,7 @@
           "image": {
            "url": "https://janfoshag.de/wp-content/uploads/2026/10/logistik.jpg",
            "id": "",
-           "alt": "Lagerregale mit Kartons",
+           "alt": "Scaffali di magazzino con scatoloni",
            "source": "library"
           },
           "image_size": "large",
@@ -628,12 +735,12 @@
        }
       },
       {
-       "id": "764cc22",
+       "id": "db3d47f",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "3a15ebc",
+         "id": "b52d664",
          "elType": "widget",
          "widgetType": "image",
          "elements": [],
@@ -642,7 +749,7 @@
           "image": {
            "url": "https://janfoshag.de/wp-content/uploads/2026/10/obst-grosshandel.jpg",
            "id": "",
-           "alt": "Obst in Kisten im Großhandel",
+           "alt": "Frutta in cassette nel commercio all’ingrosso",
            "source": "library"
           },
           "image_size": "large",
@@ -719,13 +826,13 @@
      }
     },
     {
-     "id": "d97e655",
+     "id": "8307af0",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
      "isInner": false,
      "settings": {
-      "editor": "<p>Gastronomie, Großhandel und Logistik hängen eng zusammen: Bestellungen, Lieferungen, Lager. Genau dort spielen Apps mit KI und Sprachsteuerung ihre Stärken aus. Ich kenne diese Abläufe aus der Praxis: aus der Intralogistik und aus Bestell-Apps für den Fruchtgroßhandel.</p>",
+      "editor": "<p>Ristorazione, commercio all’ingrosso e logistica sono strettamente collegati: ordini, consegne, magazzino. È proprio lì che le app con IA e comando vocale danno il meglio. Conosco questi processi dalla pratica: dall’intralogistica e dalle app di ordinazione per il commercio all’ingrosso di frutta.</p>",
       "_margin": {
        "unit": "px",
        "top": "0",
@@ -737,13 +844,13 @@
      }
     },
     {
-     "id": "4fc9d19",
+     "id": "19d107c",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
      "isInner": false,
      "settings": {
-      "title": "Für den Frucht- und Großhandel",
+      "title": "Per il commercio all’ingrosso di frutta",
       "header_size": "h2",
       "title_color": "#000000",
       "typography_typography": "custom",
@@ -770,18 +877,18 @@
      }
     },
     {
-     "id": "fd62ac1",
+     "id": "38f9529",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "ef9c4c1",
+       "id": "df34650",
        "elType": "widget",
        "widgetType": "heading",
        "elements": [],
        "isInner": false,
        "settings": {
-        "title": "Fallbeispiel: Fruchthof Ehinger",
+        "title": "Caso di studio: Fruchthof Ehinger",
         "header_size": "h3",
         "title_color": "#800080",
         "typography_typography": "custom",
@@ -808,17 +915,17 @@
        }
       },
       {
-       "id": "0534683",
+       "id": "9b10463",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "7a6758e",
+         "id": "af1bee8",
          "elType": "container",
          "isInner": true,
          "elements": [
           {
-           "id": "5957b19",
+           "id": "b27ca01",
            "elType": "widget",
            "widgetType": "image",
            "elements": [],
@@ -827,7 +934,7 @@
             "image": {
              "url": "https://janfoshag.de/wp-content/uploads/2026/10/ehinger-bestell-app-retusche.jpg",
              "id": "",
-             "alt": "Startbildschirm der Bestell-App des Fruchthof Ehinger mit Sortiment, Mei Gmiaskorb, Warenkorb und Aktionen",
+             "alt": "Schermata iniziale dell’app di ordinazione del Fruchthof Ehinger con assortimento, Mei Gmiaskorb, carrello e offerte",
              "source": "library"
             },
             "image_size": "large",
@@ -885,18 +992,18 @@
          }
         },
         {
-         "id": "5ace62c",
+         "id": "636af28",
          "elType": "container",
          "isInner": true,
          "elements": [
           {
-           "id": "55f853f",
+           "id": "fb0823f",
            "elType": "widget",
            "widgetType": "text-editor",
            "elements": [],
            "isInner": false,
            "settings": {
-            "editor": "<p><strong>Lösung:</strong> Eine Bestell-App für iOS und Android. Gastronomie-Kunden legen ihre feste Bestellliste „Mei Gmiaskorb“ an und bestellen mit wenigen Klicks. Aktuelle Angebote erscheinen direkt in der App und per Push-Nachricht.</p><p><strong>Ergebnis:</strong> Die Bestellungen über die App wachsen stetig.</p>"
+            "editor": "<p><strong>Soluzione:</strong> Un’app di ordinazione per iOS e Android. I clienti della ristorazione creano la loro lista d’ordine fissa „Mei Gmiaskorb“ e ordinano con pochi clic. Le offerte attuali compaiono direttamente nell’app e tramite notifica push.</p><p><strong>Risultato:</strong> Gli ordini tramite l’app crescono costantemente.</p>"
            }
           }
          ],
@@ -938,13 +1045,13 @@
        }
       },
       {
-       "id": "9427bfc",
+       "id": "b9be9cb",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
        "isInner": false,
        "settings": {
-        "editor": "<blockquote class=\"wp-block-quote\"><p><em>„Ein sehr gutes, kompetentes Team, das unsere Wünsche und Anregungen nahezu perfekt umgesetzt hat. Auch bei den Kunden kommt unsere App sehr gut an, da sie ohne Komplikationen läuft und es den Kunden sogar Spaß macht mit der App zu arbeiten.“</em></p><p>— Fruchthof Ehinger</p></blockquote>"
+        "editor": "<blockquote class=\"wp-block-quote\"><p><em>„Un team molto valido e competente, che ha realizzato in modo quasi perfetto i nostri desideri e suggerimenti. Anche i clienti apprezzano molto la nostra app, perché funziona senza complicazioni e lavorarci è persino divertente.“</em></p><p>— Fruchthof Ehinger (tradotto dal tedesco)</p></blockquote>"
        }
       }
      ],
@@ -997,33 +1104,43 @@
      }
     },
     {
-     "id": "da082fe",
+     "id": "8624d31",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
      "isInner": false,
      "settings": {
-      "editor": "<p><strong>Der nächste Schritt für den Fruchthandel:</strong> Ein KI-Dashboard, das Marktdaten analysiert und verständlich aufbereitet. Weitere Schnittstellen, etwa zum Fruchtmanager, und KI-Features wie Sprachbestellung lassen sich ergänzen.</p>"
+      "editor": "<p><strong>Il prossimo passo per il commercio di frutta:</strong> una dashboard IA che analizza i dati di mercato e li presenta in modo chiaro. Si possono aggiungere altre interfacce, ad esempio verso il Fruchtmanager, e funzioni IA come l’ordinazione vocale.</p>"
      }
     },
     {
-     "id": "0d0f986",
+     "id": "ee6c2fa",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
      "isInner": false,
      "settings": {
-      "editor": "<p style=\"margin-top: 14px; margin-bottom: 24px;\"><a style=\"display: inline-block; background: linear-gradient(135deg, #7c3aed 0%, #2563eb 100%); color: #ffffff; -webkit-text-fill-color: #ffffff; text-decoration: none; border: none; border-radius: 50px; padding: 4px 32px; font-weight: bold; letter-spacing: 0.04em; box-shadow: 0 4px 18px rgba(124, 58, 237, 0.40);\" href=\"https://dashboards.fruchthandel-apps.de\" target=\"_blank\" rel=\"noopener noreferrer\">KI-Dashboard ansehen →</a></p>"
+      "editor": "<p style=\"margin-top: 14px; margin-bottom: 24px;\"><a style=\"display: inline-block; background: linear-gradient(135deg, #7c3aed 0%, #2563eb 100%); color: #ffffff; -webkit-text-fill-color: #ffffff; text-decoration: none; border: none; border-radius: 50px; padding: 4px 32px; font-weight: bold; letter-spacing: 0.04em; box-shadow: 0 4px 18px rgba(124, 58, 237, 0.40);\" href=\"https://dashboards.fruchthandel-apps.de\" target=\"_blank\" rel=\"noopener noreferrer\">Vedi la dashboard IA →</a></p>"
      }
     },
     {
-     "id": "8b301c4",
+     "id": "9c5a51f",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "elements": [],
+     "isInner": false,
+     "settings": {
+      "editor": "<div id=\"chi-sono\"></div>"
+     }
+    },
+    {
+     "id": "a30ad63",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
      "isInner": false,
      "settings": {
-      "title": "Warum mit mir",
+      "title": "Chi sono",
       "header_size": "h2",
       "title_color": "#000000",
       "typography_typography": "custom",
@@ -1050,13 +1167,13 @@
      }
     },
     {
-     "id": "3044515",
+     "id": "47e1109",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
      "isInner": false,
      "settings": {
-      "editor": "<ul><li><strong>20+ Jahre</strong> Software-Entwicklung: von Handelsplattformen und Intralogistik über Apps für iOS und Android bis zu KI-Agenten</li><li><strong>Apps seit über 10 Jahren:</strong> iOS und Android, nativ und plattformübergreifend, u. a. für eine große Krankenkasse, Plan.Net und Indoor-Navigation</li><li><strong>10.000+ Installationen</strong> der App „GFK-Spiel“</li><li><strong>Direkter Draht:</strong> Sie sprechen mit dem Entwickler</li></ul>",
+      "editor": "<p>Sono Jan Foshag, sviluppatore software indipendente a Monaco di Baviera. Da oltre 20 anni sviluppo software: dalle piattaforme di commercio e dall’intralogistica alle app per iOS e Android, fino agli agenti IA.</p><ul><li><strong>App da oltre 10 anni:</strong> iOS e Android, native e multipiattaforma, tra l’altro per una grande cassa malattia, Plan.Net e la navigazione indoor</li><li><strong>Oltre 10.000 installazioni</strong> dell’app „GFK-Spiel“</li><li><strong>Contatto diretto:</strong> parla direttamente con lo sviluppatore</li><li><strong>Lingue:</strong> tedesco e francese madrelingua, inglese buono. L’italiano lo sto imparando: mi scriva pure in italiano!</li></ul>",
       "_margin": {
        "unit": "px",
        "top": "0",
@@ -1068,65 +1185,7 @@
      }
     },
     {
-     "id": "871b9bd",
-     "elType": "widget",
-     "widgetType": "button",
-     "elements": [],
-     "isInner": false,
-     "settings": {
-      "content_width": "full",
-      "text": "Mehr über mich, Projekte und Werdegang",
-      "link": {
-       "url": "/ueber-mich/",
-       "is_external": "",
-       "nofollow": "",
-       "custom_attributes": ""
-      },
-      "size": "md",
-      "align": "left",
-      "typography_typography": "custom",
-      "typography_font_family": "Josefin Sans",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 16,
-       "sizes": []
-      },
-      "typography_font_weight": "400",
-      "typography_letter_spacing": {
-       "unit": "em",
-       "size": 0.03,
-       "sizes": []
-      },
-      "background_color": "#0137d2",
-      "button_text_color": "#ffffff",
-      "border_radius": {
-       "unit": "px",
-       "top": "100",
-       "right": "100",
-       "bottom": "100",
-       "left": "100",
-       "isLinked": true
-      },
-      "text_padding": {
-       "unit": "px",
-       "top": "16",
-       "right": "30",
-       "bottom": "16",
-       "left": "30",
-       "isLinked": false
-      },
-      "_margin": {
-       "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "48",
-       "left": "0",
-       "isLinked": false
-      }
-     }
-    },
-    {
-     "id": "3f5bbb4",
+     "id": "7754fd1",
      "settings": {
       "content_width": "full",
       "text": "Trenner"
@@ -1137,7 +1196,7 @@
      "elType": "widget"
     },
     {
-     "id": "dc20e0c",
+     "id": "6dd4a57",
      "settings": {
       "content_width": "full",
       "html": "<div id=\"kontakt\" style=\"height:1px; background:transparent;\"></div>"
@@ -1148,34 +1207,50 @@
      "elType": "widget"
     },
     {
-     "id": "e9ad5ed",
+     "id": "a252963",
+     "elType": "widget",
+     "widgetType": "heading",
+     "elements": [],
+     "isInner": false,
      "settings": {
-      "content_width": "full",
-      "title": "Kontakt",
-      "header_size": "h4",
+      "title": "Contatto",
+      "header_size": "h2",
       "title_color": "#000000",
       "typography_typography": "custom",
-      "typography_font_family": "Roboto",
-      "typography_font_weight": "400"
-     },
-     "elements": [],
-     "isInner": false,
-     "widgetType": "heading",
-     "elType": "widget"
+      "typography_font_family": "Josefin Sans",
+      "typography_font_weight": "600",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 30,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 24,
+       "sizes": []
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "12",
+       "left": "0",
+       "isLinked": false
+      }
+     }
     },
     {
-     "id": "6955ed7",
-     "settings": {
-      "content_width": "full",
-      "editor": "<p>Ich suche laufend weitere Projekte und freue mich über Kontaktaufnahmen.</p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p><a href=\"mailto:info@janfoshag.de\">info@janfoshag.de</a></p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p><a href=\"tel:+498945439111\">+49 89 45439111</a></p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p><a href=\"https://www.xing.com/profile/Jan_Foshag\">Xing</a>,&nbsp;<span style=\"font-family: var( --e-global-typography-text-font-family ), Sans-serif; text-align: var(--text-align); font-size: 1rem;\"><a href=\"https://www.linkedin.com/in/jan-foshag-01b39338/\">LinkedIn</a></span></p>"
-     },
-     "elements": [],
-     "isInner": false,
+     "id": "2ecd733",
+     "elType": "widget",
      "widgetType": "text-editor",
-     "elType": "widget"
+     "elements": [],
+     "isInner": false,
+     "settings": {
+      "editor": "<p>Sono sempre alla ricerca di nuovi progetti e sarò felice di ricevere un Suo messaggio.</p><p><a href=\"mailto:info@janfoshag.de\">info@janfoshag.de</a></p><p><a href=\"tel:+498945439111\">+49 89 45439111</a></p><p><a href=\"https://www.xing.com/profile/Jan_Foshag\">Xing</a>, <a href=\"https://www.linkedin.com/in/jan-foshag-01b39338/\">LinkedIn</a></p>"
+     }
     },
     {
-     "id": "89b4a51",
+     "id": "4805ae1",
      "settings": {
       "content_width": "full",
       "html": "[jfo_contact_form]"
@@ -1186,7 +1261,7 @@
      "elType": "widget"
     },
     {
-     "id": "876060a",
+     "id": "51fc9d2",
      "settings": {
       "content_width": "full",
       "text": "Trenner"
@@ -1197,15 +1272,14 @@
      "elType": "widget"
     },
     {
-     "id": "bd621ad",
-     "settings": {
-      "content_width": "full",
-      "editor": "<p style=\"text-align:center; font-size:0.85rem;\"><a href=\"/impressum/\">Impressum</a> &nbsp;|&nbsp; <a href=\"/datenschutz/\">Datenschutz</a></p>"
-     },
+     "id": "9d4c55d",
+     "elType": "widget",
+     "widgetType": "text-editor",
      "elements": [],
      "isInner": false,
-     "widgetType": "text-editor",
-     "elType": "widget"
+     "settings": {
+      "editor": "<p style=\"text-align:center; font-size:0.85rem;\"><a href=\"/impressum/\">Note legali (Impressum)</a> &nbsp;|&nbsp; <a href=\"/datenschutz/\">Privacy (Datenschutz)</a></p>"
+     }
     }
    ],
    "settings": {
@@ -1224,6 +1298,6 @@
   "hide_title": "yes"
  },
  "version": "0.4",
- "title": "Startseite Kundensicht",
+ "title": "Home (IT)",
  "type": "page"
 }

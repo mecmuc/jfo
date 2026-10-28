@@ -2,7 +2,7 @@
 import copy, json, secrets, sys
 
 SRC, OUTDIR = sys.argv[1], sys.argv[2]
-DATE = "2026-10-28"
+DATE = "2026-10-28-v2"
 BLUE, PURPLE = "#0137d2", "#800080"
 
 export = json.load(open(SRC))
@@ -172,6 +172,14 @@ home = [
          "KI-Agenten, die solche Aufgaben selbstständig erledigen, direkt in Ihren bestehenden Systemen. "
          "Bei wichtigen Entscheidungen fragen sie nach. Als Sprachassistent nehmen sie rund um die Uhr "
          "Bestellungen und Reservierungen am Telefon an."),
+    container([
+        heading("Herzensprojekte", "h3", 24, BLUE, 4),
+        text("<p>Ich unterstütze gerne Herzensprojekte mit Webseiten, Apps oder anderer Software. "
+             "Bisher vor allem in den Bereichen Gewaltfreie Kommunikation (GFK), Achtsamkeit und Therapie.</p>"),
+        text("<p><strong>Beispiel:</strong> Das „GFK-Spiel“, ein Lernspiel für Gewaltfreie Kommunikation, "
+             "als App für iOS und Android, mit über 10.000 Installationen.</p>"
+             '<blockquote class="wp-block-quote"><p><em>„Sehr hilfreiche, klare, schöne App. Herzlichen Dank dafür!“</em></p></blockquote>'),
+    ], gap=12, bg="#f4f6fd", padding=28, margin_bottom=24),
 
     # 2b. Branchen
     heading("Gastronomie, Logistik und Großhandel", "h2", 30, "#000000", 16),
@@ -270,6 +278,15 @@ home_it = [
          "Per le decisioni importanti chiedono conferma. Come assistenti vocali prendono ordini e prenotazioni "
          "al telefono 24 ore su 24.",
          labels=IT),
+    container([
+        heading("Progetti del cuore", "h3", 24, BLUE, 4),
+        text("<p>Sostengo volentieri progetti del cuore con siti web, app o altri software. "
+             "Finora soprattutto negli ambiti della Comunicazione Nonviolenta, della mindfulness e della terapia.</p>"),
+        text("<p><strong>Esempio:</strong> il „GFK-Spiel“, un gioco didattico sulla Comunicazione Nonviolenta, "
+             "come app per iOS e Android, con oltre 10.000 installazioni.</p>"
+             '<blockquote class="wp-block-quote"><p><em>„Un’app molto utile, chiara e bella. Grazie di cuore!“</em></p>'
+             "<p>(tradotto dal tedesco)</p></blockquote>"),
+    ], gap=12, bg="#f4f6fd", padding=28, margin_bottom=24),
 
     # 2b. Settori
     heading("Ristorazione, logistica e commercio all’ingrosso", "h2", 30, "#000000", 16),
