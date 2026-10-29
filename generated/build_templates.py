@@ -164,8 +164,8 @@ home = [
          "Bei wichtigen Entscheidungen fragen sie nach."),
     container([
         heading("Herzensprojekte", "h3", 24, BLUE, 4),
-        text("<p>Ich unterstütze gerne Herzensprojekte mit Software. "
-             "Bisher zum Beispiel in den Bereichen Gewaltfreie Kommunikation (GFK) und Achtsamkeit. "
+        text("<p>Ich unterstütze gerne Herzensprojekte. "
+             "Bisher zum Beispiel in den Bereichen Gewaltfreie Kommunikation und Achtsamkeit. "
              "Herzensprojekte gibt es überall: im Handwerk, im sozialen Bereich, in der Gastronomie. "
              "Über neue Ideen freue ich mich.</p>"),
         text("<p><strong>Beispiel:</strong> Das „GFK-Spiel“, ein Lernspiel für Gewaltfreie Kommunikation, "
@@ -261,7 +261,7 @@ home_it = [
          "Per le decisioni importanti chiedono conferma."),
     container([
         heading("Progetti del cuore", "h3", 24, BLUE, 4),
-        text("<p>Sostengo volentieri progetti del cuore con il software. "
+        text("<p>Sostengo volentieri progetti del cuore. "
              "Finora per esempio negli ambiti della Comunicazione Nonviolenta e della mindfulness. "
              "I progetti del cuore esistono ovunque: nell’artigianato, nel sociale, nella ristorazione. "
              "Sono felice di ricevere nuove idee.</p>"),

@@ -1,12 +1,12 @@
 {
  "content": [
   {
-   "id": "4100b50",
+   "id": "5658800",
    "elType": "container",
    "isInner": false,
    "elements": [
     {
-     "id": "b8e504b",
+     "id": "eee878a",
      "elType": "widget",
      "widgetType": "html",
      "elements": [],
@@ -16,7 +16,7 @@
      }
     },
     {
-     "id": "575c536",
+     "id": "62a5d2c",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -49,7 +49,7 @@
      }
     },
     {
-     "id": "367f1ae",
+     "id": "171f0e5",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -67,7 +67,7 @@
      }
     },
     {
-     "id": "abaca86",
+     "id": "a28e92a",
      "elType": "widget",
      "widgetType": "button",
      "elements": [],
@@ -125,7 +125,7 @@
      }
     },
     {
-     "id": "4f7961a",
+     "id": "bd3f75d",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -158,12 +158,12 @@
      }
     },
     {
-     "id": "b5ff5eb",
+     "id": "1318363",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "0c36cdb",
+       "id": "175f09b",
        "elType": "widget",
        "widgetType": "image",
        "elements": [],
@@ -203,7 +203,7 @@
        }
       },
       {
-       "id": "fbca7ed",
+       "id": "0d53874",
        "elType": "widget",
        "widgetType": "heading",
        "elements": [],
@@ -236,7 +236,7 @@
        }
       },
       {
-       "id": "0c82136",
+       "id": "e6608e6",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -295,12 +295,12 @@
      }
     },
     {
-     "id": "b49481c",
+     "id": "2725321",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "4cbf9a9",
+       "id": "231ccf0",
        "elType": "widget",
        "widgetType": "image",
        "elements": [],
@@ -340,7 +340,7 @@
        }
       },
       {
-       "id": "a6b66a7",
+       "id": "6de6b76",
        "elType": "widget",
        "widgetType": "heading",
        "elements": [],
@@ -373,7 +373,7 @@
        }
       },
       {
-       "id": "eda8524",
+       "id": "4daf919",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -432,12 +432,12 @@
      }
     },
     {
-     "id": "6dab66b",
+     "id": "51cdd77",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "780072d",
+       "id": "b1b05cc",
        "elType": "widget",
        "widgetType": "heading",
        "elements": [],
@@ -470,17 +470,17 @@
        }
       },
       {
-       "id": "5d6087c",
+       "id": "0e4496e",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
        "isInner": false,
        "settings": {
-        "editor": "<p>Sostengo volentieri progetti del cuore con il software. Finora per esempio negli ambiti della Comunicazione Nonviolenta e della mindfulness. I progetti del cuore esistono ovunque: nell’artigianato, nel sociale, nella ristorazione. Sono felice di ricevere nuove idee.</p>"
+        "editor": "<p>Sostengo volentieri progetti del cuore. Finora per esempio negli ambiti della Comunicazione Nonviolenta e della mindfulness. I progetti del cuore esistono ovunque: nell’artigianato, nel sociale, nella ristorazione. Sono felice di ricevere nuove idee.</p>"
        }
       },
       {
-       "id": "1d39068",
+       "id": "6bae150",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -539,7 +539,7 @@
      }
     },
     {
-     "id": "3dee5e1",
+     "id": "338155a",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -572,17 +572,17 @@
      }
     },
     {
-     "id": "e02bd06",
+     "id": "34bbc32",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "67eae74",
+       "id": "7429336",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "a22fb7d",
+         "id": "b390eb0",
          "elType": "widget",
          "widgetType": "image",
          "elements": [],
@@ -646,12 +646,12 @@
        }
       },
       {
-       "id": "2593533",
+       "id": "77eb2f5",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "fda59b7",
+         "id": "9aa8201",
          "elType": "widget",
          "widgetType": "image",
          "elements": [],
@@ -715,12 +715,12 @@
        }
       },
       {
-       "id": "3287c95",
+       "id": "3311305",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "9d76f44",
+         "id": "eca72da",
          "elType": "widget",
          "widgetType": "image",
          "elements": [],
@@ -806,7 +806,7 @@
      }
     },
     {
-     "id": "57f92d7",
+     "id": "d74f993",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -824,7 +824,7 @@
      }
     },
     {
-     "id": "7406387",
+     "id": "1af3ebf",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -857,12 +857,12 @@
      }
     },
     {
-     "id": "3a15387",
+     "id": "d1b0241",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "aebc487",
+       "id": "dd1c5a8",
        "elType": "widget",
        "widgetType": "heading",
        "elements": [],
@@ -895,17 +895,17 @@
        }
       },
       {
-       "id": "98a3162",
+       "id": "3d03cc5",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "1ed56ee",
+         "id": "3028b04",
          "elType": "container",
          "isInner": true,
          "elements": [
           {
-           "id": "889e6ab",
+           "id": "9e65d83",
            "elType": "widget",
            "widgetType": "image",
            "elements": [],
@@ -972,12 +972,12 @@
          }
         },
         {
-         "id": "cbd0a35",
+         "id": "2d0fd2a",
          "elType": "container",
          "isInner": true,
          "elements": [
           {
-           "id": "8beba87",
+           "id": "2dba81c",
            "elType": "widget",
            "widgetType": "text-editor",
            "elements": [],
@@ -1025,7 +1025,7 @@
        }
       },
       {
-       "id": "824d52f",
+       "id": "e82de1a",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -1084,7 +1084,7 @@
      }
     },
     {
-     "id": "5e9b6ff",
+     "id": "c72e1ef",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -1094,7 +1094,7 @@
      }
     },
     {
-     "id": "0e12038",
+     "id": "653ac9b",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -1104,7 +1104,7 @@
      }
     },
     {
-     "id": "b21d3d7",
+     "id": "2f9114b",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -1114,7 +1114,7 @@
      }
     },
     {
-     "id": "f616b38",
+     "id": "0c0ff01",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -1147,7 +1147,7 @@
      }
     },
     {
-     "id": "24ab2ec",
+     "id": "c42facc",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -1165,7 +1165,7 @@
      }
     },
     {
-     "id": "14fb8a3",
+     "id": "20fe322",
      "settings": {
       "content_width": "full",
       "text": "Trenner"
@@ -1176,7 +1176,7 @@
      "elType": "widget"
     },
     {
-     "id": "3337e3c",
+     "id": "208678d",
      "settings": {
       "content_width": "full",
       "html": "<div id=\"kontakt\" style=\"height:1px; background:transparent;\"></div>"
@@ -1187,7 +1187,7 @@
      "elType": "widget"
     },
     {
-     "id": "71b55d5",
+     "id": "eab3b51",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -1220,7 +1220,7 @@
      }
     },
     {
-     "id": "f6418c8",
+     "id": "0550dcd",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -1230,7 +1230,7 @@
      }
     },
     {
-     "id": "5bead5f",
+     "id": "eaa115a",
      "settings": {
       "content_width": "full",
       "html": "[jfo_contact_form]"
@@ -1241,7 +1241,7 @@
      "elType": "widget"
     },
     {
-     "id": "720578f",
+     "id": "a359275",
      "settings": {
       "content_width": "full",
       "text": "Trenner"
@@ -1252,7 +1252,7 @@
      "elType": "widget"
     },
     {
-     "id": "15534ab",
+     "id": "45c197d",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
