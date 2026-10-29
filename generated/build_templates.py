@@ -155,7 +155,7 @@ home = [
 
     # 2. Was ich realisiere
     heading("Was ich realisiere", "h2", 30, "#000000", 20),
-    card("apple", "Smartphone-App mit KI und Sprachsteuerung", "Apps mit KI und Sprachsteuerung",
+    card("voice", "Leuchtende Schallwellen als Symbol für Sprachsteuerung", "Apps mit KI und Sprachsteuerung",
          "Apps, die gesprochene Sätze verstehen: bestellen, suchen und erfassen per Sprache statt per Formular. "
          "Mein Fokus liegt auf Lösungen, die möglichst datenschutzfreundlich sind und geringe laufende Kosten haben."),
     card("agentic", "Abstraktes Netzwerk als Symbol für KI-Agenten", "KI-Agenten",
@@ -252,7 +252,7 @@ home_it = [
 
     # 2. Cosa realizzo
     heading("Cosa realizzo", "h2", 30, "#000000", 20),
-    card("apple", "App per smartphone con IA e comando vocale", "App con IA e comando vocale",
+    card("voice", "Onde sonore luminose come simbolo del comando vocale", "App con IA e comando vocale",
          "App che capiscono le frasi parlate: ordinare, cercare e registrare con la voce invece che con un modulo. "
          "Mi concentro su soluzioni il più possibile rispettose della privacy e con costi continui contenuti."),
     card("agentic", "Rete astratta come simbolo degli agenti IA", "Agenti IA",

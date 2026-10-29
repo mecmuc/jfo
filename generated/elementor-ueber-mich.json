@@ -1,12 +1,12 @@
 {
  "content": [
   {
-   "id": "ae99b99",
+   "id": "6f912c3",
    "elType": "container",
    "isInner": false,
    "elements": [
     {
-     "id": "46970a1",
+     "id": "ac99c13",
      "elType": "widget",
      "widgetType": "html",
      "elements": [],
@@ -16,7 +16,7 @@
      }
     },
     {
-     "id": "2638331",
+     "id": "002dd06",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -49,7 +49,7 @@
      }
     },
     {
-     "id": "f9a4ffb",
+     "id": "e690ea3",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -59,7 +59,7 @@
      }
     },
     {
-     "id": "b81a4e3",
+     "id": "5db8019",
      "settings": {
       "content_width": "full",
       "carousel": [
@@ -86,7 +86,7 @@
      "elType": "widget"
     },
     {
-     "id": "be8e714",
+     "id": "f13e565",
      "settings": {
       "content_width": "full",
       "title": "Werdegang",
@@ -102,7 +102,7 @@
      "elType": "widget"
     },
     {
-     "id": "e4c4d61",
+     "id": "10041aa",
      "settings": {
       "content_width": "full",
       "editor": "<p><strong>Selbständig (seit 2011)</strong></p>\n<ul>\n<li>Seit 2011 · eigene Projekte, Apps und Webanwendungen</li>\n<li>2020–2025 · Krankenkasse (eine der größten, selbständig) — iOS, elektronische Patientenakte, Autorisierungs-Flows, Identitätsmanagement</li>\n<li>2018–2020 · Plan.Net Gruppe (selbständig) — App-Entwicklung mit React Native</li>\n</ul>\n<p><strong>Angestellt</strong></p>\n<ul>\n<li>2012–2016 · infsoft GmbH — Indoor-Navigation Apps für Android und iOS</li>\n<li>2003–2011 · LOCANIS AG — Intralogistik, Staplerleitsysteme (Java)</li>\n<li>2000–2002 · living systems AG — Internet-Marktplätze mit Agenten-Systemen (Java)</li>\n</ul>"
@@ -113,7 +113,7 @@
      "elType": "widget"
     },
     {
-     "id": "2f1672f",
+     "id": "a0a5bff",
      "settings": {
       "content_width": "full",
       "title": "Schwerpunkte",
@@ -129,7 +129,7 @@
      "elType": "widget"
     },
     {
-     "id": "261fafe",
+     "id": "7aebbde",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -139,7 +139,7 @@
      }
     },
     {
-     "id": "4f30e99",
+     "id": "f2048c6",
      "settings": {
       "content_width": "full",
       "title": "Ausbildung",
@@ -155,7 +155,7 @@
      "elType": "widget"
     },
     {
-     "id": "c8dc456",
+     "id": "529ee56",
      "settings": {
       "content_width": "full",
       "editor": "<ul><li>Fortbildung zum Applikationsentwickler Client-Server - Siemens Business Services</li><li>Diplom-Volkswirt -· Universität Konstanz - <span style=\"font-style: inherit; font-family: var( --e-global-typography-text-font-family ), Sans-serif; text-align: var(--text-align);\">Schwerpunkte: mathematisch-statistische Methoden, wissenschaftliche Hilfskraft am Lehrstuhl für Ökonometrie</span></li><li>Groß- und Außenhandelskaufmann - Bender &amp; Hobein,  Laborgeräte</li></ul>"
@@ -166,7 +166,7 @@
      "elType": "widget"
     },
     {
-     "id": "7e50dd0",
+     "id": "97c3e5e",
      "settings": {
       "content_width": "full",
       "title": "Sprachen",
@@ -182,7 +182,7 @@
      "elType": "widget"
     },
     {
-     "id": "7502511",
+     "id": "ff728c8",
      "settings": {
       "content_width": "full",
       "editor": "<p>Deutsch · Muttersprache  |  Französisch · Muttersprache  |  Englisch · Gut <span style=\"font-family: var( --e-global-typography-text-font-family ), Sans-serif; text-align: var(--text-align); font-size: 1rem;\">|  Italienisch · Grundkenntnisse</span></p>"
@@ -193,7 +193,7 @@
      "elType": "widget"
     },
     {
-     "id": "52c55b0",
+     "id": "13a26c8",
      "elType": "widget",
      "widgetType": "button",
      "elements": [],
@@ -251,7 +251,7 @@
      }
     },
     {
-     "id": "2551707",
+     "id": "19496ef",
      "settings": {
       "content_width": "full",
       "text": "Trenner"
@@ -262,7 +262,7 @@
      "elType": "widget"
     },
     {
-     "id": "1a5e8f7",
+     "id": "7f377f8",
      "settings": {
       "content_width": "full",
       "editor": "<p style=\"text-align:center; font-size:0.85rem;\"><a href=\"/impressum/\">Impressum</a> &nbsp;|&nbsp; <a href=\"/datenschutz/\">Datenschutz</a></p>"

@@ -1,12 +1,12 @@
 {
  "content": [
   {
-   "id": "5658800",
+   "id": "a028e9f",
    "elType": "container",
    "isInner": false,
    "elements": [
     {
-     "id": "eee878a",
+     "id": "1e61c84",
      "elType": "widget",
      "widgetType": "html",
      "elements": [],
@@ -16,7 +16,7 @@
      }
     },
     {
-     "id": "62a5d2c",
+     "id": "7da098a",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -49,7 +49,7 @@
      }
     },
     {
-     "id": "171f0e5",
+     "id": "b627a6b",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -67,7 +67,7 @@
      }
     },
     {
-     "id": "a28e92a",
+     "id": "8c2a691",
      "elType": "widget",
      "widgetType": "button",
      "elements": [],
@@ -125,7 +125,7 @@
      }
     },
     {
-     "id": "bd3f75d",
+     "id": "b72d1f7",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -158,21 +158,21 @@
      }
     },
     {
-     "id": "1318363",
+     "id": "5018c01",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "175f09b",
+       "id": "e31fe41",
        "elType": "widget",
        "widgetType": "image",
        "elements": [],
        "isInner": false,
        "settings": {
         "image": {
-         "url": "https://janfoshag.de/wp-content/uploads/2026/10/apple-intelligence.jpg",
+         "url": "https://janfoshag.de/wp-content/uploads/2026/10/voice-agents.jpg",
          "id": "",
-         "alt": "App per smartphone con IA e comando vocale",
+         "alt": "Onde sonore luminose come simbolo del comando vocale",
          "source": "library"
         },
         "image_size": "large",
@@ -203,7 +203,7 @@
        }
       },
       {
-       "id": "0d53874",
+       "id": "185ce54",
        "elType": "widget",
        "widgetType": "heading",
        "elements": [],
@@ -236,7 +236,7 @@
        }
       },
       {
-       "id": "e6608e6",
+       "id": "9626809",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -295,12 +295,12 @@
      }
     },
     {
-     "id": "2725321",
+     "id": "0b136f3",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "231ccf0",
+       "id": "5dba5d2",
        "elType": "widget",
        "widgetType": "image",
        "elements": [],
@@ -340,7 +340,7 @@
        }
       },
       {
-       "id": "6de6b76",
+       "id": "cb9b851",
        "elType": "widget",
        "widgetType": "heading",
        "elements": [],
@@ -373,7 +373,7 @@
        }
       },
       {
-       "id": "4daf919",
+       "id": "9ed7796",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -432,12 +432,12 @@
      }
     },
     {
-     "id": "51cdd77",
+     "id": "d3cd25e",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "b1b05cc",
+       "id": "75b1727",
        "elType": "widget",
        "widgetType": "heading",
        "elements": [],
@@ -470,7 +470,7 @@
        }
       },
       {
-       "id": "0e4496e",
+       "id": "11649bd",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -480,7 +480,7 @@
        }
       },
       {
-       "id": "6bae150",
+       "id": "f83dd90",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -539,7 +539,7 @@
      }
     },
     {
-     "id": "338155a",
+     "id": "ff243c6",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -572,17 +572,17 @@
      }
     },
     {
-     "id": "34bbc32",
+     "id": "6665838",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "7429336",
+       "id": "61fe0c2",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "b390eb0",
+         "id": "3dc61e4",
          "elType": "widget",
          "widgetType": "image",
          "elements": [],
@@ -646,12 +646,12 @@
        }
       },
       {
-       "id": "77eb2f5",
+       "id": "1947565",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "9aa8201",
+         "id": "6bc01f0",
          "elType": "widget",
          "widgetType": "image",
          "elements": [],
@@ -715,12 +715,12 @@
        }
       },
       {
-       "id": "3311305",
+       "id": "b09b2ab",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "eca72da",
+         "id": "7f02b7d",
          "elType": "widget",
          "widgetType": "image",
          "elements": [],
@@ -806,7 +806,7 @@
      }
     },
     {
-     "id": "d74f993",
+     "id": "e4860b3",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -824,7 +824,7 @@
      }
     },
     {
-     "id": "1af3ebf",
+     "id": "4d1bf6c",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -857,12 +857,12 @@
      }
     },
     {
-     "id": "d1b0241",
+     "id": "17bbf0a",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "dd1c5a8",
+       "id": "f04d33a",
        "elType": "widget",
        "widgetType": "heading",
        "elements": [],
@@ -895,17 +895,17 @@
        }
       },
       {
-       "id": "3d03cc5",
+       "id": "3d581a6",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "3028b04",
+         "id": "83f92fb",
          "elType": "container",
          "isInner": true,
          "elements": [
           {
-           "id": "9e65d83",
+           "id": "0e23d40",
            "elType": "widget",
            "widgetType": "image",
            "elements": [],
@@ -972,12 +972,12 @@
          }
         },
         {
-         "id": "2d0fd2a",
+         "id": "78b306d",
          "elType": "container",
          "isInner": true,
          "elements": [
           {
-           "id": "2dba81c",
+           "id": "fad1b9a",
            "elType": "widget",
            "widgetType": "text-editor",
            "elements": [],
@@ -1025,7 +1025,7 @@
        }
       },
       {
-       "id": "e82de1a",
+       "id": "234ac53",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -1084,7 +1084,7 @@
      }
     },
     {
-     "id": "c72e1ef",
+     "id": "8d3efc8",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -1094,7 +1094,7 @@
      }
     },
     {
-     "id": "653ac9b",
+     "id": "70af857",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -1104,7 +1104,7 @@
      }
     },
     {
-     "id": "2f9114b",
+     "id": "d81bfe0",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -1114,7 +1114,7 @@
      }
     },
     {
-     "id": "0c0ff01",
+     "id": "aa5dfdb",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -1147,7 +1147,7 @@
      }
     },
     {
-     "id": "c42facc",
+     "id": "e4702d3",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -1165,7 +1165,7 @@
      }
     },
     {
-     "id": "20fe322",
+     "id": "c44fbca",
      "settings": {
       "content_width": "full",
       "text": "Trenner"
@@ -1176,7 +1176,7 @@
      "elType": "widget"
     },
     {
-     "id": "208678d",
+     "id": "8e07998",
      "settings": {
       "content_width": "full",
       "html": "<div id=\"kontakt\" style=\"height:1px; background:transparent;\"></div>"
@@ -1187,7 +1187,7 @@
      "elType": "widget"
     },
     {
-     "id": "eab3b51",
+     "id": "c535fb7",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -1220,7 +1220,7 @@
      }
     },
     {
-     "id": "0550dcd",
+     "id": "656e024",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -1230,7 +1230,7 @@
      }
     },
     {
-     "id": "eaa115a",
+     "id": "48d0290",
      "settings": {
       "content_width": "full",
       "html": "[jfo_contact_form]"
@@ -1241,7 +1241,7 @@
      "elType": "widget"
     },
     {
-     "id": "a359275",
+     "id": "71551c5",
      "settings": {
       "content_width": "full",
       "text": "Trenner"
@@ -1252,7 +1252,7 @@
      "elType": "widget"
     },
     {
-     "id": "45c197d",
+     "id": "03b8c16",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],

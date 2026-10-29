@@ -1,12 +1,12 @@
 {
  "content": [
   {
-   "id": "346fb0f",
+   "id": "ebd6d25",
    "elType": "container",
    "isInner": false,
    "elements": [
     {
-     "id": "cbbefe7",
+     "id": "b1586f1",
      "elType": "widget",
      "widgetType": "html",
      "elements": [],
@@ -16,7 +16,7 @@
      }
     },
     {
-     "id": "fc11e79",
+     "id": "d564508",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -49,7 +49,7 @@
      }
     },
     {
-     "id": "04207c8",
+     "id": "dfacc2e",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -67,7 +67,7 @@
      }
     },
     {
-     "id": "8ef9e24",
+     "id": "9f6fa3d",
      "elType": "widget",
      "widgetType": "button",
      "elements": [],
@@ -125,7 +125,7 @@
      }
     },
     {
-     "id": "f5cb4b2",
+     "id": "994a81e",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -158,21 +158,21 @@
      }
     },
     {
-     "id": "dcd0712",
+     "id": "075bf2b",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "fa329e1",
+       "id": "b0428ee",
        "elType": "widget",
        "widgetType": "image",
        "elements": [],
        "isInner": false,
        "settings": {
         "image": {
-         "url": "https://janfoshag.de/wp-content/uploads/2026/10/apple-intelligence.jpg",
+         "url": "https://janfoshag.de/wp-content/uploads/2026/10/voice-agents.jpg",
          "id": "",
-         "alt": "Smartphone-App mit KI und Sprachsteuerung",
+         "alt": "Leuchtende Schallwellen als Symbol für Sprachsteuerung",
          "source": "library"
         },
         "image_size": "large",
@@ -203,7 +203,7 @@
        }
       },
       {
-       "id": "1fbdbdd",
+       "id": "c6e2930",
        "elType": "widget",
        "widgetType": "heading",
        "elements": [],
@@ -236,7 +236,7 @@
        }
       },
       {
-       "id": "b08c076",
+       "id": "7e7376c",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -295,12 +295,12 @@
      }
     },
     {
-     "id": "987e2d4",
+     "id": "41e385b",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "1b088f6",
+       "id": "a721894",
        "elType": "widget",
        "widgetType": "image",
        "elements": [],
@@ -340,7 +340,7 @@
        }
       },
       {
-       "id": "e40be88",
+       "id": "f0acdac",
        "elType": "widget",
        "widgetType": "heading",
        "elements": [],
@@ -373,7 +373,7 @@
        }
       },
       {
-       "id": "a6abc23",
+       "id": "3900706",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -432,12 +432,12 @@
      }
     },
     {
-     "id": "469ca34",
+     "id": "0620fa9",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "d780e0f",
+       "id": "943397a",
        "elType": "widget",
        "widgetType": "heading",
        "elements": [],
@@ -470,7 +470,7 @@
        }
       },
       {
-       "id": "33fe25d",
+       "id": "bcf9a4b",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -480,7 +480,7 @@
        }
       },
       {
-       "id": "677f690",
+       "id": "0a1a89b",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -539,7 +539,7 @@
      }
     },
     {
-     "id": "3da7d74",
+     "id": "2a8a3ab",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -572,17 +572,17 @@
      }
     },
     {
-     "id": "4c7ab50",
+     "id": "bef48b7",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "e530282",
+       "id": "290a16d",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "479c4ff",
+         "id": "23b05ec",
          "elType": "widget",
          "widgetType": "image",
          "elements": [],
@@ -646,12 +646,12 @@
        }
       },
       {
-       "id": "261f2a7",
+       "id": "53b050e",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "dcac4f8",
+         "id": "71e0088",
          "elType": "widget",
          "widgetType": "image",
          "elements": [],
@@ -715,12 +715,12 @@
        }
       },
       {
-       "id": "a0fda7a",
+       "id": "1920574",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "9ca8685",
+         "id": "538d63a",
          "elType": "widget",
          "widgetType": "image",
          "elements": [],
@@ -806,7 +806,7 @@
      }
     },
     {
-     "id": "8fab4f7",
+     "id": "7ddec6e",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -824,7 +824,7 @@
      }
     },
     {
-     "id": "bf6f644",
+     "id": "3c07336",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -857,12 +857,12 @@
      }
     },
     {
-     "id": "1ef48a9",
+     "id": "8af1926",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "085d3dc",
+       "id": "fcdb1ff",
        "elType": "widget",
        "widgetType": "heading",
        "elements": [],
@@ -895,17 +895,17 @@
        }
       },
       {
-       "id": "0744e17",
+       "id": "40ff572",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "2643792",
+         "id": "940f0e0",
          "elType": "container",
          "isInner": true,
          "elements": [
           {
-           "id": "4a0b0c0",
+           "id": "cc2033c",
            "elType": "widget",
            "widgetType": "image",
            "elements": [],
@@ -972,12 +972,12 @@
          }
         },
         {
-         "id": "4846c16",
+         "id": "ae554e8",
          "elType": "container",
          "isInner": true,
          "elements": [
           {
-           "id": "4db9d59",
+           "id": "c5c1ff4",
            "elType": "widget",
            "widgetType": "text-editor",
            "elements": [],
@@ -1025,7 +1025,7 @@
        }
       },
       {
-       "id": "d6e3d46",
+       "id": "3f097c7",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -1084,7 +1084,7 @@
      }
     },
     {
-     "id": "2053f1d",
+     "id": "5dd3c62",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -1094,7 +1094,7 @@
      }
     },
     {
-     "id": "6f10a75",
+     "id": "a0ffcd7",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -1104,7 +1104,7 @@
      }
     },
     {
-     "id": "50769e4",
+     "id": "18aa14c",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -1137,7 +1137,7 @@
      }
     },
     {
-     "id": "2b9d9b5",
+     "id": "ca0989c",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -1155,7 +1155,7 @@
      }
     },
     {
-     "id": "ff5b81b",
+     "id": "1d56035",
      "elType": "widget",
      "widgetType": "button",
      "elements": [],
@@ -1213,7 +1213,7 @@
      }
     },
     {
-     "id": "50616e0",
+     "id": "68179e6",
      "settings": {
       "content_width": "full",
       "text": "Trenner"
@@ -1224,7 +1224,7 @@
      "elType": "widget"
     },
     {
-     "id": "0fb2a07",
+     "id": "8552593",
      "settings": {
       "content_width": "full",
       "html": "<div id=\"kontakt\" style=\"height:1px; background:transparent;\"></div>"
@@ -1235,7 +1235,7 @@
      "elType": "widget"
     },
     {
-     "id": "ac58038",
+     "id": "a4db753",
      "settings": {
       "content_width": "full",
       "title": "Kontakt",
@@ -1251,7 +1251,7 @@
      "elType": "widget"
     },
     {
-     "id": "1d1c3bc",
+     "id": "51170bf",
      "settings": {
       "content_width": "full",
       "editor": "<p>Ich suche laufend weitere Projekte und freue mich über Kontaktaufnahmen.</p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p><a href=\"mailto:info@janfoshag.de\">info@janfoshag.de</a></p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p><a href=\"tel:+498945439111\">+49 89 45439111</a></p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p><a href=\"https://www.xing.com/profile/Jan_Foshag\">Xing</a>,&nbsp;<span style=\"font-family: var( --e-global-typography-text-font-family ), Sans-serif; text-align: var(--text-align); font-size: 1rem;\"><a href=\"https://www.linkedin.com/in/jan-foshag-01b39338/\">LinkedIn</a></span></p>"
@@ -1262,7 +1262,7 @@
      "elType": "widget"
     },
     {
-     "id": "9b8cbd4",
+     "id": "fabb70e",
      "settings": {
       "content_width": "full",
       "html": "[jfo_contact_form]"
@@ -1273,7 +1273,7 @@
      "elType": "widget"
     },
     {
-     "id": "565272c",
+     "id": "ebdf55a",
      "settings": {
       "content_width": "full",
       "text": "Trenner"
@@ -1284,7 +1284,7 @@
      "elType": "widget"
     },
     {
-     "id": "0afe281",
+     "id": "3f3b40b",
      "settings": {
       "content_width": "full",
       "editor": "<p style=\"text-align:center; font-size:0.85rem;\"><a href=\"/impressum/\">Impressum</a> &nbsp;|&nbsp; <a href=\"/datenschutz/\">Datenschutz</a></p>"
