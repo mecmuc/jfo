@@ -1,8 +1,7 @@
 """Baut elementor-home-kundensicht, elementor-ueber-mich und elementor-home-it aus dem Export vom 16.10.2026."""
-import copy, json, secrets, sys
+import copy, glob, json, os, secrets, sys
 
 SRC, OUTDIR = sys.argv[1], sys.argv[2]
-DATE = "2026-10-28-v2"
 BLUE, PURPLE = "#0137d2", "#800080"
 
 export = json.load(open(SRC))
@@ -88,10 +87,8 @@ def container(children, direction="column", gap=16, bg=None, padding=0, margin_b
     return {"id": nid(), "elType": "container", "isInner": True, "elements": children, "settings": s}
 
 
-def card(img_key, alt, title, problem, solution, extra=None, labels=("Problem", "Lösung")):
-    kids = [image(img_key, alt, 300), heading(title, "h3", 24, BLUE, 4),
-            text(f"<p><strong>{labels[0]}:</strong> {problem}</p>"),
-            text(f"<p><strong>{labels[1]}:</strong> {solution}</p>")]
+def card(img_key, alt, title, body, extra=None):
+    kids = [image(img_key, alt, 300), heading(title, "h3", 24, BLUE, 4), text(f"<p>{body}</p>")]
     if extra:
         kids.append(extra)
     return container(kids, gap=12, bg="#f4f6fd", padding=28, margin_bottom=24)
@@ -152,30 +149,25 @@ def page(title, elements):
 home = [
     # 1. Hero
     heading("Software-Lösungen", "h1", 38, BLUE, 16),
-    text("<p>Ich entwickle Software, die Abläufe vereinfacht: KI-Apps mit Sprachsteuerung, "
-         "selbstständig handelnde Agenten und Sprachassistenten.</p>"
-         "<p>Ich bin Jan Foshag, Software-Entwickler in München, seit über 20 Jahren.</p>", 8),
+    text("<p>Mit Software Probleme lösen und Potenzial entfalten.</p>"
+         "<p>Ich bin Jan Foshag aus München und helfe seit über 20 Jahren dabei.</p>", 8),
     button("Kontakt aufnehmen", "#kontakt"),
 
-    # 2. Was ich entwickle
-    heading("Was ich entwickle", "h2", 30, "#000000", 20),
-    card("apple", "iPhone-App mit KI und Sprachsteuerung", "Apps mit KI und Sprachsteuerung",
-         "Ihre App soll klüger werden und sich per Sprache bedienen lassen. Aber Kundendaten dürfen das Gerät nicht verlassen, "
-         "und übliche Cloud-KI kostet pro Anfrage.",
+    # 2. Was ich realisiere
+    heading("Was ich realisiere", "h2", 30, "#000000", 20),
+    card("apple", "Smartphone-App mit KI und Sprachsteuerung", "Apps mit KI und Sprachsteuerung",
          "Apps, die gesprochene Sätze verstehen: bestellen, suchen und erfassen per Sprache statt per Formular. "
-         "Die KI läuft auf Wunsch direkt auf dem Gerät oder, mit Apple Intelligence, in Apples Private Cloud: datenschutzfreundlich und ohne laufende Kosten pro Anfrage. "
-         "Auf dem iPhone wird Ihre App zusätzlich über Siri und Kurzbefehle erreichbar. "
-         "Grundlage sind über 10 Jahre App-Entwicklung für iOS und Android, nativ und plattformübergreifend."),
+         "Mein Fokus liegt auf Lösungen, die möglichst datenschutzfreundlich sind und geringe laufende Kosten haben."),
     card("agentic", "Abstraktes Netzwerk als Symbol für KI-Agenten", "KI-Agenten",
-         "Routinearbeit kostet Ihr Team Stunden: E-Mails sortieren, Daten zwischen Systemen übertragen, "
-         "ans Telefon gehen, wenn gerade niemand Zeit hat.",
-         "KI-Agenten, die solche Aufgaben selbstständig erledigen, direkt in Ihren bestehenden Systemen. "
-         "Bei wichtigen Entscheidungen fragen sie nach. Als Sprachassistent nehmen sie rund um die Uhr "
-         "Bestellungen und Reservierungen am Telefon an."),
+         "KI-Agenten erledigen Routinearbeit selbstständig, direkt in Ihren bestehenden Systemen: E-Mails sortieren, "
+         "Daten übertragen und rund um die Uhr Bestellungen und Reservierungen am Telefon annehmen. "
+         "Bei wichtigen Entscheidungen fragen sie nach."),
     container([
         heading("Herzensprojekte", "h3", 24, BLUE, 4),
-        text("<p>Ich unterstütze gerne Herzensprojekte mit Webseiten, Apps oder anderer Software. "
-             "Bisher vor allem in den Bereichen Gewaltfreie Kommunikation (GFK), Achtsamkeit und Therapie.</p>"),
+        text("<p>Ich unterstütze gerne Herzensprojekte mit Software. "
+             "Bisher zum Beispiel in den Bereichen Gewaltfreie Kommunikation (GFK) und Achtsamkeit. "
+             "Herzensprojekte gibt es überall: im Handwerk, im sozialen Bereich, in der Gastronomie. "
+             "Über neue Ideen freue ich mich.</p>"),
         text("<p><strong>Beispiel:</strong> Das „GFK-Spiel“, ein Lernspiel für Gewaltfreie Kommunikation, "
              "als App für iOS und Android, mit über 10.000 Installationen.</p>"
              '<blockquote class="wp-block-quote"><p><em>„Sehr hilfreiche, klare, schöne App. Herzlichen Dank dafür!“</em></p></blockquote>'),
@@ -215,9 +207,9 @@ home = [
     heading("Warum mit mir", "h2", 30, "#000000", 12),
     text("<ul>"
          "<li><strong>20+ Jahre</strong> Software-Entwicklung: von Handelsplattformen und Intralogistik über Apps für iOS und Android bis zu KI-Agenten</li>"
-         "<li><strong>Apps seit über 10 Jahren:</strong> iOS und Android, nativ und plattformübergreifend, u. a. für eine große Krankenkasse, Plan.Net und Indoor-Navigation</li>"
+         "<li><strong>Apps seit über 10 Jahren:</strong> iOS und Android, nativ und plattformübergreifend, u. a. für eine große Krankenkasse und eine Digitalagentur</li>"
          "<li><strong>10.000+ Installationen</strong> der App „GFK-Spiel“</li>"
-         "<li><strong>Direkter Draht:</strong> Sie sprechen mit dem Entwickler</li>"
+         "<li><strong>Direkter Draht:</strong> Sie sprechen direkt mit mir, ohne Umwege</li>"
          "</ul>", 8),
     button("Mehr über mich, Projekte und Werdegang", "/ueber-mich/"),
 
@@ -233,7 +225,6 @@ about = [
     text("<p>Ich bin Jan Foshag, selbständiger Software-Entwickler. Ich lebe und arbeite in München. Seit über 20 Jahren entwickle ich Software – "
          "von klassischen Java-Anwendungen über Apps für iOS und Android, nativ und plattformübergreifend, "
          "bis hin zu modernen KI-gestützten Lösungen.</p>"),
-    clean(old["27d2f951"]), clean(old["1a6e23f1"]),   # Projektbeispiele + Akkordeon
     clean(old["583af67a"]),                            # Bildergalerie
     clean(old["d9fd1e6"]),
     edit_text(edit_text(clean(old["1b2abba7"]), "Krankenkasse (selbständig)",     # Werdegang
@@ -241,8 +232,8 @@ about = [
               "Seit 2011 . eigene", "Seit 2011 · eigene"),
     clean(old["42e660d6"]),                            # Schwerpunkte
     text("<ul>"
-         "<li>App-Entwicklung: iOS und Android, nativ und Cross-Platform (React Native, Flutter)</li>"
          "<li>Künstliche Intelligenz: Apple Intelligence, Siri AI, KI-Agenten, Voice Agents, Anthropic, Mistral, RAG, MCP, Python u. v. m.</li>"
+         "<li>App-Entwicklung: iOS und Android, nativ und Cross-Platform (React Native, Flutter)</li>"
          "<li>Webanwendungen</li>"
          "</ul>"),
     clean(old["38aaf910"]), clean(old["320d5a1b"]),    # Ausbildung
@@ -252,36 +243,28 @@ about = [
 ]
 
 # ---------------- Startseite Italienisch (eine Seite: Soluzioni + kurzes Chi sono) ----------------
-IT = ("Problema", "Soluzione")
 home_it = [
     # 1. Hero
     heading("Soluzioni software", "h1", 38, BLUE, 16),
-    text("<p>Sviluppo software che semplifica i processi: app con IA e comando vocale, "
-         "agenti autonomi e assistenti vocali.</p>"
-         "<p>Sono Jan Foshag, sviluppatore software a Monaco di Baviera da oltre 20 anni.</p>", 8),
+    text("<p>Risolvere problemi ed esprimere il potenziale con il software.</p>"
+         "<p>Sono Jan Foshag, di Monaco di Baviera, e da oltre 20 anni aiuto a farlo.</p>", 8),
     button("Contattami", "#kontakt"),
 
-    # 2. Cosa sviluppo
-    heading("Cosa sviluppo", "h2", 30, "#000000", 20),
-    card("apple", "App per iPhone con IA e comando vocale", "App con IA e comando vocale",
-         "La Sua app deve diventare più intelligente e lasciarsi comandare con la voce. Ma i dati dei clienti non devono lasciare "
-         "il dispositivo, e la solita IA nel cloud costa a ogni richiesta.",
+    # 2. Cosa realizzo
+    heading("Cosa realizzo", "h2", 30, "#000000", 20),
+    card("apple", "App per smartphone con IA e comando vocale", "App con IA e comando vocale",
          "App che capiscono le frasi parlate: ordinare, cercare e registrare con la voce invece che con un modulo. "
-         "Se desiderato, l’IA funziona direttamente sul dispositivo oppure, con Apple Intelligence, nel Private Cloud di Apple: nel rispetto della privacy "
-         "e senza costi continui per ogni richiesta. Su iPhone la Sua app diventa raggiungibile anche tramite Siri e Comandi rapidi. "
-         "Alla base ci sono oltre 10 anni di sviluppo di app per iOS e Android, native e multipiattaforma.",
-         labels=IT),
+         "Mi concentro su soluzioni il più possibile rispettose della privacy e con costi continui contenuti."),
     card("agentic", "Rete astratta come simbolo degli agenti IA", "Agenti IA",
-         "Le attività di routine costano ore al Suo team: smistare e-mail, trasferire dati tra sistemi, "
-         "rispondere al telefono quando nessuno ha tempo.",
-         "Agenti IA che svolgono questi compiti in autonomia, direttamente nei Suoi sistemi esistenti. "
-         "Per le decisioni importanti chiedono conferma. Come assistenti vocali prendono ordini e prenotazioni "
-         "al telefono 24 ore su 24.",
-         labels=IT),
+         "Gli agenti IA svolgono le attività di routine in autonomia, direttamente nei Suoi sistemi esistenti: smistare e-mail, "
+         "trasferire dati e prendere ordini e prenotazioni al telefono 24 ore su 24. "
+         "Per le decisioni importanti chiedono conferma."),
     container([
         heading("Progetti del cuore", "h3", 24, BLUE, 4),
-        text("<p>Sostengo volentieri progetti del cuore con siti web, app o altri software. "
-             "Finora soprattutto negli ambiti della Comunicazione Nonviolenta, della mindfulness e della terapia.</p>"),
+        text("<p>Sostengo volentieri progetti del cuore con il software. "
+             "Finora per esempio negli ambiti della Comunicazione Nonviolenta e della mindfulness. "
+             "I progetti del cuore esistono ovunque: nell’artigianato, nel sociale, nella ristorazione. "
+             "Sono felice di ricevere nuove idee.</p>"),
         text("<p><strong>Esempio:</strong> il „GFK-Spiel“, un gioco didattico sulla Comunicazione Nonviolenta, "
              "come app per iOS e Android, con oltre 10.000 installazioni.</p>"
              '<blockquote class="wp-block-quote"><p><em>„Un’app molto utile, chiara e bella. Grazie di cuore!“</em></p>'
@@ -325,9 +308,9 @@ home_it = [
     text("<p>Sono Jan Foshag, sviluppatore software indipendente a Monaco di Baviera. Da oltre 20 anni sviluppo software: "
          "dalle piattaforme di commercio e dall’intralogistica alle app per iOS e Android, fino agli agenti IA.</p>"
          "<ul>"
-         "<li><strong>App da oltre 10 anni:</strong> iOS e Android, native e multipiattaforma, tra l’altro per una grande cassa malattia, Plan.Net e la navigazione indoor</li>"
+         "<li><strong>App da oltre 10 anni:</strong> iOS e Android, native e multipiattaforma, tra l’altro per una grande cassa malattia e un’agenzia digitale</li>"
          "<li><strong>Oltre 10.000 installazioni</strong> dell’app „GFK-Spiel“</li>"
-         "<li><strong>Contatto diretto:</strong> parla direttamente con lo sviluppatore</li>"
+         "<li><strong>Contatto diretto:</strong> parla direttamente con me, senza intermediari</li>"
          "<li><strong>Lingue:</strong> tedesco e francese madrelingua, inglese buono. L’italiano lo sto imparando: mi scriva pure in italiano!</li>"
          "</ul>", 8),
 
@@ -345,9 +328,12 @@ home_it = [
          '<a href="/datenschutz/">Privacy (Datenschutz)</a></p>'),
 ]
 
+for old_file in glob.glob(f"{OUTDIR}/elementor-*.json"):  # alte Stände entfernen, Versionen liegen in git
+    os.remove(old_file)
+
 for name, title, els in [("elementor-home-kundensicht", "Startseite Kundensicht", home),
                          ("elementor-ueber-mich", "Über mich", about),
                          ("elementor-home-it", "Home (IT)", home_it)]:
-    path = f"{OUTDIR}/{name}-{DATE}.json"
+    path = f"{OUTDIR}/{name}.json"
     json.dump(page(title, els), open(path, "w"), ensure_ascii=False, indent=1)
     print("geschrieben:", path)

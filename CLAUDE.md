@@ -16,6 +16,11 @@ jfo/
 │   │   └── 260326_review.md             # Site audit March 26, 2026 (current)
 │   ├── about.md                         # Über mich section content (German)
 │   ├── datenschutz-kontaktformular.md   # New Datenschutz section for contact form
+├── generated/
+│   ├── build_templates.py               # Generator für die Elementor-Templates (DE, IT, Über mich)
+│   └── elementor-*.json                 # Erzeugte Templates zum Import in Elementor
+├── bilder/                              # Bilder für die Website (Upload in die WP-Mediathek)
+├── design/logo/                         # Logo und Website-Icon (Delfin)
 └── plugins/
     └── jfo-contact-form.php             # Contact form plugin v1.1 — bilingual DE/EN
 ```
