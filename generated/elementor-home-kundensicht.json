@@ -1,12 +1,12 @@
 {
  "content": [
   {
-   "id": "c70b35b",
+   "id": "3b7f5fd",
    "elType": "container",
    "isInner": false,
    "elements": [
     {
-     "id": "bd1c668",
+     "id": "cf78a40",
      "elType": "widget",
      "widgetType": "html",
      "elements": [],
@@ -16,7 +16,7 @@
      }
     },
     {
-     "id": "6967482",
+     "id": "fd54e40",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -49,13 +49,13 @@
      }
     },
     {
-     "id": "8887de5",
+     "id": "77cfd9b",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
      "isInner": false,
      "settings": {
-      "editor": "<p>Mit Software Probleme lösen und Potenzial entfalten.</p><p>Ich bin Jan Foshag, lebe in München und helfe seit über 20 Jahren dabei.</p>",
+      "editor": "<p><em>Mit Software Probleme lösen und Potenzial entfalten.</em></p><p>Ich bin Jan Foshag, lebe in München und helfe seit über 20 Jahren dabei.</p>",
       "_margin": {
        "unit": "px",
        "top": "0",
@@ -67,7 +67,7 @@
      }
     },
     {
-     "id": "903fedb",
+     "id": "4f36958",
      "elType": "widget",
      "widgetType": "button",
      "elements": [],
@@ -125,7 +125,7 @@
      }
     },
     {
-     "id": "1b3a922",
+     "id": "d8b6b9e",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -158,12 +158,12 @@
      }
     },
     {
-     "id": "34acfd0",
+     "id": "817d8ad",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "e07407d",
+       "id": "f9b5f0e",
        "elType": "widget",
        "widgetType": "image",
        "elements": [],
@@ -203,7 +203,7 @@
        }
       },
       {
-       "id": "318ef8e",
+       "id": "efdbc67",
        "elType": "widget",
        "widgetType": "heading",
        "elements": [],
@@ -236,7 +236,7 @@
        }
       },
       {
-       "id": "eb27375",
+       "id": "67d2ef1",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -295,12 +295,12 @@
      }
     },
     {
-     "id": "3e7c10c",
+     "id": "698d62c",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "a9e0b95",
+       "id": "b8c4e00",
        "elType": "widget",
        "widgetType": "image",
        "elements": [],
@@ -340,7 +340,7 @@
        }
       },
       {
-       "id": "c4d0afe",
+       "id": "8737084",
        "elType": "widget",
        "widgetType": "heading",
        "elements": [],
@@ -373,7 +373,7 @@
        }
       },
       {
-       "id": "f860a9a",
+       "id": "48182ed",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -432,12 +432,12 @@
      }
     },
     {
-     "id": "778ba80",
+     "id": "fd8e034",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "8c988eb",
+       "id": "1abb3c1",
        "elType": "widget",
        "widgetType": "heading",
        "elements": [],
@@ -470,7 +470,7 @@
        }
       },
       {
-       "id": "13b08b1",
+       "id": "6ad9404",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -480,7 +480,7 @@
        }
       },
       {
-       "id": "35f10a3",
+       "id": "0130a06",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -539,7 +539,7 @@
      }
     },
     {
-     "id": "8ac1b77",
+     "id": "4f651b3",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -572,17 +572,17 @@
      }
     },
     {
-     "id": "b714199",
+     "id": "f3f0a13",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "a23b4fa",
+       "id": "110595f",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "b869432",
+         "id": "a0fde5a",
          "elType": "widget",
          "widgetType": "image",
          "elements": [],
@@ -646,12 +646,12 @@
        }
       },
       {
-       "id": "da3876a",
+       "id": "9f90f82",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "db1b41f",
+         "id": "4caf948",
          "elType": "widget",
          "widgetType": "image",
          "elements": [],
@@ -715,12 +715,12 @@
        }
       },
       {
-       "id": "3755785",
+       "id": "a28bc1b",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "9f0ce2d",
+         "id": "fe113b0",
          "elType": "widget",
          "widgetType": "image",
          "elements": [],
@@ -806,7 +806,7 @@
      }
     },
     {
-     "id": "f2e963c",
+     "id": "c80ad75",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -824,7 +824,7 @@
      }
     },
     {
-     "id": "474d5cf",
+     "id": "b24e6a7",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -857,12 +857,12 @@
      }
     },
     {
-     "id": "6277745",
+     "id": "617cc08",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "eeb1f77",
+       "id": "f6b4270",
        "elType": "widget",
        "widgetType": "heading",
        "elements": [],
@@ -895,17 +895,17 @@
        }
       },
       {
-       "id": "04b4109",
+       "id": "2c9f295",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "286151e",
+         "id": "20f1530",
          "elType": "container",
          "isInner": true,
          "elements": [
           {
-           "id": "d955a18",
+           "id": "7cebe1d",
            "elType": "widget",
            "widgetType": "image",
            "elements": [],
@@ -972,12 +972,12 @@
          }
         },
         {
-         "id": "4c13b64",
+         "id": "7617f51",
          "elType": "container",
          "isInner": true,
          "elements": [
           {
-           "id": "353a302",
+           "id": "2ca5b33",
            "elType": "widget",
            "widgetType": "text-editor",
            "elements": [],
@@ -1025,7 +1025,7 @@
        }
       },
       {
-       "id": "aebcb3a",
+       "id": "f7feb0c",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -1084,7 +1084,7 @@
      }
     },
     {
-     "id": "daed2fd",
+     "id": "9f54ed5",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -1094,7 +1094,7 @@
      }
     },
     {
-     "id": "27f0ae0",
+     "id": "c9f08b0",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -1104,7 +1104,7 @@
      }
     },
     {
-     "id": "1df0d30",
+     "id": "adeb7b3",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -1137,7 +1137,7 @@
      }
     },
     {
-     "id": "2b9b834",
+     "id": "2376a22",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -1155,7 +1155,7 @@
      }
     },
     {
-     "id": "4bca623",
+     "id": "45ee805",
      "elType": "widget",
      "widgetType": "button",
      "elements": [],
@@ -1213,7 +1213,7 @@
      }
     },
     {
-     "id": "fad3991",
+     "id": "668919b",
      "settings": {
       "content_width": "full",
       "text": "Trenner"
@@ -1224,7 +1224,7 @@
      "elType": "widget"
     },
     {
-     "id": "2b50215",
+     "id": "7d0b9d1",
      "settings": {
       "content_width": "full",
       "html": "<div id=\"kontakt\" style=\"height:1px; background:transparent;\"></div>"
@@ -1235,7 +1235,7 @@
      "elType": "widget"
     },
     {
-     "id": "d63e353",
+     "id": "5c9022f",
      "settings": {
       "content_width": "full",
       "title": "Kontakt",
@@ -1251,7 +1251,7 @@
      "elType": "widget"
     },
     {
-     "id": "1cea3d8",
+     "id": "c40c5f1",
      "settings": {
       "content_width": "full",
       "editor": "<p>Ich suche laufend weitere Projekte und freue mich über Kontaktaufnahmen.</p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p><a href=\"mailto:info@janfoshag.de\">info@janfoshag.de</a></p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p><a href=\"tel:+498945439111\">+49 89 45439111</a></p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p><a href=\"https://www.xing.com/profile/Jan_Foshag\">Xing</a>,&nbsp;<span style=\"font-family: var( --e-global-typography-text-font-family ), Sans-serif; text-align: var(--text-align); font-size: 1rem;\"><a href=\"https://www.linkedin.com/in/jan-foshag-01b39338/\">LinkedIn</a></span></p>"
@@ -1262,7 +1262,7 @@
      "elType": "widget"
     },
     {
-     "id": "fa7b708",
+     "id": "efd96ca",
      "settings": {
       "content_width": "full",
       "html": "[jfo_contact_form]"
@@ -1273,7 +1273,7 @@
      "elType": "widget"
     },
     {
-     "id": "c39b58c",
+     "id": "1782d2f",
      "settings": {
       "content_width": "full",
       "text": "Trenner"
@@ -1284,7 +1284,7 @@
      "elType": "widget"
     },
     {
-     "id": "ac0ceb4",
+     "id": "d02695a",
      "settings": {
       "content_width": "full",
       "editor": "<p style=\"text-align:center; font-size:0.85rem;\"><a href=\"/impressum/\">Impressum</a> &nbsp;|&nbsp; <a href=\"/datenschutz/\">Datenschutz</a></p>"

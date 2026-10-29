@@ -149,7 +149,7 @@ def page(title, elements):
 home = [
     # 1. Hero
     heading("Software-Lösungen", "h1", 38, BLUE, 16),
-    text("<p>Mit Software Probleme lösen und Potenzial entfalten.</p>"
+    text("<p><em>Mit Software Probleme lösen und Potenzial entfalten.</em></p>"  # Claim, kursiv
          "<p>Ich bin Jan Foshag, lebe in München und helfe seit über 20 Jahren dabei.</p>", 8),
     button("Kontakt aufnehmen", "#kontakt"),
 
@@ -246,7 +246,7 @@ about = [
 home_it = [
     # 1. Hero
     heading("Soluzioni software", "h1", 38, BLUE, 16),
-    text("<p>Risolvere problemi ed esprimere il potenziale con il software.</p>"
+    text("<p><em>Risolvere problemi ed esprimere il potenziale con il software.</em></p>"  # Claim, kursiv
          "<p>Sono Jan Foshag, vivo a Monaco di Baviera e da oltre 20 anni aiuto a farlo.</p>", 8),
     button("Contattami", "#kontakt"),
 
