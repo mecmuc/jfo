@@ -150,7 +150,7 @@ home = [
     # 1. Hero
     heading("Software-Lösungen", "h1", 38, BLUE, 16),
     text("<p>Mit Software Probleme lösen und Potenzial entfalten.</p>"
-         "<p>Ich bin Jan Foshag aus München und helfe seit über 20 Jahren dabei.</p>", 8),
+         "<p>Ich bin Jan Foshag, lebe in München und helfe seit über 20 Jahren dabei.</p>", 8),
     button("Kontakt aufnehmen", "#kontakt"),
 
     # 2. Was ich realisiere
@@ -247,7 +247,7 @@ home_it = [
     # 1. Hero
     heading("Soluzioni software", "h1", 38, BLUE, 16),
     text("<p>Risolvere problemi ed esprimere il potenziale con il software.</p>"
-         "<p>Sono Jan Foshag, di Monaco di Baviera, e da oltre 20 anni aiuto a farlo.</p>", 8),
+         "<p>Sono Jan Foshag, vivo a Monaco di Baviera e da oltre 20 anni aiuto a farlo.</p>", 8),
     button("Contattami", "#kontakt"),
 
     # 2. Cosa realizzo
