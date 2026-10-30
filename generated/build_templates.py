@@ -237,7 +237,7 @@ about = [
     edit_texts(clean(old["1b2abba7"]), [                                       # Werdegang
         ("<strong>Selbständig (seit 2011)</strong>", "<strong>Selbständig</strong>"),
         ("Seit 2011 . eigene", "Seit 2011 · eigene"),
-        ("Krankenkasse (selbständig)", "Krankenkasse (eine der größten)"),
+        ("Krankenkasse (selbständig) — iOS,", "Krankenkasse (eine der größten) — iOS-App-Entwicklung:"),
         ("Plan.Net Gruppe (selbständig)", "Plan.Net Gruppe"),
     ]),
     clean(old["42e660d6"]),                            # Schwerpunkte
