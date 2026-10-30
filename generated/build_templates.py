@@ -121,6 +121,13 @@ def edit_text(e, old_txt, new_txt):
     return e
 
 
+def edit_texts(e, pairs):
+    """Mehrere Ersetzungen nacheinander mit edit_text."""
+    for old_txt, new_txt in pairs:
+        edit_text(e, old_txt, new_txt)
+    return e
+
+
 def footer():
     return [clean(old["1a2b31a0"]), clean(old["209f7f58"])]
 
@@ -227,9 +234,12 @@ about = [
     text("<p>Ich bin Jan Foshag, selbständiger Software-Entwickler in München.</p>"),
     clean(old["583af67a"]),                            # Bildergalerie
     clean(old["d9fd1e6"]),
-    edit_text(edit_text(clean(old["1b2abba7"]), "Krankenkasse (selbständig)",     # Werdegang
-                        "Krankenkasse (eine der größten, selbständig)"),
-              "Seit 2011 . eigene", "Seit 2011 · eigene"),
+    edit_texts(clean(old["1b2abba7"]), [                                       # Werdegang
+        ("<strong>Selbständig (seit 2011)</strong>", "<strong>Selbständig</strong>"),
+        ("Seit 2011 . eigene", "Seit 2011 · eigene"),
+        ("Krankenkasse (selbständig)", "Krankenkasse (eine der größten)"),
+        ("Plan.Net Gruppe (selbständig)", "Plan.Net Gruppe"),
+    ]),
     clean(old["42e660d6"]),                            # Schwerpunkte
     text("<ul>"
          "<li>Künstliche Intelligenz: Apple Intelligence, Siri AI, KI-Agenten, Voice Agents, Anthropic, Mistral, RAG, MCP, Python u. v. m.</li>"
