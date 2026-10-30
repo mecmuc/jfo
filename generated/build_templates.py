@@ -151,7 +151,7 @@ home = [
     # 1. Hero
     heading("Software-Lösungen", "h1", 38, BLUE, 16),
     text("<p><em>Mit Software Probleme lösen und Potenzial entfalten.</em></p>"  # Claim, kursiv
-         "<p>Ich bin Jan Foshag, lebe in München und helfe seit über 20 Jahren dabei.</p>", 8),
+         "<p>Ich bin Jan Foshag, lebe in München und helfe dabei.</p>", 8),
     button("Kontakt aufnehmen", "#kontakt"),
 
     # 2. Was ich realisiere
@@ -224,9 +224,7 @@ home = [
 # ---------------- Über mich ----------------
 about = [
     heading("Über mich", "h1", 38, BLUE, 16),
-    text("<p>Ich bin Jan Foshag, selbständiger Software-Entwickler. Ich lebe und arbeite in München. Seit über 20 Jahren entwickle ich Software – "
-         "von klassischen Java-Anwendungen über Apps für iOS und Android, nativ und plattformübergreifend, "
-         "bis hin zu modernen KI-gestützten Lösungen.</p>"),
+    text("<p>Ich bin Jan Foshag, selbständiger Software-Entwickler in München.</p>"),
     clean(old["583af67a"]),                            # Bildergalerie
     clean(old["d9fd1e6"]),
     edit_text(edit_text(clean(old["1b2abba7"]), "Krankenkasse (selbständig)",     # Werdegang
@@ -249,7 +247,7 @@ home_it = [
     # 1. Hero
     heading("Soluzioni software", "h1", 38, BLUE, 16),
     text("<p><em>Risolvere problemi ed esprimere il potenziale con il software.</em></p>"  # Claim, kursiv
-         "<p>Sono Jan Foshag, vivo a Monaco di Baviera e da oltre 20 anni aiuto a farlo.</p>", 8),
+         "<p>Sono Jan Foshag, vivo a Monaco di Baviera e aiuto a farlo.</p>", 8),
     button("Contattami", "#kontakt"),
 
     # 2. Cosa realizzo
