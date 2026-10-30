@@ -15,7 +15,7 @@ IMAGES = {
     "gastro": {"url": "https://janfoshag.de/wp-content/uploads/2026/10/gastronomie.jpg", "id": ""},
     "logistik": {"url": "https://janfoshag.de/wp-content/uploads/2026/10/logistik.jpg", "id": ""},
     "obst": {"url": "https://janfoshag.de/wp-content/uploads/2026/10/obst-grosshandel.jpg", "id": ""},
-    "herz": {"url": "https://janfoshag.de/wp-content/uploads/2026/10/herzensprojekte.jpg", "id": ""},
+    "herz": {"url": "https://janfoshag.de/wp-content/uploads/2026/10/herzensprojekte-1.jpg", "id": ""},
     "ehinger": {"url": "https://janfoshag.de/wp-content/uploads/2026/10/ehinger-bestell-app-retusche.jpg", "id": ""},
 }
 

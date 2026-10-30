@@ -1,12 +1,12 @@
 {
  "content": [
   {
-   "id": "4d44265",
+   "id": "e0db843",
    "elType": "container",
    "isInner": false,
    "elements": [
     {
-     "id": "d4756ff",
+     "id": "a89d9a7",
      "elType": "widget",
      "widgetType": "html",
      "elements": [],
@@ -16,7 +16,7 @@
      }
     },
     {
-     "id": "92f210b",
+     "id": "32bacfc",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -49,7 +49,7 @@
      }
     },
     {
-     "id": "7a8b674",
+     "id": "7d14446",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -67,7 +67,7 @@
      }
     },
     {
-     "id": "039c5a1",
+     "id": "e17916b",
      "elType": "widget",
      "widgetType": "button",
      "elements": [],
@@ -125,7 +125,7 @@
      }
     },
     {
-     "id": "22dba89",
+     "id": "186eb3b",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -158,12 +158,12 @@
      }
     },
     {
-     "id": "de18b6e",
+     "id": "42cd70c",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "1a51ae5",
+       "id": "8a3c7ff",
        "elType": "widget",
        "widgetType": "image",
        "elements": [],
@@ -203,7 +203,7 @@
        }
       },
       {
-       "id": "d737b06",
+       "id": "0616761",
        "elType": "widget",
        "widgetType": "heading",
        "elements": [],
@@ -236,7 +236,7 @@
        }
       },
       {
-       "id": "4c3adcb",
+       "id": "c4f97e2",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -295,12 +295,12 @@
      }
     },
     {
-     "id": "00ea9b0",
+     "id": "8997c37",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "1ae25b0",
+       "id": "a25e758",
        "elType": "widget",
        "widgetType": "image",
        "elements": [],
@@ -340,7 +340,7 @@
        }
       },
       {
-       "id": "38f14c0",
+       "id": "57df5c6",
        "elType": "widget",
        "widgetType": "heading",
        "elements": [],
@@ -373,7 +373,7 @@
        }
       },
       {
-       "id": "2a1c458",
+       "id": "b64acd7",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -432,19 +432,19 @@
      }
     },
     {
-     "id": "0608816",
+     "id": "4e3f480",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "17c985e",
+       "id": "ccf6797",
        "elType": "widget",
        "widgetType": "image",
        "elements": [],
        "isInner": false,
        "settings": {
         "image": {
-         "url": "https://janfoshag.de/wp-content/uploads/2026/10/herzensprojekte.jpg",
+         "url": "https://janfoshag.de/wp-content/uploads/2026/10/herzensprojekte-1.jpg",
          "id": "",
          "alt": "Herznebel im Sternenhimmel",
          "source": "library"
@@ -477,7 +477,7 @@
        }
       },
       {
-       "id": "3cd3978",
+       "id": "671fe25",
        "elType": "widget",
        "widgetType": "heading",
        "elements": [],
@@ -510,7 +510,7 @@
        }
       },
       {
-       "id": "56c0592",
+       "id": "8c3309c",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -520,7 +520,7 @@
        }
       },
       {
-       "id": "50f4ef1",
+       "id": "435e93a",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -579,7 +579,7 @@
      }
     },
     {
-     "id": "3e98817",
+     "id": "2beead6",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -612,17 +612,17 @@
      }
     },
     {
-     "id": "c0a3dc5",
+     "id": "0379b73",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "0cc0846",
+       "id": "bbbf37c",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "1724ce4",
+         "id": "782b747",
          "elType": "widget",
          "widgetType": "image",
          "elements": [],
@@ -686,12 +686,12 @@
        }
       },
       {
-       "id": "dee9b54",
+       "id": "e1ca5c0",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "8ef4fd4",
+         "id": "e03ffd8",
          "elType": "widget",
          "widgetType": "image",
          "elements": [],
@@ -755,12 +755,12 @@
        }
       },
       {
-       "id": "ae9ceec",
+       "id": "3ca5fc1",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "f4ed541",
+         "id": "ba330eb",
          "elType": "widget",
          "widgetType": "image",
          "elements": [],
@@ -846,7 +846,7 @@
      }
     },
     {
-     "id": "382e3be",
+     "id": "1f3116d",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -864,7 +864,7 @@
      }
     },
     {
-     "id": "7fb9702",
+     "id": "f98b2a7",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -897,12 +897,12 @@
      }
     },
     {
-     "id": "9a2478e",
+     "id": "2a3032d",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "723ddaa",
+       "id": "4f00af1",
        "elType": "widget",
        "widgetType": "heading",
        "elements": [],
@@ -935,17 +935,17 @@
        }
       },
       {
-       "id": "ade2838",
+       "id": "d4ef627",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "ffb920f",
+         "id": "7e2c549",
          "elType": "container",
          "isInner": true,
          "elements": [
           {
-           "id": "2a943de",
+           "id": "791ebb4",
            "elType": "widget",
            "widgetType": "image",
            "elements": [],
@@ -1012,12 +1012,12 @@
          }
         },
         {
-         "id": "f28dde2",
+         "id": "53c92ea",
          "elType": "container",
          "isInner": true,
          "elements": [
           {
-           "id": "451d00a",
+           "id": "697484c",
            "elType": "widget",
            "widgetType": "text-editor",
            "elements": [],
@@ -1065,7 +1065,7 @@
        }
       },
       {
-       "id": "f8b6f4b",
+       "id": "71ac8db",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -1124,7 +1124,7 @@
      }
     },
     {
-     "id": "7ac1e9b",
+     "id": "1de61bb",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -1134,7 +1134,7 @@
      }
     },
     {
-     "id": "4fdca86",
+     "id": "d71dc80",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -1144,7 +1144,7 @@
      }
     },
     {
-     "id": "a3087dc",
+     "id": "8c39526",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -1177,7 +1177,7 @@
      }
     },
     {
-     "id": "3548426",
+     "id": "3cbd33a",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -1195,7 +1195,7 @@
      }
     },
     {
-     "id": "cb41fc1",
+     "id": "dcd5262",
      "elType": "widget",
      "widgetType": "button",
      "elements": [],
@@ -1253,7 +1253,7 @@
      }
     },
     {
-     "id": "c730152",
+     "id": "50b226a",
      "settings": {
       "content_width": "full",
       "text": "Trenner"
@@ -1264,7 +1264,7 @@
      "elType": "widget"
     },
     {
-     "id": "92075ab",
+     "id": "e39a605",
      "settings": {
       "content_width": "full",
       "html": "<div id=\"kontakt\" style=\"height:1px; background:transparent;\"></div>"
@@ -1275,7 +1275,7 @@
      "elType": "widget"
     },
     {
-     "id": "dac0800",
+     "id": "b59cdf6",
      "settings": {
       "content_width": "full",
       "title": "Kontakt",
@@ -1291,7 +1291,7 @@
      "elType": "widget"
     },
     {
-     "id": "64d0e8d",
+     "id": "08a6074",
      "settings": {
       "content_width": "full",
       "editor": "<p>Ich suche laufend weitere Projekte und freue mich über Kontaktaufnahmen.</p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p><a href=\"mailto:info@janfoshag.de\">info@janfoshag.de</a></p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p><a href=\"tel:+498945439111\">+49 89 45439111</a></p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p><a href=\"https://www.xing.com/profile/Jan_Foshag\">Xing</a>,&nbsp;<span style=\"font-family: var( --e-global-typography-text-font-family ), Sans-serif; text-align: var(--text-align); font-size: 1rem;\"><a href=\"https://www.linkedin.com/in/jan-foshag-01b39338/\">LinkedIn</a></span></p>"
@@ -1302,7 +1302,7 @@
      "elType": "widget"
     },
     {
-     "id": "55c5066",
+     "id": "6534184",
      "settings": {
       "content_width": "full",
       "html": "[jfo_contact_form]"
@@ -1313,7 +1313,7 @@
      "elType": "widget"
     },
     {
-     "id": "8b37604",
+     "id": "b16b6fc",
      "settings": {
       "content_width": "full",
       "text": "Trenner"
@@ -1324,7 +1324,7 @@
      "elType": "widget"
     },
     {
-     "id": "06b9d39",
+     "id": "adda476",
      "settings": {
       "content_width": "full",
       "editor": "<p style=\"text-align:center; font-size:0.85rem;\"><a href=\"/impressum/\">Impressum</a> &nbsp;|&nbsp; <a href=\"/datenschutz/\">Datenschutz</a></p>"
