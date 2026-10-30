@@ -1,12 +1,12 @@
 {
  "content": [
   {
-   "id": "ebd6d25",
+   "id": "4d44265",
    "elType": "container",
    "isInner": false,
    "elements": [
     {
-     "id": "b1586f1",
+     "id": "d4756ff",
      "elType": "widget",
      "widgetType": "html",
      "elements": [],
@@ -16,7 +16,7 @@
      }
     },
     {
-     "id": "d564508",
+     "id": "92f210b",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -49,7 +49,7 @@
      }
     },
     {
-     "id": "dfacc2e",
+     "id": "7a8b674",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -67,7 +67,7 @@
      }
     },
     {
-     "id": "9f6fa3d",
+     "id": "039c5a1",
      "elType": "widget",
      "widgetType": "button",
      "elements": [],
@@ -125,7 +125,7 @@
      }
     },
     {
-     "id": "994a81e",
+     "id": "22dba89",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -158,12 +158,12 @@
      }
     },
     {
-     "id": "075bf2b",
+     "id": "de18b6e",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "b0428ee",
+       "id": "1a51ae5",
        "elType": "widget",
        "widgetType": "image",
        "elements": [],
@@ -203,7 +203,7 @@
        }
       },
       {
-       "id": "c6e2930",
+       "id": "d737b06",
        "elType": "widget",
        "widgetType": "heading",
        "elements": [],
@@ -236,7 +236,7 @@
        }
       },
       {
-       "id": "7e7376c",
+       "id": "4c3adcb",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -295,12 +295,12 @@
      }
     },
     {
-     "id": "41e385b",
+     "id": "00ea9b0",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "a721894",
+       "id": "1ae25b0",
        "elType": "widget",
        "widgetType": "image",
        "elements": [],
@@ -340,7 +340,7 @@
        }
       },
       {
-       "id": "f0acdac",
+       "id": "38f14c0",
        "elType": "widget",
        "widgetType": "heading",
        "elements": [],
@@ -373,7 +373,7 @@
        }
       },
       {
-       "id": "3900706",
+       "id": "2a1c458",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -432,12 +432,52 @@
      }
     },
     {
-     "id": "0620fa9",
+     "id": "0608816",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "943397a",
+       "id": "17c985e",
+       "elType": "widget",
+       "widgetType": "image",
+       "elements": [],
+       "isInner": false,
+       "settings": {
+        "image": {
+         "url": "https://janfoshag.de/wp-content/uploads/2026/10/herzensprojekte.jpg",
+         "id": "",
+         "alt": "Herznebel im Sternenhimmel",
+         "source": "library"
+        },
+        "image_size": "large",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "image_border_radius": {
+         "unit": "px",
+         "top": "12",
+         "right": "12",
+         "bottom": "12",
+         "left": "12",
+         "isLinked": false
+        },
+        "height": {
+         "unit": "px",
+         "size": 300,
+         "sizes": []
+        },
+        "height_mobile": {
+         "unit": "px",
+         "size": 180,
+         "sizes": []
+        },
+        "object-fit": "cover"
+       }
+      },
+      {
+       "id": "3cd3978",
        "elType": "widget",
        "widgetType": "heading",
        "elements": [],
@@ -470,17 +510,17 @@
        }
       },
       {
-       "id": "bcf9a4b",
+       "id": "56c0592",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
        "isInner": false,
        "settings": {
-        "editor": "<p>Ich unterstütze gerne Herzensprojekte. Bisher zum Beispiel in den Bereichen Gewaltfreie Kommunikation und Achtsamkeit. Herzensprojekte gibt es überall: im Handwerk, im sozialen Bereich, in der Gastronomie. Über neue Ideen freue ich mich.</p>"
+        "editor": "<p>Ich unterstütze gerne Herzensprojekte. Bisher zum Beispiel in den Bereichen Gewaltfreie Kommunikation und Achtsamkeit. Herzensprojekte gibt es überall: im Handwerk, im sozialen Bereich, in der Gastronomie. Über neue Kontakte und Ideen freue ich mich.</p>"
        }
       },
       {
-       "id": "0a1a89b",
+       "id": "50f4ef1",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -539,7 +579,7 @@
      }
     },
     {
-     "id": "2a8a3ab",
+     "id": "3e98817",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -572,17 +612,17 @@
      }
     },
     {
-     "id": "bef48b7",
+     "id": "c0a3dc5",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "290a16d",
+       "id": "0cc0846",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "23b05ec",
+         "id": "1724ce4",
          "elType": "widget",
          "widgetType": "image",
          "elements": [],
@@ -646,12 +686,12 @@
        }
       },
       {
-       "id": "53b050e",
+       "id": "dee9b54",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "71e0088",
+         "id": "8ef4fd4",
          "elType": "widget",
          "widgetType": "image",
          "elements": [],
@@ -715,12 +755,12 @@
        }
       },
       {
-       "id": "1920574",
+       "id": "ae9ceec",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "538d63a",
+         "id": "f4ed541",
          "elType": "widget",
          "widgetType": "image",
          "elements": [],
@@ -806,7 +846,7 @@
      }
     },
     {
-     "id": "7ddec6e",
+     "id": "382e3be",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -824,7 +864,7 @@
      }
     },
     {
-     "id": "3c07336",
+     "id": "7fb9702",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -857,12 +897,12 @@
      }
     },
     {
-     "id": "8af1926",
+     "id": "9a2478e",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "fcdb1ff",
+       "id": "723ddaa",
        "elType": "widget",
        "widgetType": "heading",
        "elements": [],
@@ -895,17 +935,17 @@
        }
       },
       {
-       "id": "40ff572",
+       "id": "ade2838",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "940f0e0",
+         "id": "ffb920f",
          "elType": "container",
          "isInner": true,
          "elements": [
           {
-           "id": "cc2033c",
+           "id": "2a943de",
            "elType": "widget",
            "widgetType": "image",
            "elements": [],
@@ -972,12 +1012,12 @@
          }
         },
         {
-         "id": "ae554e8",
+         "id": "f28dde2",
          "elType": "container",
          "isInner": true,
          "elements": [
           {
-           "id": "c5c1ff4",
+           "id": "451d00a",
            "elType": "widget",
            "widgetType": "text-editor",
            "elements": [],
@@ -1025,7 +1065,7 @@
        }
       },
       {
-       "id": "3f097c7",
+       "id": "f8b6f4b",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -1084,7 +1124,7 @@
      }
     },
     {
-     "id": "5dd3c62",
+     "id": "7ac1e9b",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -1094,7 +1134,7 @@
      }
     },
     {
-     "id": "a0ffcd7",
+     "id": "4fdca86",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -1104,7 +1144,7 @@
      }
     },
     {
-     "id": "18aa14c",
+     "id": "a3087dc",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -1137,13 +1177,13 @@
      }
     },
     {
-     "id": "ca0989c",
+     "id": "3548426",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
      "isInner": false,
      "settings": {
-      "editor": "<ul><li><strong>20+ Jahre</strong> Software-Entwicklung: von Handelsplattformen und Intralogistik über Apps für iOS und Android bis zu KI-Agenten</li><li><strong>Apps seit über 10 Jahren:</strong> iOS und Android, nativ und plattformübergreifend, u. a. für eine große Krankenkasse und eine Digitalagentur</li><li><strong>10.000+ Installationen</strong> der App „GFK-Spiel“</li><li><strong>Direkter Draht:</strong> Sie sprechen direkt mit mir, ohne Umwege</li></ul>",
+      "editor": "<ul><li><strong>20+ Jahre</strong> Software-Entwicklung: von Handelsplattformen und Intralogistik über Apps bis zu KI-Agenten</li><li><strong>Apps seit über 10 Jahren:</strong> iOS und Android, nativ und plattformübergreifend, u. a. für eine große Krankenkasse und eine Digitalagentur</li><li><strong>10.000+ Installationen</strong> der App „GFK-Spiel“</li><li><strong>Direkter Draht:</strong> Sie sprechen direkt mit mir, ohne Umwege</li></ul>",
       "_margin": {
        "unit": "px",
        "top": "0",
@@ -1155,7 +1195,7 @@
      }
     },
     {
-     "id": "1d56035",
+     "id": "cb41fc1",
      "elType": "widget",
      "widgetType": "button",
      "elements": [],
@@ -1213,7 +1253,7 @@
      }
     },
     {
-     "id": "68179e6",
+     "id": "c730152",
      "settings": {
       "content_width": "full",
       "text": "Trenner"
@@ -1224,7 +1264,7 @@
      "elType": "widget"
     },
     {
-     "id": "8552593",
+     "id": "92075ab",
      "settings": {
       "content_width": "full",
       "html": "<div id=\"kontakt\" style=\"height:1px; background:transparent;\"></div>"
@@ -1235,7 +1275,7 @@
      "elType": "widget"
     },
     {
-     "id": "a4db753",
+     "id": "dac0800",
      "settings": {
       "content_width": "full",
       "title": "Kontakt",
@@ -1251,7 +1291,7 @@
      "elType": "widget"
     },
     {
-     "id": "51170bf",
+     "id": "64d0e8d",
      "settings": {
       "content_width": "full",
       "editor": "<p>Ich suche laufend weitere Projekte und freue mich über Kontaktaufnahmen.</p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p><a href=\"mailto:info@janfoshag.de\">info@janfoshag.de</a></p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p><a href=\"tel:+498945439111\">+49 89 45439111</a></p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p><a href=\"https://www.xing.com/profile/Jan_Foshag\">Xing</a>,&nbsp;<span style=\"font-family: var( --e-global-typography-text-font-family ), Sans-serif; text-align: var(--text-align); font-size: 1rem;\"><a href=\"https://www.linkedin.com/in/jan-foshag-01b39338/\">LinkedIn</a></span></p>"
@@ -1262,7 +1302,7 @@
      "elType": "widget"
     },
     {
-     "id": "fabb70e",
+     "id": "55c5066",
      "settings": {
       "content_width": "full",
       "html": "[jfo_contact_form]"
@@ -1273,7 +1313,7 @@
      "elType": "widget"
     },
     {
-     "id": "ebdf55a",
+     "id": "8b37604",
      "settings": {
       "content_width": "full",
       "text": "Trenner"
@@ -1284,7 +1324,7 @@
      "elType": "widget"
     },
     {
-     "id": "3f3b40b",
+     "id": "06b9d39",
      "settings": {
       "content_width": "full",
       "editor": "<p style=\"text-align:center; font-size:0.85rem;\"><a href=\"/impressum/\">Impressum</a> &nbsp;|&nbsp; <a href=\"/datenschutz/\">Datenschutz</a></p>"

@@ -1,12 +1,12 @@
 {
  "content": [
   {
-   "id": "a028e9f",
+   "id": "5f6baac",
    "elType": "container",
    "isInner": false,
    "elements": [
     {
-     "id": "1e61c84",
+     "id": "8d55326",
      "elType": "widget",
      "widgetType": "html",
      "elements": [],
@@ -16,7 +16,7 @@
      }
     },
     {
-     "id": "7da098a",
+     "id": "f4e4457",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -49,7 +49,7 @@
      }
     },
     {
-     "id": "b627a6b",
+     "id": "6301335",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -67,7 +67,7 @@
      }
     },
     {
-     "id": "8c2a691",
+     "id": "a505c95",
      "elType": "widget",
      "widgetType": "button",
      "elements": [],
@@ -125,7 +125,7 @@
      }
     },
     {
-     "id": "b72d1f7",
+     "id": "d9b0ef5",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -158,12 +158,12 @@
      }
     },
     {
-     "id": "5018c01",
+     "id": "8f6a106",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "e31fe41",
+       "id": "010843a",
        "elType": "widget",
        "widgetType": "image",
        "elements": [],
@@ -203,7 +203,7 @@
        }
       },
       {
-       "id": "185ce54",
+       "id": "025346b",
        "elType": "widget",
        "widgetType": "heading",
        "elements": [],
@@ -236,7 +236,7 @@
        }
       },
       {
-       "id": "9626809",
+       "id": "7db74cf",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -295,12 +295,12 @@
      }
     },
     {
-     "id": "0b136f3",
+     "id": "5e911af",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "5dba5d2",
+       "id": "8dee624",
        "elType": "widget",
        "widgetType": "image",
        "elements": [],
@@ -340,7 +340,7 @@
        }
       },
       {
-       "id": "cb9b851",
+       "id": "0a6cca1",
        "elType": "widget",
        "widgetType": "heading",
        "elements": [],
@@ -373,7 +373,7 @@
        }
       },
       {
-       "id": "9ed7796",
+       "id": "26a1759",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -432,12 +432,52 @@
      }
     },
     {
-     "id": "d3cd25e",
+     "id": "e4446a9",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "75b1727",
+       "id": "81ba68b",
+       "elType": "widget",
+       "widgetType": "image",
+       "elements": [],
+       "isInner": false,
+       "settings": {
+        "image": {
+         "url": "https://janfoshag.de/wp-content/uploads/2026/10/herzensprojekte.jpg",
+         "id": "",
+         "alt": "Nebulosa Cuore nel cielo stellato",
+         "source": "library"
+        },
+        "image_size": "large",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "image_border_radius": {
+         "unit": "px",
+         "top": "12",
+         "right": "12",
+         "bottom": "12",
+         "left": "12",
+         "isLinked": false
+        },
+        "height": {
+         "unit": "px",
+         "size": 300,
+         "sizes": []
+        },
+        "height_mobile": {
+         "unit": "px",
+         "size": 180,
+         "sizes": []
+        },
+        "object-fit": "cover"
+       }
+      },
+      {
+       "id": "02dc193",
        "elType": "widget",
        "widgetType": "heading",
        "elements": [],
@@ -470,17 +510,17 @@
        }
       },
       {
-       "id": "11649bd",
+       "id": "0a1eb73",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
        "isInner": false,
        "settings": {
-        "editor": "<p>Sostengo volentieri progetti del cuore. Finora per esempio negli ambiti della Comunicazione Nonviolenta e della mindfulness. I progetti del cuore esistono ovunque: nell’artigianato, nel sociale, nella ristorazione. Sono felice di ricevere nuove idee.</p>"
+        "editor": "<p>Sostengo volentieri progetti del cuore. Finora per esempio negli ambiti della Comunicazione Nonviolenta e della mindfulness. I progetti del cuore esistono ovunque: nell’artigianato, nel sociale, nella ristorazione. Sono felice di nuovi contatti e nuove idee.</p>"
        }
       },
       {
-       "id": "f83dd90",
+       "id": "866d37c",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -539,7 +579,7 @@
      }
     },
     {
-     "id": "ff243c6",
+     "id": "e0c5b1d",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -572,17 +612,17 @@
      }
     },
     {
-     "id": "6665838",
+     "id": "3affc8d",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "61fe0c2",
+       "id": "1220e49",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "3dc61e4",
+         "id": "db9e3a4",
          "elType": "widget",
          "widgetType": "image",
          "elements": [],
@@ -646,12 +686,12 @@
        }
       },
       {
-       "id": "1947565",
+       "id": "0e0be70",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "6bc01f0",
+         "id": "9ba7203",
          "elType": "widget",
          "widgetType": "image",
          "elements": [],
@@ -715,12 +755,12 @@
        }
       },
       {
-       "id": "b09b2ab",
+       "id": "c7ae527",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "7f02b7d",
+         "id": "ccb8ed0",
          "elType": "widget",
          "widgetType": "image",
          "elements": [],
@@ -806,7 +846,7 @@
      }
     },
     {
-     "id": "e4860b3",
+     "id": "76fc2cc",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -824,7 +864,7 @@
      }
     },
     {
-     "id": "4d1bf6c",
+     "id": "dd10126",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -857,12 +897,12 @@
      }
     },
     {
-     "id": "17bbf0a",
+     "id": "ad3d923",
      "elType": "container",
      "isInner": true,
      "elements": [
       {
-       "id": "f04d33a",
+       "id": "a64f8ce",
        "elType": "widget",
        "widgetType": "heading",
        "elements": [],
@@ -895,17 +935,17 @@
        }
       },
       {
-       "id": "3d581a6",
+       "id": "d1a6d59",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "83f92fb",
+         "id": "13a9c80",
          "elType": "container",
          "isInner": true,
          "elements": [
           {
-           "id": "0e23d40",
+           "id": "77a3cf4",
            "elType": "widget",
            "widgetType": "image",
            "elements": [],
@@ -972,12 +1012,12 @@
          }
         },
         {
-         "id": "78b306d",
+         "id": "199c98e",
          "elType": "container",
          "isInner": true,
          "elements": [
           {
-           "id": "fad1b9a",
+           "id": "b8617dc",
            "elType": "widget",
            "widgetType": "text-editor",
            "elements": [],
@@ -1025,7 +1065,7 @@
        }
       },
       {
-       "id": "234ac53",
+       "id": "1b2bda7",
        "elType": "widget",
        "widgetType": "text-editor",
        "elements": [],
@@ -1084,7 +1124,7 @@
      }
     },
     {
-     "id": "8d3efc8",
+     "id": "2c54761",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -1094,7 +1134,7 @@
      }
     },
     {
-     "id": "70af857",
+     "id": "893bdf1",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -1104,7 +1144,7 @@
      }
     },
     {
-     "id": "d81bfe0",
+     "id": "d4f41a3",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -1114,7 +1154,7 @@
      }
     },
     {
-     "id": "aa5dfdb",
+     "id": "6bcdbdd",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -1147,13 +1187,13 @@
      }
     },
     {
-     "id": "e4702d3",
+     "id": "061d128",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
      "isInner": false,
      "settings": {
-      "editor": "<p>Sono Jan Foshag, sviluppatore software indipendente a Monaco di Baviera. Da oltre 20 anni sviluppo software: dalle piattaforme di commercio e dall’intralogistica alle app per iOS e Android, fino agli agenti IA.</p><ul><li><strong>App da oltre 10 anni:</strong> iOS e Android, native e multipiattaforma, tra l’altro per una grande cassa malattia e un’agenzia digitale</li><li><strong>Oltre 10.000 installazioni</strong> dell’app „GFK-Spiel“</li><li><strong>Contatto diretto:</strong> parla direttamente con me, senza intermediari</li><li><strong>Lingue:</strong> tedesco e francese madrelingua, inglese buono. L’italiano lo sto imparando: mi scriva pure in italiano!</li></ul>",
+      "editor": "<p>Sono Jan Foshag, sviluppatore software indipendente a Monaco di Baviera. Da oltre 20 anni sviluppo software: dalle piattaforme di commercio e dall’intralogistica alle app, fino agli agenti IA.</p><ul><li><strong>App da oltre 10 anni:</strong> iOS e Android, native e multipiattaforma, tra l’altro per una grande cassa malattia e un’agenzia digitale</li><li><strong>Oltre 10.000 installazioni</strong> dell’app „GFK-Spiel“</li><li><strong>Contatto diretto:</strong> parla direttamente con me, senza intermediari</li><li><strong>Lingue:</strong> tedesco e francese madrelingua, inglese buono. L’italiano lo sto imparando: mi scriva pure in italiano!</li></ul>",
       "_margin": {
        "unit": "px",
        "top": "0",
@@ -1165,7 +1205,7 @@
      }
     },
     {
-     "id": "c44fbca",
+     "id": "a0bdbfe",
      "settings": {
       "content_width": "full",
       "text": "Trenner"
@@ -1176,7 +1216,7 @@
      "elType": "widget"
     },
     {
-     "id": "8e07998",
+     "id": "e475204",
      "settings": {
       "content_width": "full",
       "html": "<div id=\"kontakt\" style=\"height:1px; background:transparent;\"></div>"
@@ -1187,7 +1227,7 @@
      "elType": "widget"
     },
     {
-     "id": "c535fb7",
+     "id": "b6533a6",
      "elType": "widget",
      "widgetType": "heading",
      "elements": [],
@@ -1220,7 +1260,7 @@
      }
     },
     {
-     "id": "656e024",
+     "id": "93f7053",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],
@@ -1230,7 +1270,7 @@
      }
     },
     {
-     "id": "48d0290",
+     "id": "946e411",
      "settings": {
       "content_width": "full",
       "html": "[jfo_contact_form]"
@@ -1241,7 +1281,7 @@
      "elType": "widget"
     },
     {
-     "id": "71551c5",
+     "id": "c5fb412",
      "settings": {
       "content_width": "full",
       "text": "Trenner"
@@ -1252,7 +1292,7 @@
      "elType": "widget"
     },
     {
-     "id": "03b8c16",
+     "id": "c0ba97e",
      "elType": "widget",
      "widgetType": "text-editor",
      "elements": [],

@@ -15,6 +15,7 @@ IMAGES = {
     "gastro": {"url": "https://janfoshag.de/wp-content/uploads/2026/10/gastronomie.jpg", "id": ""},
     "logistik": {"url": "https://janfoshag.de/wp-content/uploads/2026/10/logistik.jpg", "id": ""},
     "obst": {"url": "https://janfoshag.de/wp-content/uploads/2026/10/obst-grosshandel.jpg", "id": ""},
+    "herz": {"url": "https://janfoshag.de/wp-content/uploads/2026/10/herzensprojekte.jpg", "id": ""},
     "ehinger": {"url": "https://janfoshag.de/wp-content/uploads/2026/10/ehinger-bestell-app-retusche.jpg", "id": ""},
 }
 
@@ -163,11 +164,12 @@ home = [
          "Daten übertragen und rund um die Uhr Bestellungen und Reservierungen am Telefon annehmen. "
          "Bei wichtigen Entscheidungen fragen sie nach."),
     container([
+        image("herz", "Herznebel im Sternenhimmel", 300),
         heading("Herzensprojekte", "h3", 24, BLUE, 4),
         text("<p>Ich unterstütze gerne Herzensprojekte. "
              "Bisher zum Beispiel in den Bereichen Gewaltfreie Kommunikation und Achtsamkeit. "
              "Herzensprojekte gibt es überall: im Handwerk, im sozialen Bereich, in der Gastronomie. "
-             "Über neue Ideen freue ich mich.</p>"),
+             "Über neue Kontakte und Ideen freue ich mich.</p>"),
         text("<p><strong>Beispiel:</strong> Das „GFK-Spiel“, ein Lernspiel für Gewaltfreie Kommunikation, "
              "als App für iOS und Android, mit über 10.000 Installationen.</p>"
              '<blockquote class="wp-block-quote"><p><em>„Sehr hilfreiche, klare, schöne App. Herzlichen Dank dafür!“</em></p></blockquote>'),
@@ -206,7 +208,7 @@ home = [
     # 4. Warum mit mir
     heading("Warum mit mir", "h2", 30, "#000000", 12),
     text("<ul>"
-         "<li><strong>20+ Jahre</strong> Software-Entwicklung: von Handelsplattformen und Intralogistik über Apps für iOS und Android bis zu KI-Agenten</li>"
+         "<li><strong>20+ Jahre</strong> Software-Entwicklung: von Handelsplattformen und Intralogistik über Apps bis zu KI-Agenten</li>"
          "<li><strong>Apps seit über 10 Jahren:</strong> iOS und Android, nativ und plattformübergreifend, u. a. für eine große Krankenkasse und eine Digitalagentur</li>"
          "<li><strong>10.000+ Installationen</strong> der App „GFK-Spiel“</li>"
          "<li><strong>Direkter Draht:</strong> Sie sprechen direkt mit mir, ohne Umwege</li>"
@@ -260,11 +262,12 @@ home_it = [
          "trasferire dati e prendere ordini e prenotazioni al telefono 24 ore su 24. "
          "Per le decisioni importanti chiedono conferma."),
     container([
+        image("herz", "Nebulosa Cuore nel cielo stellato", 300),
         heading("Progetti del cuore", "h3", 24, BLUE, 4),
         text("<p>Sostengo volentieri progetti del cuore. "
              "Finora per esempio negli ambiti della Comunicazione Nonviolenta e della mindfulness. "
              "I progetti del cuore esistono ovunque: nell’artigianato, nel sociale, nella ristorazione. "
-             "Sono felice di ricevere nuove idee.</p>"),
+             "Sono felice di nuovi contatti e nuove idee.</p>"),
         text("<p><strong>Esempio:</strong> il „GFK-Spiel“, un gioco didattico sulla Comunicazione Nonviolenta, "
              "come app per iOS e Android, con oltre 10.000 installazioni.</p>"
              '<blockquote class="wp-block-quote"><p><em>„Un’app molto utile, chiara e bella. Grazie di cuore!“</em></p>'
@@ -306,7 +309,7 @@ home_it = [
     text('<div id="chi-sono"></div>'),
     heading("Chi sono", "h2", 30, "#000000", 12),
     text("<p>Sono Jan Foshag, sviluppatore software indipendente a Monaco di Baviera. Da oltre 20 anni sviluppo software: "
-         "dalle piattaforme di commercio e dall’intralogistica alle app per iOS e Android, fino agli agenti IA.</p>"
+         "dalle piattaforme di commercio e dall’intralogistica alle app, fino agli agenti IA.</p>"
          "<ul>"
          "<li><strong>App da oltre 10 anni:</strong> iOS e Android, native e multipiattaforma, tra l’altro per una grande cassa malattia e un’agenzia digitale</li>"
          "<li><strong>Oltre 10.000 installazioni</strong> dell’app „GFK-Spiel“</li>"
