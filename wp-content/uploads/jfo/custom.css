@@ -1,0 +1,680 @@
+/*
+ * janfoshag.de – Custom modern/colourful overrides
+ * Loaded after all Astra styles so every rule here wins.
+ */
+
+/* =====================================================================
+   1. DESIGN TOKENS – light mode (default)
+   ===================================================================== */
+:root {
+  --jfo-purple:      #7c3aed;
+  --jfo-purple-dark: #5b21b6;
+  --jfo-blue:        #2563eb;
+  --jfo-coral:       #f43f5e;
+  --jfo-teal:        #06b6d4;
+  --jfo-lime:        #84cc16;
+  --jfo-orange:      #f97316;
+  --jfo-bg:          #f5f3ff;
+  --jfo-card-bg:     #ffffff;
+  --jfo-text:        #1e1b2e;
+  --jfo-muted:       #6b7280;
+  --jfo-radius:      14px;
+  --jfo-shadow:      0 4px 24px rgba(124, 58, 237, 0.12);
+  --jfo-shadow-hover:0 8px 40px rgba(124, 58, 237, 0.24);
+  --jfo-gradient:    linear-gradient(135deg, #7c3aed 0%, #2563eb 100%);
+  --jfo-gradient-warm: linear-gradient(135deg, #f43f5e 0%, #f97316 100%);
+  --jfo-gradient-cool: linear-gradient(135deg, #06b6d4 0%, #7c3aed 100%);
+  --jfo-mesh-1: radial-gradient(ellipse 80% 60% at 20% 10%,  rgba(124, 58, 237, 0.18) 0%, transparent 70%);
+  --jfo-mesh-2: radial-gradient(ellipse 60% 70% at 80% 25%,  rgba(37,  99, 235, 0.14) 0%, transparent 65%);
+  --jfo-mesh-3: radial-gradient(ellipse 55% 55% at 55% 85%,  rgba(244, 63, 94, 0.12) 0%, transparent 65%);
+  --jfo-mesh-4: radial-gradient(ellipse 45% 50% at 10% 75%,  rgba(6, 182, 212, 0.10) 0%, transparent 60%);
+}
+
+/* =====================================================================
+   2. DARK MODE TOKENS
+   Applied via OS preference AND via html[data-theme="dark"] (manual toggle)
+   ===================================================================== */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --jfo-purple:      #a78bfa;
+    --jfo-purple-dark: #7c3aed;
+    --jfo-blue:        #60a5fa;
+    --jfo-coral:       #fb7185;
+    --jfo-teal:        #22d3ee;
+    --jfo-orange:      #fb923c;
+    --jfo-bg:          #0f0e17;
+    --jfo-card-bg:     #1a1827;
+    --jfo-text:        #e8e6f0;
+    --jfo-muted:       #9ca3af;
+    --jfo-shadow:      0 4px 24px rgba(0, 0, 0, 0.50);
+    --jfo-shadow-hover:0 8px 40px rgba(0, 0, 0, 0.70);
+    --jfo-mesh-1: radial-gradient(ellipse 80% 60% at 20% 10%,  rgba(124, 58, 237, 0.30) 0%, transparent 70%);
+    --jfo-mesh-2: radial-gradient(ellipse 60% 70% at 80% 25%,  rgba(37,  99, 235, 0.22) 0%, transparent 65%);
+    --jfo-mesh-3: radial-gradient(ellipse 55% 55% at 55% 85%,  rgba(244, 63, 94, 0.20) 0%, transparent 65%);
+    --jfo-mesh-4: radial-gradient(ellipse 45% 50% at 10% 75%,  rgba(6, 182, 212, 0.16) 0%, transparent 60%);
+  }
+}
+
+/* Manual dark toggle – overrides OS preference */
+html[data-theme="dark"] {
+  --jfo-purple:      #a78bfa;
+  --jfo-purple-dark: #7c3aed;
+  --jfo-blue:        #60a5fa;
+  --jfo-coral:       #fb7185;
+  --jfo-teal:        #22d3ee;
+  --jfo-orange:      #fb923c;
+  --jfo-bg:          #0f0e17;
+  --jfo-card-bg:     #1a1827;
+  --jfo-text:        #e8e6f0;
+  --jfo-muted:       #9ca3af;
+  --jfo-shadow:      0 4px 24px rgba(0, 0, 0, 0.50);
+  --jfo-shadow-hover:0 8px 40px rgba(0, 0, 0, 0.70);
+  --jfo-mesh-1: radial-gradient(ellipse 80% 60% at 20% 10%,  rgba(124, 58, 237, 0.30) 0%, transparent 70%);
+  --jfo-mesh-2: radial-gradient(ellipse 60% 70% at 80% 25%,  rgba(37,  99, 235, 0.22) 0%, transparent 65%);
+  --jfo-mesh-3: radial-gradient(ellipse 55% 55% at 55% 85%,  rgba(244, 63, 94, 0.20) 0%, transparent 65%);
+  --jfo-mesh-4: radial-gradient(ellipse 45% 50% at 10% 75%,  rgba(6, 182, 212, 0.16) 0%, transparent 60%);
+}
+
+/* Manual light toggle – overrides OS dark preference */
+html[data-theme="light"] {
+  --jfo-purple:      #7c3aed;
+  --jfo-purple-dark: #5b21b6;
+  --jfo-blue:        #2563eb;
+  --jfo-coral:       #f43f5e;
+  --jfo-teal:        #06b6d4;
+  --jfo-orange:      #f97316;
+  --jfo-bg:          #f5f3ff;
+  --jfo-card-bg:     #ffffff;
+  --jfo-text:        #1e1b2e;
+  --jfo-muted:       #6b7280;
+  --jfo-shadow:      0 4px 24px rgba(124, 58, 237, 0.12);
+  --jfo-shadow-hover:0 8px 40px rgba(124, 58, 237, 0.24);
+  --jfo-mesh-1: radial-gradient(ellipse 80% 60% at 20% 10%,  rgba(124, 58, 237, 0.18) 0%, transparent 70%);
+  --jfo-mesh-2: radial-gradient(ellipse 60% 70% at 80% 25%,  rgba(37,  99, 235, 0.14) 0%, transparent 65%);
+  --jfo-mesh-3: radial-gradient(ellipse 55% 55% at 55% 85%,  rgba(244, 63, 94, 0.12) 0%, transparent 65%);
+  --jfo-mesh-4: radial-gradient(ellipse 45% 50% at 10% 75%,  rgba(6, 182, 212, 0.10) 0%, transparent 60%);
+}
+
+/* =====================================================================
+   3. BODY & MESH BACKGROUND
+   ===================================================================== */
+body {
+  background-color: var(--jfo-bg);
+  background-image:
+    var(--jfo-mesh-1),
+    var(--jfo-mesh-2),
+    var(--jfo-mesh-3),
+    var(--jfo-mesh-4);
+  background-attachment: fixed;
+  color: var(--jfo-text);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* ── Dark mode: shared rules ─────────────────────────────────────────
+   Strategy:
+   • html + body get the solid dark background (with mesh on body)
+   • ALL Astra page-wrapper containers → transparent (body shows through)
+   • Cards, sidebar widgets, above-header → explicit dark surfaces
+   • Applied under both @media and html[data-theme="dark"] for toggle support
+   ────────────────────────────────────────────────────────────────── */
+
+/* ── Shared dark-mode declarations (used as a "mixin" via duplication) ── */
+
+/* :not([data-theme="light"]) ensures the manual light toggle overrides OS dark preference */
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme="light"]) { background: #0f0e17 !important; }
+  html:not([data-theme="light"]) body {
+    background-color: #0f0e17 !important;
+    background-image:
+      radial-gradient(ellipse 80% 60% at 20% 10%,  rgba(124,58,237,.30) 0%, transparent 70%),
+      radial-gradient(ellipse 60% 70% at 80% 25%,  rgba(37,99,235,.22)  0%, transparent 65%),
+      radial-gradient(ellipse 55% 55% at 55% 85%,  rgba(244,63,94,.20)  0%, transparent 65%),
+      radial-gradient(ellipse 45% 50% at 10% 75%,  rgba(6,182,212,.16)  0%, transparent 60%) !important;
+    color: #e8e6f0 !important;
+  }
+  html:not([data-theme="light"]) #page,
+  html:not([data-theme="light"]) .site,
+  html:not([data-theme="light"]) .hfeed,
+  html:not([data-theme="light"]) #content,
+  html:not([data-theme="light"]) .site-content,
+  html:not([data-theme="light"]) .site-content-wrap,
+  html:not([data-theme="light"]) .ast-container,
+  html:not([data-theme="light"]) .ast-separate-container,
+  html:not([data-theme="light"]) .entry,
+  html:not([data-theme="light"]) .entry-content,
+  html:not([data-theme="light"]) .ast-plain-container,
+  html:not([data-theme="light"]) .ast-padded-layout,
+  html:not([data-theme="light"]) .ast-box-layout,
+  html:not([data-theme="light"]) .site-below-header-wrap,
+  html:not([data-theme="light"]) .site-below-footer-wrap,
+  html:not([data-theme="light"]) .ast-builder-grid-row-container,
+  html:not([data-theme="light"]) .site-header-focus-item,
+  html:not([data-theme="light"]) .site-footer-focus-item,
+  html:not([data-theme="light"]) .ast-desktop-header-content,
+  html:not([data-theme="light"]) .ast-mobile-header-content { background: transparent !important; color: #e8e6f0 !important; }
+
+  html:not([data-theme="light"]) .ast-above-header-bar,
+  html:not([data-theme="light"]) .ast-above-header,
+  html:not([data-theme="light"]) .ast-above-header-wrap,
+  html:not([data-theme="light"]) .ast-above-header-section,
+  html:not([data-theme="light"]) .ast-above-header-section-1,
+  html:not([data-theme="light"]) .ast-above-header-section-2 { background: #1a1827 !important; color: rgba(255,255,255,.85) !important; }
+  html:not([data-theme="light"]) .ast-above-header-bar a,
+  html:not([data-theme="light"]) .ast-above-header a,
+  html:not([data-theme="light"]) .ast-above-header-wrap a { color: #c4b5fd !important; }
+  html:not([data-theme="light"]) .ast-above-header-bar a:hover,
+  html:not([data-theme="light"]) .ast-above-header-wrap a:hover { color: #fb7185 !important; }
+
+  html:not([data-theme="light"]) h1,
+  html:not([data-theme="light"]) .entry-title {
+    background: linear-gradient(135deg,#a78bfa 0%,#60a5fa 100%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    background-clip: text !important;
+  }
+  html:not([data-theme="light"]) h2 { color: #a78bfa !important; -webkit-text-fill-color: #a78bfa !important; }
+  html:not([data-theme="light"]) h3 { color: #60a5fa !important; -webkit-text-fill-color: #60a5fa !important; }
+  html:not([data-theme="light"]) h4 { color: #fb7185 !important; -webkit-text-fill-color: #fb7185 !important; }
+
+  html:not([data-theme="light"]) p,
+  html:not([data-theme="light"]) li,
+  html:not([data-theme="light"]) td,
+  html:not([data-theme="light"]) th,
+  html:not([data-theme="light"]) label,
+  html:not([data-theme="light"]) span { color: #e8e6f0; }
+  html:not([data-theme="light"]) input,
+  html:not([data-theme="light"]) textarea,
+  html:not([data-theme="light"]) select { background: #1a1827 !important; color: #e8e6f0 !important; border-color: rgba(167,139,250,.25) !important; }
+  html:not([data-theme="light"]) blockquote { border-left-color: #a78bfa; background: rgba(124,58,237,.08); border-radius: 0 var(--jfo-radius) var(--jfo-radius) 0; }
+  html:not([data-theme="light"]) table th { background: rgba(124,58,237,.15); }
+  html:not([data-theme="light"]) table tr:nth-child(even) { background: rgba(255,255,255,.03); }
+
+  html:not([data-theme="light"]) .ast-article-single,
+  html:not([data-theme="light"]) .ast-article-post,
+  html:not([data-theme="light"]) .ast-separate-container .ast-article-single,
+  html:not([data-theme="light"]) .ast-separate-container .ast-article-post,
+  html:not([data-theme="light"]) #secondary,
+  html:not([data-theme="light"]) .ast-separate-container #secondary .widget { background: #1a1827 !important; border-color: rgba(167,139,250,.15); }
+}
+
+/* ── Manual toggle: same rules under html[data-theme="dark"] ── */
+html[data-theme="dark"] { background: #0f0e17 !important; }
+html[data-theme="dark"] body {
+  background-color: #0f0e17 !important;
+  background-image:
+    radial-gradient(ellipse 80% 60% at 20% 10%,  rgba(124,58,237,.30) 0%, transparent 70%),
+    radial-gradient(ellipse 60% 70% at 80% 25%,  rgba(37,99,235,.22)  0%, transparent 65%),
+    radial-gradient(ellipse 55% 55% at 55% 85%,  rgba(244,63,94,.20)  0%, transparent 65%),
+    radial-gradient(ellipse 45% 50% at 10% 75%,  rgba(6,182,212,.16)  0%, transparent 60%) !important;
+  color: #e8e6f0 !important;
+}
+html[data-theme="dark"] #page,
+html[data-theme="dark"] .site,
+html[data-theme="dark"] .hfeed,
+html[data-theme="dark"] #content,
+html[data-theme="dark"] .site-content,
+html[data-theme="dark"] .site-content-wrap,
+html[data-theme="dark"] .ast-container,
+html[data-theme="dark"] .ast-separate-container,
+html[data-theme="dark"] .entry,
+html[data-theme="dark"] .entry-content,
+html[data-theme="dark"] .ast-plain-container,
+html[data-theme="dark"] .ast-padded-layout,
+html[data-theme="dark"] .ast-box-layout,
+html[data-theme="dark"] .site-below-header-wrap,
+html[data-theme="dark"] .site-below-footer-wrap,
+html[data-theme="dark"] .ast-builder-grid-row-container,
+html[data-theme="dark"] .site-header-focus-item,
+html[data-theme="dark"] .site-footer-focus-item,
+html[data-theme="dark"] .ast-desktop-header-content,
+html[data-theme="dark"] .ast-mobile-header-content { background: transparent !important; color: #e8e6f0 !important; }
+
+html[data-theme="dark"] .ast-above-header-bar,
+html[data-theme="dark"] .ast-above-header,
+html[data-theme="dark"] .ast-above-header-wrap,
+html[data-theme="dark"] .ast-above-header-section,
+html[data-theme="dark"] .ast-above-header-section-1,
+html[data-theme="dark"] .ast-above-header-section-2 { background: #1a1827 !important; color: rgba(255,255,255,.85) !important; }
+html[data-theme="dark"] .ast-above-header-bar a,
+html[data-theme="dark"] .ast-above-header a,
+html[data-theme="dark"] .ast-above-header-wrap a { color: #c4b5fd !important; }
+html[data-theme="dark"] .ast-above-header-bar a:hover,
+html[data-theme="dark"] .ast-above-header-wrap a:hover { color: #fb7185 !important; }
+
+html[data-theme="dark"] h1,
+html[data-theme="dark"] .entry-title {
+  background: linear-gradient(135deg,#a78bfa 0%,#60a5fa 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+}
+html[data-theme="dark"] h2 { color: #a78bfa !important; -webkit-text-fill-color: #a78bfa !important; }
+html[data-theme="dark"] h3 { color: #60a5fa !important; -webkit-text-fill-color: #60a5fa !important; }
+html[data-theme="dark"] h4 { color: #fb7185 !important; -webkit-text-fill-color: #fb7185 !important; }
+
+html[data-theme="dark"] p,
+html[data-theme="dark"] li,
+html[data-theme="dark"] td,
+html[data-theme="dark"] th,
+html[data-theme="dark"] label,
+html[data-theme="dark"] span { color: #e8e6f0; }
+html[data-theme="dark"] input,
+html[data-theme="dark"] textarea,
+html[data-theme="dark"] select { background: #1a1827 !important; color: #e8e6f0 !important; border-color: rgba(167,139,250,.25) !important; }
+html[data-theme="dark"] blockquote { border-left-color: #a78bfa; background: rgba(124,58,237,.08); border-radius: 0 var(--jfo-radius) var(--jfo-radius) 0; }
+html[data-theme="dark"] table th { background: rgba(124,58,237,.15); }
+html[data-theme="dark"] table tr:nth-child(even) { background: rgba(255,255,255,.03); }
+
+html[data-theme="dark"] .ast-article-single,
+html[data-theme="dark"] .ast-article-post,
+html[data-theme="dark"] .ast-separate-container .ast-article-single,
+html[data-theme="dark"] .ast-separate-container .ast-article-post,
+html[data-theme="dark"] #secondary,
+html[data-theme="dark"] .ast-separate-container #secondary .widget { background: #1a1827 !important; border-color: rgba(167,139,250,.15); }
+
+html[data-theme="dark"] h1,
+html[data-theme="dark"] .entry-title {
+  background: linear-gradient(135deg, #a78bfa 0%, #60a5fa 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+}
+html[data-theme="dark"] h2 { color: #a78bfa !important; -webkit-text-fill-color: #a78bfa !important; }
+html[data-theme="dark"] h3 { color: #60a5fa !important; -webkit-text-fill-color: #60a5fa !important; }
+html[data-theme="dark"] h4 { color: #fb7185 !important; -webkit-text-fill-color: #fb7185 !important; }
+
+html[data-theme="dark"] p,
+html[data-theme="dark"] li,
+html[data-theme="dark"] td,
+html[data-theme="dark"] th,
+html[data-theme="dark"] label { color: var(--jfo-text); }
+html[data-theme="dark"] input,
+html[data-theme="dark"] textarea,
+html[data-theme="dark"] select {
+  background: #1a1827 !important;
+  color: var(--jfo-text) !important;
+  border-color: rgba(167, 139, 250, 0.25) !important;
+}
+html[data-theme="dark"] blockquote {
+  border-left-color: var(--jfo-purple);
+  background: rgba(124, 58, 237, 0.08);
+  border-radius: 0 var(--jfo-radius) var(--jfo-radius) 0;
+}
+html[data-theme="dark"] table th { background: rgba(124, 58, 237, 0.15); }
+html[data-theme="dark"] table tr:nth-child(even) { background: rgba(255, 255, 255, 0.03); }
+html[data-theme="dark"] .ast-article-single,
+html[data-theme="dark"] .ast-article-post,
+html[data-theme="dark"] .ast-separate-container .ast-article-single,
+html[data-theme="dark"] .ast-separate-container .ast-article-post,
+html[data-theme="dark"] #secondary,
+html[data-theme="dark"] .ast-separate-container #secondary .widget {
+  background: var(--jfo-card-bg) !important;
+  border-color: rgba(167, 139, 250, 0.15);
+}
+
+/* =====================================================================
+   4. HEADER
+   ===================================================================== */
+.site-primary-header-wrap,
+.site-header-primary-section-left,
+.site-header-primary-section-center,
+.site-header-primary-section-right {
+  background: linear-gradient(135deg, #5b21b6 0%, #7c3aed 40%, #2563eb 100%) !important;
+}
+
+.main-header-bar,
+.ast-primary-header-bar {
+  box-shadow: 0 2px 20px rgba(91, 33, 182, 0.35) !important;
+  border-bottom: none !important;
+  border-bottom-width: 0 !important;
+}
+
+.site-primary-header-wrap,
+.site-primary-header-wrap * {
+  color: #ffffff !important;
+}
+
+.site-title a,
+.site-title a:visited {
+  color: #ffffff !important;
+}
+
+/* =====================================================================
+   5. NAVIGATION
+   ===================================================================== */
+.ast-nav-menu > li > a,
+.main-header-bar .ast-nav-menu > li > a,
+.menu-link {
+  color: var(--jfo-purple) !important;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  position: relative;
+  padding-bottom: 4px;
+  transition: color 0.2s ease;
+}
+
+.ast-nav-menu > li > a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--jfo-gradient);
+  transition: width 0.25s ease;
+}
+
+.ast-nav-menu > li > a:hover,
+.main-header-bar .ast-nav-menu > li > a:hover,
+.menu-link:hover,
+.ast-nav-menu > li.current-menu-item > a {
+  color: var(--jfo-purple-dark) !important;
+}
+
+.ast-nav-menu > li > a:hover::after,
+.ast-nav-menu > li.current-menu-item > a::after {
+  width: 100%;
+}
+
+.ast-nav-menu .sub-menu {
+  border-top: 3px solid var(--jfo-coral);
+  border-radius: 0 0 var(--jfo-radius) var(--jfo-radius);
+  box-shadow: var(--jfo-shadow);
+  background: var(--jfo-card-bg) !important;
+}
+
+.ast-nav-menu .sub-menu a {
+  color: var(--jfo-purple) !important;
+  font-weight: 500;
+  transition: color 0.2s, padding-left 0.2s;
+}
+
+.ast-nav-menu .sub-menu a:hover {
+  color: var(--jfo-coral) !important;
+  padding-left: 20px;
+}
+
+/* =====================================================================
+   6. CONTENT CARDS
+   ===================================================================== */
+.ast-article-single,
+.ast-article-post,
+.ast-separate-container .ast-article-single,
+.ast-separate-container .ast-article-post {
+  background: var(--jfo-card-bg);
+  border-radius: var(--jfo-radius);
+  box-shadow: var(--jfo-shadow);
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+  overflow: hidden;
+  border: 1px solid rgba(124, 58, 237, 0.08);
+}
+
+.ast-article-single:hover,
+.ast-article-post:hover {
+  box-shadow: var(--jfo-shadow-hover);
+  transform: translateY(-3px);
+}
+
+.ast-article-single .entry-content,
+.ast-article-post .entry-content,
+.ast-article-inner {
+  padding-top: 20px;
+}
+
+/* =====================================================================
+   7. HEADINGS
+   ===================================================================== */
+h1, .entry-title {
+  padding-top: 20px;
+  background: var(--jfo-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+}
+
+h2 { color: var(--jfo-purple-dark); font-weight: 700; letter-spacing: -0.01em; }
+h3 { color: var(--jfo-blue); font-weight: 700; }
+h4 { color: var(--jfo-coral); font-weight: 600; }
+
+/* =====================================================================
+   8. LINKS
+   ===================================================================== */
+a,
+body a {
+  color: var(--jfo-purple) !important;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover,
+body a:hover {
+  color: var(--jfo-purple-dark) !important;
+}
+
+.entry-content a {
+  color: var(--jfo-blue) !important;
+  border-bottom: 1px solid transparent;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.entry-content a:hover {
+  color: var(--jfo-purple) !important;
+  border-bottom-color: var(--jfo-purple);
+}
+
+/* =====================================================================
+   9. BUTTONS – must come after links so white text wins
+   ===================================================================== */
+.ast-button,
+.ast-custom-button,
+.wp-block-button__link,
+.woocommerce .button,
+.elementor-button,
+.elementor-button-link,
+a.elementor-button,
+a.elementor-button-link,
+.elementor-widget-button a,
+input[type="submit"],
+button[type="submit"] {
+  background: var(--jfo-gradient) !important;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 50px !important;
+  padding: 12px 32px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.04em !important;
+  box-shadow: 0 4px 18px rgba(124, 58, 237, 0.40) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+  -webkit-text-fill-color: #ffffff !important;
+}
+
+.ast-button:hover,
+.ast-custom-button:hover,
+.wp-block-button__link:hover,
+.woocommerce .button:hover,
+.elementor-button:hover,
+.elementor-button-link:hover,
+a.elementor-button:hover,
+a.elementor-button-link:hover,
+.elementor-widget-button a:hover,
+input[type="submit"]:hover,
+button[type="submit"]:hover {
+  transform: translateY(-2px) scale(1.02) !important;
+  box-shadow: 0 8px 30px rgba(124, 58, 237, 0.55) !important;
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+}
+
+/* =====================================================================
+   10. SIDEBAR
+   ===================================================================== */
+#secondary,
+.ast-separate-container #secondary .widget {
+  background: var(--jfo-card-bg);
+  border-radius: var(--jfo-radius);
+  box-shadow: var(--jfo-shadow);
+  padding: 24px;
+  margin-bottom: 24px;
+  border: 1px solid rgba(124, 58, 237, 0.08);
+}
+
+.widget-title {
+  color: var(--jfo-purple);
+  font-weight: 700;
+  padding-bottom: 8px;
+  background: var(--jfo-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  border-bottom: 2px solid;
+  border-image: var(--jfo-gradient) 1;
+}
+
+/* =====================================================================
+   11. FOOTER
+   ===================================================================== */
+#colophon,
+.site-footer,
+.footer-widget-area,
+.ast-footer-copyright {
+  background: #0f0e17 !important;
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.site-footer a,
+.ast-footer-copyright a {
+  color: var(--jfo-teal) !important;
+}
+
+.site-footer a:hover,
+.ast-footer-copyright a:hover {
+  color: var(--jfo-coral) !important;
+}
+
+.footer-widget-area .widget-title {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff;
+}
+
+/* =====================================================================
+   12. DARK MODE TOGGLE BUTTON
+   ===================================================================== */
+#jfo-theme-toggle {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 9999;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background: var(--jfo-gradient);
+  color: #ffffff;
+  box-shadow: 0 4px 20px rgba(124, 58, 237, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  padding: 0;
+  line-height: 1;
+}
+
+#jfo-theme-toggle:hover {
+  transform: scale(1.12);
+  box-shadow: 0 6px 28px rgba(124, 58, 237, 0.60);
+}
+
+#jfo-theme-toggle svg {
+  width: 22px;
+  height: 22px;
+  fill: #ffffff;
+  display: block;
+}
+
+/* =====================================================================
+   13. MISC POLISH
+   ===================================================================== */
+.ast-above-header,
+.ast-above-header-wrap {
+  background: var(--jfo-purple-dark) !important;
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--jfo-purple), var(--jfo-blue), transparent);
+  opacity: 0.4;
+  margin: 2em 0;
+}
+
+.ast-pagination .page-numbers,
+.page-numbers {
+  border-radius: 8px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.ast-pagination .page-numbers.current,
+.page-numbers.current {
+  background: var(--jfo-gradient);
+  color: #ffffff;
+  border-color: transparent;
+}
+
+code, pre {
+  background: #0f0e17;
+  color: var(--jfo-teal);
+  border-radius: 8px;
+  border: 1px solid rgba(6, 182, 212, 0.2);
+}
+
+.ast-tags-meta a,
+.post-categories a,
+.tags-links a {
+  background: var(--jfo-gradient);
+  color: #fff !important;
+  -webkit-text-fill-color: #fff !important;
+  border-radius: 50px;
+  padding: 2px 10px;
+  font-size: 0.78em;
+  font-weight: 600;
+  display: inline-block;
+  transition: opacity 0.2s;
+}
+
+.ast-tags-meta a:hover,
+.post-categories a:hover,
+.tags-links a:hover {
+  opacity: 0.85;
+}
+
+:focus-visible {
+  outline: 3px solid var(--jfo-purple);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--jfo-bg); }
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--jfo-purple), var(--jfo-blue));
+  border-radius: 4px;
+}
+
+/* =====================================================================
+   TYPOGRAPHY SCALE
+   17.6px base on desktop (Astra: 17px), 16px on tablet/phone (Astra: 15.5px).
+   Everything in rem (body text, Astra headings) scales along;
+   fixed px sizes from Elementor stay.
+   ===================================================================== */
+html { font-size: 110%; }
+@media (max-width: 921px) { html { font-size: 100%; } }
+body { line-height: 1.7; }
+
+/* Quotes: Astra enlarges blockquote to 1.1–1.2em, which looks too big.
+   Same size as body text, italics set them apart. */
+blockquote { font-size: 1em; }
